@@ -22,15 +22,15 @@ export default function Alerts() {
           <Alert
             variant="success"
             title={t('alerts.success-message')}
-            message="Be cautious when performing this action."
+            message={t('alerts.be-cautious')}
             showLink={true}
             linkHref="/"
-            linkText="Learn more"
+            linkText={t('alert.learn-more')}
           />
           <Alert
             variant="success"
             title={t('alerts.success-message')}
-            message="Be cautious when performing this action."
+            message={t('alerts.be-cautious')}
             showLink={false}
           />
         </ComponentCard>
@@ -38,15 +38,15 @@ export default function Alerts() {
           <Alert
             variant="warning"
             title={t('alerts.warning-message')}
-            message="Be cautious when performing this action."
+            message={t('alerts.be-cautious')}
             showLink={true}
             linkHref="/"
-            linkText="Learn more"
+            linkText={t('alert.learn-more')}
           />
           <Alert
             variant="warning"
             title={t('alerts.warning-message')}
-            message="Be cautious when performing this action."
+            message={t('alerts.be-cautious')}
             showLink={false}
           />
         </ComponentCard>{" "}
@@ -54,15 +54,15 @@ export default function Alerts() {
           <Alert
             variant="error"
             title={t('alerts.error-message')}
-            message="Be cautious when performing this action."
+            message={t('alerts.be-cautious')}
             showLink={true}
             linkHref="/"
-            linkText="Learn more"
+            linkText={t('alert.learn-more')}
           />
           <Alert
             variant="error"
             title={t('alerts.error-message')}
-            message="Be cautious when performing this action."
+            message={t('alerts.be-cautious')}
             showLink={false}
           />
         </ComponentCard>{" "}
@@ -70,15 +70,15 @@ export default function Alerts() {
           <Alert
             variant="info"
             title={t('alerts.info-message')}
-            message="Be cautious when performing this action."
+            message={t('alerts.be-cautious')}
             showLink={true}
             linkHref="/"
-            linkText="Learn more"
+            linkText={t('alert.learn-more')}
           />
           <Alert
             variant="info"
             title={t('alerts.info-message')}
-            message="Be cautious when performing this action."
+            message={t('alerts.be-cautious')}
             showLink={false}
           />
         </ComponentCard>

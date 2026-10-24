@@ -765,3 +765,28 @@ span.flatpickr-weekday,
 [dir="rtl"] .flatpickr-months .flatpickr-next-month svg {
   scale: -1 1;
 }
+
+/* Arabic: the theme's 12px size is too small for Arabic letterforms; dualkit.css only covers the stock sizes. */
+:lang(ar) .text-theme-xs {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* Arabic phone widths: Arabic event names run wider than the English ones, so give them the room and end them cleanly. */
+@media (max-width: 639px) {
+  :lang(ar) .event-fc-color {
+    padding-inline: 0.5rem;
+  }
+  :lang(ar) .event-fc-color .fc-daygrid-event-dot {
+    margin-inline-end: 0.375rem;
+  }
+  :lang(ar) .fc-daygrid-event.fc-event-start {
+    margin-inline-start: 0.25rem !important;
+  }
+}
+:lang(ar) .event-fc-color .fc-event-title {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

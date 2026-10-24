@@ -171,6 +171,7 @@ export default function RecentOrders() {
                         src={product.image}
                         className="h-[50px] w-[50px]"
                         alt={product.name}
+                        lang="en"
                       />
                     </div>
                     <div>
