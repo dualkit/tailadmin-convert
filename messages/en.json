@@ -3,6 +3,7 @@
     "learn-more": "Learn more"
   },
   "alerts": {
+    "be-cautious": "Be cautious when performing this action.",
     "error-alert": "Error Alert",
     "error-message": "Error Message",
     "info-alert": "Info Alert",

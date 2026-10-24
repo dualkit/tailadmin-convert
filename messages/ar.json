@@ -3,6 +3,7 @@
     "learn-more": "اعرف المزيد"
   },
   "alerts": {
+    "be-cautious": "توخَّ الحذر عند تنفيذ هذا الإجراء.",
     "error-alert": "تنبيه خطأ",
     "error-message": "رسالة خطأ",
     "info-alert": "تنبيه معلومات",

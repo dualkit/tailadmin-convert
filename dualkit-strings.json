@@ -8,6 +8,14 @@
     "line": 138
   },
   {
+    "key": "alerts.be-cautious",
+    "en": "Be cautious when performing this action.",
+    "ar": "توخَّ الحذر عند تنفيذ هذا الإجراء.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+    "line": 25
+  },
+  {
     "key": "alerts.error-alert",
     "en": "Error Alert",
     "ar": "تنبيه خطأ",

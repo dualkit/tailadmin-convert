@@ -54,6 +54,7 @@ Drafted by a model. A native speaker should check these before release.
 | Key | English | Arabic | Status | Where |
 | --- | --- | --- | --- | --- |
 | alert.learn-more | Learn more | اعرف المزيد | drafted | [src/components/ui/alert/Alert.tsx:138](src/components/ui/alert/Alert.tsx#L138) |
+| alerts.be-cautious | Be cautious when performing this action. | توخَّ الحذر عند تنفيذ هذا الإجراء. | drafted | [src/app/\[locale\]/(admin)/(ui-elements)/alerts/page.tsx:25](src/app/%5Blocale%5D/%28admin%29/%28ui-elements%29/alerts/page.tsx#L25) |
 | alerts.error-alert | Error Alert | تنبيه خطأ | drafted | [src/app/\[locale\]/(admin)/(ui-elements)/alerts/page.tsx:51](src/app/%5Blocale%5D/%28admin%29/%28ui-elements%29/alerts/page.tsx#L51) |
 | alerts.error-message | Error Message | رسالة خطأ | drafted | [src/app/\[locale\]/(admin)/(ui-elements)/alerts/page.tsx:54](src/app/%5Blocale%5D/%28admin%29/%28ui-elements%29/alerts/page.tsx#L54) |
 | alerts.info-alert | Info Alert | تنبيه معلومات | drafted | [src/app/\[locale\]/(admin)/(ui-elements)/alerts/page.tsx:67](src/app/%5Blocale%5D/%28admin%29/%28ui-elements%29/alerts/page.tsx#L67) |
@@ -524,7 +525,7 @@ Drafted by a model. A native speaker should check these before release.
 ## English pages
 
 - / at 390px: fail: 100.000% of pixels differ, limit 0.100%. Diff at .dualkit/diff/home-390.png
-- / at 1280px: pass: 0.025% of pixels differ, limit 0.100%
+- / at 1280px: fail: 11.525% of pixels differ, limit 0.100%. Diff at .dualkit/diff/home-1280.png
 - /alerts at 390px: pass: 0.000% of pixels differ, limit 0.100%
 - /alerts at 1280px: pass: 0.000% of pixels differ, limit 0.100%
 - /avatars at 390px: pass: 0.000% of pixels differ, limit 0.100%
@@ -547,8 +548,8 @@ Drafted by a model. A native speaker should check these before release.
 - /form-elements at 1280px: pass: 0.000% of pixels differ, limit 0.100%
 - /images at 390px: fail: 9.485% of pixels differ, limit 0.100%. Diff at .dualkit/diff/images-390.png
 - /images at 1280px: pass: 0.000% of pixels differ, limit 0.100%
-- /line-chart at 390px: fail: 1.219% of pixels differ, limit 0.100%. Diff at .dualkit/diff/line-chart-390.png
-- /line-chart at 1280px: pass: 0.000% of pixels differ, limit 0.100%
+- /line-chart at 390px: fail: 1.209% of pixels differ, limit 0.100%. Diff at .dualkit/diff/line-chart-390.png
+- /line-chart at 1280px: fail: 0.886% of pixels differ, limit 0.100%. Diff at .dualkit/diff/line-chart-1280.png
 - /modals at 390px: pass: 0.000% of pixels differ, limit 0.100%
 - /modals at 1280px: pass: 0.000% of pixels differ, limit 0.100%
 - /profile at 390px: pass: 0.000% of pixels differ, limit 0.100%
@@ -562,23 +563,23 @@ Drafted by a model. A native speaker should check these before release.
 
 ## Arabic pages
 
-- /ar at 390px: score 84, 0 errors, 19 warnings
-- /ar at 1280px: score 81, 0 errors, 16 warnings
-- /ar/alerts at 390px: score 88, 0 errors, 8 warnings
-- /ar/alerts at 1280px: score 84, 0 errors, 8 warnings
+- /ar at 390px: score 99, 0 errors, 0 warnings
+- /ar at 1280px: score 96, 0 errors, 0 warnings
+- /ar/alerts at 390px: score 100, 0 errors, 0 warnings
+- /ar/alerts at 1280px: score 96, 0 errors, 0 warnings
 - /ar/avatars at 390px: score 100, 0 errors, 0 warnings
 - /ar/avatars at 1280px: score 96, 0 errors, 0 warnings
 - /ar/badge at 390px: score 97, 0 errors, 0 warnings
 - /ar/badge at 1280px: score 96, 0 errors, 0 warnings
 - /ar/bar-chart at 390px: score 100, 0 errors, 0 warnings
 - /ar/bar-chart at 1280px: score 96, 0 errors, 0 warnings
-- /ar/basic-tables at 390px: score 88, 0 errors, 6 warnings
-- /ar/basic-tables at 1280px: score 84, 0 errors, 14 warnings
+- /ar/basic-tables at 390px: score 100, 0 errors, 0 warnings
+- /ar/basic-tables at 1280px: score 96, 0 errors, 0 warnings
 - /ar/blank at 390px: score 100, 0 errors, 0 warnings
 - /ar/blank at 1280px: score 96, 0 errors, 0 warnings
 - /ar/buttons at 390px: score 100, 0 errors, 0 warnings
 - /ar/buttons at 1280px: score 96, 0 errors, 0 warnings
-- /ar/calendar at 390px: score 87, 0 errors, 2 warnings
+- /ar/calendar at 390px: score 95, 0 errors, 0 warnings
 - /ar/calendar at 1280px: score 94, 0 errors, 0 warnings
 - /ar/error-404 at 390px: score 100, 0 errors, 0 warnings
 - /ar/error-404 at 1280px: score 100, 0 errors, 0 warnings
