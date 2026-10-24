@@ -3,7 +3,7 @@
   "base": "main",
   "branch": "dualkit/bilingual",
   "framework": "next-app",
-  "phase": "converted",
+  "phase": "finished",
   "generated": [
     "dualkit-strings.json",
     "messages/ar.json",

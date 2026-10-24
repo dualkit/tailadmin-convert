@@ -1,4 +1,7 @@
 {
+  "alert": {
+    "learn-more": "Learn more"
+  },
   "alerts": {
     "error-alert": "Error Alert",
     "error-message": "Error Message",
@@ -16,9 +19,38 @@
     "toggle-sidebar": "Toggle Sidebar"
   },
   "app-sidebar": {
+    "404-error": "404 Error",
+    "alerts": "Alerts",
+    "authentication": "Authentication",
+    "avatar": "Avatar",
+    "badge": "Badge",
+    "bar-chart": "Bar Chart",
+    "basic-tables": "Basic Tables",
+    "blank-page": "Blank Page",
+    "buttons": "Buttons",
+    "calendar": "Calendar",
+    "charts": "Charts",
+    "dashboard": "Dashboard",
+    "ecommerce": "Ecommerce",
+    "form-elements": "Form Elements",
+    "forms": "Forms",
+    "images": "Images",
+    "line-chart": "Line Chart",
     "logo": "Logo",
+    "menu": "Menu",
     "new": "new",
-    "pro": "pro"
+    "others": "Others",
+    "pages": "Pages",
+    "pro": "pro",
+    "sign-in": "Sign In",
+    "sign-up": "Sign Up",
+    "tables": "Tables",
+    "ui-elements": "UI Elements",
+    "user-profile": "User Profile",
+    "videos": "Videos"
+  },
+  "avatar": {
+    "user-avatar": "User Avatar"
   },
   "avatars": {
     "avatar-with-busy-indicator": "Avatar with busy indicator",
@@ -46,9 +78,36 @@
   },
   "basic-table-one": {
     "budget": "Budget",
+    "people": {
+      "abram-schleifer": "Abram Schleifer",
+      "carla-george": "Carla George",
+      "kaiya-george": "Kaiya George",
+      "lindsey-curtis": "Lindsey Curtis",
+      "zain-geidt": "Zain Geidt"
+    },
     "project-name": "Project Name",
+    "projects": {
+      "agency-website": "Agency Website",
+      "blog-writing": "Blog Writing",
+      "social-media": "Social Media",
+      "technology": "Technology",
+      "website": "Website"
+    },
+    "roles": {
+      "content-writing": "Content Writing",
+      "digital-marketer": "Digital Marketer",
+      "front-end-developer": "Front-end Developer",
+      "project-manager": "Project Manager",
+      "web-designer": "Web Designer"
+    },
     "status": "Status",
+    "statuses": {
+      "active": "Active",
+      "cancel": "Cancel",
+      "pending": "Pending"
+    },
     "team": "Team",
+    "team-member": "Team member {number}",
     "user": "User"
   },
   "basic-tables": {
@@ -68,23 +127,49 @@
     "secondary-button": "Secondary Button"
   },
   "calendar": {
+    "add-event": "Add Event",
+    "add-event-button": "Add Event +",
     "close": "Close",
+    "edit-event": "Edit Event",
     "enter-end-date": "Enter End Date",
     "enter-start-date": "Enter Start Date",
     "event-color": "Event Color",
     "event-title": "Event Title",
-    "plan-your-next-big": "Plan your next big moment: schedule or edit an event to stay on track"
+    "events": {
+      "event-conf": "Event Conf.",
+      "meeting": "Meeting",
+      "workshop": "Workshop"
+    },
+    "levels": {
+      "danger": "Danger",
+      "primary": "Primary",
+      "success": "Success",
+      "warning": "Warning"
+    },
+    "plan-your-next-big": "Plan your next big moment: schedule or edit an event to stay on track",
+    "update-changes": "Update Changes"
   },
   "chart-tab": {
     "annually": "Annually",
     "monthly": "Monthly",
     "quarterly": "Quarterly"
   },
+  "charts": {
+    "progress": "Progress",
+    "revenue": "Revenue",
+    "sales": "Sales"
+  },
   "checkbox-components": {
     "checkbox": "Checkbox",
     "checked": "Checked",
     "default": "Default",
     "disabled": "Disabled"
+  },
+  "country-map": {
+    "india": "India",
+    "sweden": "Sweden",
+    "united-kingdom": "United Kingdom",
+    "united-states": "United States"
   },
   "default-inputs": {
     "card-number": "Card number",
@@ -95,6 +180,11 @@
     "input": "Input",
     "input-with-payment": "Input with Payment",
     "input-with-placeholder": "Input with Placeholder",
+    "options": {
+      "development": "Development",
+      "marketing": "Marketing",
+      "template": "Template"
+    },
     "password-input": "Password Input",
     "select-a-date": "Select a date",
     "select-an-option": "Select an option",
@@ -125,6 +215,8 @@
   "drop-zone": {
     "browse-file": "Browse File",
     "drag-and-drop-your": "Drag and drop your PNG, JPG, WebP, SVG images here or browse",
+    "drag-drop-files-here": "Drag & Drop Files Here",
+    "drop-files-here": "Drop Files Here",
     "dropzone": "Dropzone"
   },
   "ecommerce-metrics": {
@@ -187,13 +279,91 @@
     "phone": "Phone"
   },
   "input-states": {
+    "description": "Validation styles for error, success and disabled states on form controls.",
     "disabled-email": "Disabled email",
     "email": "Email",
     "enter-your-email": "Enter your email",
-    "input-states": "Input States"
+    "input-states": "Input States",
+    "this-field-is-disabled": "This field is disabled.",
+    "this-is-an-invalid-email": "This is an invalid email address.",
+    "valid-email": "Valid email!"
   },
   "line-chart": {
     "line-chart-1": "Line Chart 1"
+  },
+  "meta": {
+    "alerts": {
+      "description": "This is Next.js Alerts page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Alerts | TailAdmin - Next.js Dashboard Template"
+    },
+    "avatars": {
+      "description": "This is Next.js Avatars page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Avatars | TailAdmin - Next.js Dashboard Template"
+    },
+    "badge": {
+      "description": "This is Next.js Badge page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Badge | TailAdmin - Next.js Dashboard Template"
+    },
+    "bar-chart": {
+      "description": "This is Next.js Bar Chart page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Bar Chart | TailAdmin - Next.js Dashboard Template"
+    },
+    "basic-tables": {
+      "description": "This is Next.js Basic Table  page for TailAdmin  Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Basic Table | TailAdmin - Next.js Dashboard Template"
+    },
+    "blank": {
+      "description": "This is Next.js Blank Page TailAdmin Dashboard Template",
+      "title": "Next.js Blank Page | TailAdmin - Next.js Dashboard Template"
+    },
+    "buttons": {
+      "description": "This is Next.js Buttons page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Buttons | TailAdmin - Next.js Dashboard Template"
+    },
+    "calendar": {
+      "description": "This is Next.js Calender page for TailAdmin  Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Calender | TailAdmin - Next.js Dashboard Template"
+    },
+    "error-404": {
+      "description": "This is Next.js Error 404 page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Error 404 | TailAdmin - Next.js Dashboard Template"
+    },
+    "form-elements": {
+      "description": "This is Next.js Form Elements page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Form Elements | TailAdmin - Next.js Dashboard Template"
+    },
+    "home": {
+      "description": "This is Next.js Home for TailAdmin Dashboard Template",
+      "title": "Next.js E-commerce Dashboard | TailAdmin - Next.js Dashboard Template"
+    },
+    "images": {
+      "description": "This is Next.js Images page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Images | TailAdmin - Next.js Dashboard Template"
+    },
+    "line-chart": {
+      "description": "This is Next.js Line Chart page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Line Chart | TailAdmin - Next.js Dashboard Template"
+    },
+    "modals": {
+      "description": "This is Next.js Modals page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Modals | TailAdmin - Next.js Dashboard Template"
+    },
+    "profile": {
+      "description": "This is Next.js Profile page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Profile | TailAdmin - Next.js Dashboard Template"
+    },
+    "signin": {
+      "description": "This is Next.js Signin Page TailAdmin Dashboard Template",
+      "title": "Next.js SignIn Page | TailAdmin - Next.js Dashboard Template"
+    },
+    "signup": {
+      "description": "This is Next.js SignUp Page TailAdmin Dashboard Template",
+      "title": "Next.js SignUp Page | TailAdmin - Next.js Dashboard Template"
+    },
+    "videos": {
+      "description": "This is Next.js Videos page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+      "title": "Next.js Videos | TailAdmin - Next.js Dashboard Template"
+    }
   },
   "modal-based-alerts": {
     "danger-alert": "Danger Alert",
@@ -254,6 +424,21 @@
   "page-bread-crumb": {
     "home": "Home"
   },
+  "page-title": {
+    "alerts": "Alerts",
+    "avatar": "Avatar",
+    "badges": "Badges",
+    "bar-chart": "Bar Chart",
+    "basic-table": "Basic Table",
+    "blank-page": "Blank Page",
+    "buttons": "Buttons",
+    "calendar": "Calendar",
+    "from-elements": "From Elements",
+    "images": "Images",
+    "line-chart": "Line Chart",
+    "modals": "Modals",
+    "videos": "Videos"
+  },
   "pagination": {
     "next": "Next",
     "previous": "Previous"
@@ -268,22 +453,45 @@
     "selected": "Selected"
   },
   "recent-orders": {
+    "categories": {
+      "accessories": "Accessories",
+      "electronics": "Electronics",
+      "laptop": "Laptop",
+      "smartphone": "SmartPhone",
+      "watch": "Watch"
+    },
     "category": "Category",
     "filter": "Filter",
     "price": "Price",
     "products": "Products",
     "recent-orders": "Recent Orders",
     "see-all": "See all",
-    "status": "Status"
+    "status": "Status",
+    "statuses": {
+      "canceled": "Canceled",
+      "delivered": "Delivered",
+      "pending": "Pending"
+    },
+    "variants": "{count, plural, one {# Variant} other {# Variants}}"
   },
   "responsive-image": {
     "cover": "Cover"
   },
   "select-inputs": {
     "multiple-select-options": "Multiple Select Options",
+    "option": "Option {number}",
+    "options": {
+      "development": "Development",
+      "marketing": "Marketing",
+      "template": "Template"
+    },
     "select-input": "Select Input",
     "select-inputs": "Select Inputs",
-    "select-option": "Select Option"
+    "select-option": "Select Option",
+    "selected-values": "Selected Values: {values}"
+  },
+  "select": {
+    "select-an-option": "Select an option"
   },
   "sidebar-widget": {
     "1-tailwind-css-dashboard": "#1 Tailwind CSS Dashboard",
@@ -292,25 +500,36 @@
   },
   "sign-in-form": {
     "back-to-dashboard": "Back to dashboard",
+    "don-t-have-an-account": "Don't have an account?",
+    "email": "Email",
     "enter-your-email-and": "Enter your email and password to sign in!",
     "enter-your-password": "Enter your password",
     "forgot-password": "Forgot password?",
     "info-gmail-com": "info@gmail.com",
     "keep-me-logged-in": "Keep me logged in",
     "or": "Or",
+    "password": "Password",
     "sign-in": "Sign In",
     "sign-in-2": "Sign in",
     "sign-in-with-google": "Sign in with Google",
-    "sign-in-with-x": "Sign in with X"
+    "sign-in-with-x": "Sign in with X",
+    "sign-up": "Sign Up"
   },
   "sign-up-form": {
+    "already-have-an-account": "Already have an account?",
     "back-to-dashboard": "Back to dashboard",
+    "by-creating-an-account": "By creating an account means you agree to the <terms>Terms and Conditions,</terms> and our <privacy>Privacy Policy</privacy>",
+    "email": "Email",
     "enter-your-email": "Enter your email",
     "enter-your-email-and": "Enter your email and password to sign up!",
     "enter-your-first-name": "Enter your first name",
     "enter-your-last-name": "Enter your last name",
     "enter-your-password": "Enter your password",
+    "first-name": "First Name",
+    "last-name": "Last Name",
     "or": "Or",
+    "password": "Password",
+    "sign-in": "Sign In",
     "sign-up": "Sign Up",
     "sign-up-with-google": "Sign up with Google",
     "sign-up-with-x": "Sign up with X"
@@ -325,7 +544,11 @@
   },
   "text-area-input": {
     "description": "Description",
+    "please-enter-a-valid": "Please enter a valid message.",
     "textarea-input-field": "Textarea input field"
+  },
+  "text-area": {
+    "enter-your-message": "Enter your message"
   },
   "three-column-image-grid": {
     "grid": "grid"
@@ -361,6 +584,7 @@
   "user-dropdown": {
     "account-settings": "Account settings",
     "edit-profile": "Edit profile",
+    "language": "Language",
     "musharof": "Musharof",
     "musharof-chowdhury": "Musharof Chowdhury",
     "randomuser-pimjo-com": "randomuser@pimjo.com",
@@ -426,5 +650,8 @@
     "video-ratio-16-9": "Video Ratio 16:9",
     "video-ratio-21-9": "Video Ratio 21:9",
     "video-ratio-4-3": "Video Ratio 4:3"
+  },
+  "youtube-embed": {
+    "youtube-video": "YouTube video"
   }
 }

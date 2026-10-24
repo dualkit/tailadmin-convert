@@ -1,2482 +1,3706 @@
 [
   {
+    "key": "alert.learn-more",
+    "en": "Learn more",
+    "ar": "اعرف المزيد",
+    "status": "drafted",
+    "file": "src/components/ui/alert/Alert.tsx",
+    "line": 138
+  },
+  {
     "key": "alerts.error-alert",
     "en": "Error Alert",
-    "ar": "",
-    "status": "pending",
+    "ar": "تنبيه خطأ",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
     "line": 51
   },
   {
     "key": "alerts.error-message",
     "en": "Error Message",
-    "ar": "",
-    "status": "pending",
+    "ar": "رسالة خطأ",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
     "line": 54
   },
   {
     "key": "alerts.info-alert",
     "en": "Info Alert",
-    "ar": "",
-    "status": "pending",
+    "ar": "تنبيه معلومات",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
     "line": 67
   },
   {
     "key": "alerts.info-message",
     "en": "Info Message",
-    "ar": "",
-    "status": "pending",
+    "ar": "رسالة معلومات",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
     "line": 70
   },
   {
     "key": "alerts.success-alert",
     "en": "Success Alert",
-    "ar": "",
-    "status": "pending",
+    "ar": "تنبيه نجاح",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
     "line": 19
   },
   {
     "key": "alerts.success-message",
     "en": "Success Message",
-    "ar": "",
-    "status": "pending",
+    "ar": "رسالة نجاح",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
     "line": 22
   },
   {
     "key": "alerts.warning-alert",
     "en": "Warning Alert",
-    "ar": "",
-    "status": "pending",
+    "ar": "تنبيه تحذير",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
     "line": 35
   },
   {
     "key": "alerts.warning-message",
     "en": "Warning Message",
-    "ar": "",
-    "status": "pending",
+    "ar": "رسالة تحذير",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
     "line": 38
   },
   {
     "key": "app-header.k",
     "en": "K",
-    "ar": "",
-    "status": "pending",
+    "ar": "K",
+    "status": "drafted",
     "file": "src/layout/AppHeader.tsx",
     "line": 152
   },
   {
     "key": "app-header.logo",
     "en": "Logo",
-    "ar": "",
-    "status": "pending",
+    "ar": "شعار TailAdmin",
+    "status": "drafted",
     "file": "src/layout/AppHeader.tsx",
     "line": 92
   },
   {
     "key": "app-header.search-or-type-command",
     "en": "Search or type command...",
-    "ar": "",
-    "status": "pending",
+    "ar": "ابحث أو اكتب أمرًا...",
+    "status": "drafted",
     "file": "src/layout/AppHeader.tsx",
     "line": 146
   },
   {
     "key": "app-header.toggle-sidebar",
     "en": "Toggle Sidebar",
-    "ar": "",
-    "status": "pending",
+    "ar": "إظهار الشريط الجانبي أو إخفاؤه",
+    "status": "drafted",
     "file": "src/layout/AppHeader.tsx",
     "line": 50
   },
   {
+    "key": "app-sidebar.404-error",
+    "en": "404 Error",
+    "ar": "خطأ 404",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 67
+  },
+  {
+    "key": "app-sidebar.alerts",
+    "en": "Alerts",
+    "ar": "التنبيهات",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 86
+  },
+  {
+    "key": "app-sidebar.authentication",
+    "en": "Authentication",
+    "ar": "المصادقة",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 96
+  },
+  {
+    "key": "app-sidebar.avatar",
+    "en": "Avatar",
+    "ar": "الصور الرمزية",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 87
+  },
+  {
+    "key": "app-sidebar.badge",
+    "en": "Badge",
+    "ar": "الشارات",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 88
+  },
+  {
+    "key": "app-sidebar.bar-chart",
+    "en": "Bar Chart",
+    "ar": "مخطط شريطي",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 78
+  },
+  {
+    "key": "app-sidebar.basic-tables",
+    "en": "Basic Tables",
+    "ar": "الجداول الأساسية",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 59
+  },
+  {
+    "key": "app-sidebar.blank-page",
+    "en": "Blank Page",
+    "ar": "صفحة فارغة",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 66
+  },
+  {
+    "key": "app-sidebar.buttons",
+    "en": "Buttons",
+    "ar": "الأزرار",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 89
+  },
+  {
+    "key": "app-sidebar.calendar",
+    "en": "Calendar",
+    "ar": "التقويم",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 39
+  },
+  {
+    "key": "app-sidebar.charts",
+    "en": "Charts",
+    "ar": "المخططات",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 74
+  },
+  {
+    "key": "app-sidebar.dashboard",
+    "en": "Dashboard",
+    "ar": "لوحة التحكم",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 33
+  },
+  {
+    "key": "app-sidebar.ecommerce",
+    "en": "Ecommerce",
+    "ar": "التجارة الإلكترونية",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 35
+  },
+  {
+    "key": "app-sidebar.form-elements",
+    "en": "Form Elements",
+    "ar": "عناصر النماذج",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 53
+  },
+  {
+    "key": "app-sidebar.forms",
+    "en": "Forms",
+    "ar": "النماذج",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 50
+  },
+  {
+    "key": "app-sidebar.images",
+    "en": "Images",
+    "ar": "الصور",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 90
+  },
+  {
+    "key": "app-sidebar.line-chart",
+    "en": "Line Chart",
+    "ar": "مخطط خطي",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 77
+  },
+  {
     "key": "app-sidebar.logo",
     "en": "Logo",
-    "ar": "",
-    "status": "pending",
+    "ar": "شعار TailAdmin",
+    "status": "drafted",
     "file": "src/layout/AppSidebar.tsx",
     "line": 317
   },
   {
+    "key": "app-sidebar.menu",
+    "en": "Menu",
+    "ar": "القائمة",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 334
+  },
+  {
     "key": "app-sidebar.new",
     "en": "new",
-    "ar": "",
-    "status": "pending",
+    "ar": "جديد",
+    "status": "drafted",
     "file": "src/layout/AppSidebar.tsx",
     "line": 201
   },
   {
+    "key": "app-sidebar.others",
+    "en": "Others",
+    "ar": "أخرى",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 352
+  },
+  {
+    "key": "app-sidebar.pages",
+    "en": "Pages",
+    "ar": "الصفحات",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 62
+  },
+  {
     "key": "app-sidebar.pro",
     "en": "pro",
-    "ar": "",
-    "status": "pending",
+    "ar": "احترافي",
+    "status": "drafted",
     "file": "src/layout/AppSidebar.tsx",
     "line": 212
   },
   {
+    "key": "app-sidebar.sign-in",
+    "en": "Sign In",
+    "ar": "تسجيل الدخول",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 99
+  },
+  {
+    "key": "app-sidebar.sign-up",
+    "en": "Sign Up",
+    "ar": "إنشاء حساب",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 100
+  },
+  {
+    "key": "app-sidebar.tables",
+    "en": "Tables",
+    "ar": "الجداول",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 56
+  },
+  {
+    "key": "app-sidebar.ui-elements",
+    "en": "UI Elements",
+    "ar": "عناصر الواجهة",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 83
+  },
+  {
+    "key": "app-sidebar.user-profile",
+    "en": "User Profile",
+    "ar": "الملف الشخصي",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 44
+  },
+  {
+    "key": "app-sidebar.videos",
+    "en": "Videos",
+    "ar": "الفيديو",
+    "status": "drafted",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 91
+  },
+  {
+    "key": "avatar.user-avatar",
+    "en": "User Avatar",
+    "ar": "الصورة الرمزية للمستخدم",
+    "status": "drafted",
+    "file": "src/components/ui/avatar/Avatar.tsx",
+    "line": 1
+  },
+  {
     "key": "avatars.avatar-with-busy-indicator",
     "en": "Avatar with busy indicator",
-    "ar": "",
-    "status": "pending",
+    "ar": "صورة رمزية مع مؤشر الانشغال",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
     "line": 97
   },
   {
     "key": "avatars.avatar-with-offline-indicator",
     "en": "Avatar with Offline indicator",
-    "ar": "",
-    "status": "pending",
+    "ar": "صورة رمزية مع مؤشر عدم الاتصال",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
     "line": 63
   },
   {
     "key": "avatars.avatar-with-online-indicator",
     "en": "Avatar with online indicator",
-    "ar": "",
-    "status": "pending",
+    "ar": "صورة رمزية مع مؤشر الاتصال",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
     "line": 29
   },
   {
     "key": "avatars.default-avatar",
     "en": "Default Avatar",
-    "ar": "",
-    "status": "pending",
+    "ar": "الصورة الرمزية الافتراضية",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
     "line": 18
   },
   {
     "key": "badge.dark",
     "en": "Dark",
-    "ar": "",
-    "status": "pending",
+    "ar": "داكن",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 47
   },
   {
     "key": "badge.error",
     "en": "Error",
-    "ar": "",
-    "status": "pending",
+    "ar": "خطأ",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 35
   },
   {
     "key": "badge.info",
     "en": "Info",
-    "ar": "",
-    "status": "pending",
+    "ar": "معلومات",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 41
   },
   {
     "key": "badge.light",
     "en": "Light",
-    "ar": "",
-    "status": "pending",
+    "ar": "فاتح",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 44
   },
   {
     "key": "badge.light-background-with-left",
     "en": "Light Background with Left Icon",
-    "ar": "",
-    "status": "pending",
+    "ar": "خلفية فاتحة مع أيقونة في البداية",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 90
   },
   {
     "key": "badge.light-background-with-right",
     "en": "Light Background with Right Icon",
-    "ar": "",
-    "status": "pending",
+    "ar": "خلفية فاتحة مع أيقونة في النهاية",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 156
   },
   {
     "key": "badge.primary",
     "en": "Primary",
-    "ar": "",
-    "status": "pending",
+    "ar": "أساسي",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 29
   },
   {
     "key": "badge.solid-background-with-left",
     "en": "Solid Background with Left Icon",
-    "ar": "",
-    "status": "pending",
+    "ar": "خلفية مصمتة مع أيقونة في البداية",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 123
   },
   {
     "key": "badge.solid-background-with-right",
     "en": "Solid Background with Right Icon",
-    "ar": "",
-    "status": "pending",
+    "ar": "خلفية مصمتة مع أيقونة في النهاية",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 189
   },
   {
     "key": "badge.success",
     "en": "Success",
-    "ar": "",
-    "status": "pending",
+    "ar": "نجاح",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 32
   },
   {
     "key": "badge.warning",
     "en": "Warning",
-    "ar": "",
-    "status": "pending",
+    "ar": "تحذير",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 38
   },
   {
     "key": "badge.with-light-background",
     "en": "With Light Background",
-    "ar": "",
-    "status": "pending",
+    "ar": "بخلفية فاتحة",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 22
   },
   {
     "key": "badge.with-solid-background",
     "en": "With Solid Background",
-    "ar": "",
-    "status": "pending",
+    "ar": "بخلفية مصمتة",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
     "line": 56
   },
   {
     "key": "bar-chart.bar-chart-1",
     "en": "Bar Chart 1",
-    "ar": "",
-    "status": "pending",
+    "ar": "مخطط شريطي 1",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/bar-chart/page.tsx",
     "line": 18
   },
   {
     "key": "basic-table-one.budget",
     "en": "Budget",
-    "ar": "",
-    "status": "pending",
+    "ar": "الميزانية",
+    "status": "drafted",
     "file": "src/components/tables/BasicTableOne.tsx",
     "line": 151
   },
   {
+    "key": "basic-table-one.people.abram-schleifer",
+    "en": "Abram Schleifer",
+    "ar": "أبرام شلايفر",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 172
+  },
+  {
+    "key": "basic-table-one.people.carla-george",
+    "en": "Carla George",
+    "ar": "كارلا جورج",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 172
+  },
+  {
+    "key": "basic-table-one.people.kaiya-george",
+    "en": "Kaiya George",
+    "ar": "كايا جورج",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 172
+  },
+  {
+    "key": "basic-table-one.people.lindsey-curtis",
+    "en": "Lindsey Curtis",
+    "ar": "ليندسي كيرتس",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 172
+  },
+  {
+    "key": "basic-table-one.people.zain-geidt",
+    "en": "Zain Geidt",
+    "ar": "زين غايدت",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 172
+  },
+  {
     "key": "basic-table-one.project-name",
     "en": "Project Name",
-    "ar": "",
-    "status": "pending",
+    "ar": "اسم المشروع",
+    "status": "drafted",
     "file": "src/components/tables/BasicTableOne.tsx",
     "line": 133
   },
   {
+    "key": "basic-table-one.projects.agency-website",
+    "en": "Agency Website",
+    "ar": "موقع الوكالة",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 186
+  },
+  {
+    "key": "basic-table-one.projects.blog-writing",
+    "en": "Blog Writing",
+    "ar": "كتابة المدونة",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 186
+  },
+  {
+    "key": "basic-table-one.projects.social-media",
+    "en": "Social Media",
+    "ar": "وسائل التواصل الاجتماعي",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 186
+  },
+  {
+    "key": "basic-table-one.projects.technology",
+    "en": "Technology",
+    "ar": "التقنية",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 186
+  },
+  {
+    "key": "basic-table-one.projects.website",
+    "en": "Website",
+    "ar": "الموقع الإلكتروني",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 186
+  },
+  {
+    "key": "basic-table-one.roles.content-writing",
+    "en": "Content Writing",
+    "ar": "كتابة المحتوى",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 180
+  },
+  {
+    "key": "basic-table-one.roles.digital-marketer",
+    "en": "Digital Marketer",
+    "ar": "مسوّق رقمي",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 180
+  },
+  {
+    "key": "basic-table-one.roles.front-end-developer",
+    "en": "Front-end Developer",
+    "ar": "مطورة واجهات أمامية",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 180
+  },
+  {
+    "key": "basic-table-one.roles.project-manager",
+    "en": "Project Manager",
+    "ar": "مديرة مشاريع",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 180
+  },
+  {
+    "key": "basic-table-one.roles.web-designer",
+    "en": "Web Designer",
+    "ar": "مصممة مواقع",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 180
+  },
+  {
     "key": "basic-table-one.status",
     "en": "Status",
-    "ar": "",
-    "status": "pending",
+    "ar": "الحالة",
+    "status": "drafted",
     "file": "src/components/tables/BasicTableOne.tsx",
     "line": 145
   },
   {
+    "key": "basic-table-one.statuses.active",
+    "en": "Active",
+    "ar": "نشط",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 217
+  },
+  {
+    "key": "basic-table-one.statuses.cancel",
+    "en": "Cancel",
+    "ar": "ملغى",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 217
+  },
+  {
+    "key": "basic-table-one.statuses.pending",
+    "en": "Pending",
+    "ar": "قيد الانتظار",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 217
+  },
+  {
     "key": "basic-table-one.team",
     "en": "Team",
-    "ar": "",
-    "status": "pending",
+    "ar": "الفريق",
+    "status": "drafted",
     "file": "src/components/tables/BasicTableOne.tsx",
     "line": 139
   },
   {
+    "key": "basic-table-one.team-member",
+    "en": "Team member {number}",
+    "ar": "عضو الفريق {number}",
+    "status": "drafted",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 199
+  },
+  {
     "key": "basic-table-one.user",
     "en": "User",
-    "ar": "",
-    "status": "pending",
+    "ar": "المستخدم",
+    "status": "drafted",
     "file": "src/components/tables/BasicTableOne.tsx",
     "line": 127
   },
   {
     "key": "basic-tables.basic-table-1",
     "en": "Basic Table 1",
-    "ar": "",
-    "status": "pending",
+    "ar": "جدول أساسي 1",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(others-pages)/(tables)/basic-tables/page.tsx",
     "line": 19
   },
   {
     "key": "blank.card-title-here",
     "en": "Card Title Here",
-    "ar": "",
-    "status": "pending",
+    "ar": "عنوان البطاقة هنا",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(others-pages)/blank/page.tsx",
     "line": 17
   },
   {
     "key": "blank.start-putting-content-on",
     "en": "Start putting content on grids or panels, you can also use different combinations of grids.Please check out the dashboard and other pages",
-    "ar": "",
-    "status": "pending",
+    "ar": "ابدأ بإضافة المحتوى إلى الشبكات أو اللوحات، ويمكن أيضًا استخدام تركيبات مختلفة من الشبكات. اطّلع على لوحة التحكم والصفحات الأخرى للمزيد من الأمثلة.",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(others-pages)/blank/page.tsx",
     "line": 20
   },
   {
     "key": "buttons.button-text",
     "en": "Button Text",
-    "ar": "",
-    "status": "pending",
+    "ar": "نص الزر",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
     "line": 23
   },
   {
     "key": "buttons.outline-button-with-left",
     "en": "Outline Button with Left Icon",
-    "ar": "",
-    "status": "pending",
+    "ar": "زر بإطار مع أيقونة في البداية",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
     "line": 65
   },
   {
     "key": "buttons.outline-button-with-right",
     "en": "Outline Button with Right Icon",
-    "ar": "",
-    "status": "pending",
+    "ar": "زر بإطار مع أيقونة في النهاية",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
     "line": 76
   },
   {
     "key": "buttons.primary-button",
     "en": "Primary Button",
-    "ar": "",
-    "status": "pending",
+    "ar": "زر أساسي",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
     "line": 20
   },
   {
     "key": "buttons.primary-button-with-left",
     "en": "Primary Button with Left Icon",
-    "ar": "",
-    "status": "pending",
+    "ar": "زر أساسي مع أيقونة في البداية",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
     "line": 31
   },
   {
     "key": "buttons.primary-button-with-right",
     "en": "Primary Button with Right Icon",
-    "ar": "",
-    "status": "pending",
+    "ar": "زر أساسي مع أيقونة في النهاية",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
     "line": 42
   },
   {
     "key": "buttons.secondary-button",
     "en": "Secondary Button",
-    "ar": "",
-    "status": "pending",
+    "ar": "زر ثانوي",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
     "line": 53
   },
   {
+    "key": "calendar.add-event",
+    "en": "Add Event",
+    "ar": "إضافة حدث",
+    "status": "drafted",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 158
+  },
+  {
+    "key": "calendar.add-event-button",
+    "en": "Add Event +",
+    "ar": "إضافة حدث +",
+    "status": "drafted",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 158
+  },
+  {
     "key": "calendar.close",
     "en": "Close",
-    "ar": "",
-    "status": "pending",
+    "ar": "إغلاق",
+    "status": "drafted",
     "file": "src/components/calendar/Calendar.tsx",
     "line": 254
   },
   {
+    "key": "calendar.edit-event",
+    "en": "Edit Event",
+    "ar": "تعديل الحدث",
+    "status": "drafted",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 172
+  },
+  {
     "key": "calendar.enter-end-date",
     "en": "Enter End Date",
-    "ar": "",
-    "status": "pending",
+    "ar": "تاريخ الانتهاء",
+    "status": "drafted",
     "file": "src/components/calendar/Calendar.tsx",
     "line": 235
   },
   {
     "key": "calendar.enter-start-date",
     "en": "Enter Start Date",
-    "ar": "",
-    "status": "pending",
+    "ar": "تاريخ البدء",
+    "status": "drafted",
     "file": "src/components/calendar/Calendar.tsx",
     "line": 220
   },
   {
     "key": "calendar.event-color",
     "en": "Event Color",
-    "ar": "",
-    "status": "pending",
+    "ar": "لون الحدث",
+    "status": "drafted",
     "file": "src/components/calendar/Calendar.tsx",
     "line": 180
   },
   {
     "key": "calendar.event-title",
     "en": "Event Title",
-    "ar": "",
-    "status": "pending",
+    "ar": "عنوان الحدث",
+    "status": "drafted",
     "file": "src/components/calendar/Calendar.tsx",
     "line": 167
   },
   {
+    "key": "calendar.events.event-conf",
+    "en": "Event Conf.",
+    "ar": "مؤتمر",
+    "status": "drafted",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 61
+  },
+  {
+    "key": "calendar.events.meeting",
+    "en": "Meeting",
+    "ar": "اجتماع",
+    "status": "drafted",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 61
+  },
+  {
+    "key": "calendar.events.workshop",
+    "en": "Workshop",
+    "ar": "ورشة عمل",
+    "status": "drafted",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 61
+  },
+  {
+    "key": "calendar.levels.danger",
+    "en": "Danger",
+    "ar": "خطر",
+    "status": "drafted",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 225
+  },
+  {
+    "key": "calendar.levels.primary",
+    "en": "Primary",
+    "ar": "أساسي",
+    "status": "drafted",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 225
+  },
+  {
+    "key": "calendar.levels.success",
+    "en": "Success",
+    "ar": "نجاح",
+    "status": "drafted",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 225
+  },
+  {
+    "key": "calendar.levels.warning",
+    "en": "Warning",
+    "ar": "تحذير",
+    "status": "drafted",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 225
+  },
+  {
     "key": "calendar.plan-your-next-big",
     "en": "Plan your next big moment: schedule or edit an event to stay on track",
-    "ar": "",
-    "status": "pending",
+    "ar": "جدولة حدث جديد أو تعديل حدث قائم لمتابعة خططك القادمة",
+    "status": "drafted",
     "file": "src/components/calendar/Calendar.tsx",
     "line": 159
   },
   {
+    "key": "calendar.update-changes",
+    "en": "Update Changes",
+    "ar": "حفظ التغييرات",
+    "status": "drafted",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 276
+  },
+  {
     "key": "chart-tab.annually",
     "en": "Annually",
-    "ar": "",
-    "status": "pending",
+    "ar": "سنوي",
+    "status": "drafted",
     "file": "src/components/common/ChartTab.tsx",
     "line": 39
   },
   {
     "key": "chart-tab.monthly",
     "en": "Monthly",
-    "ar": "",
-    "status": "pending",
+    "ar": "شهري",
+    "status": "drafted",
     "file": "src/components/common/ChartTab.tsx",
     "line": 21
   },
   {
     "key": "chart-tab.quarterly",
     "en": "Quarterly",
-    "ar": "",
-    "status": "pending",
+    "ar": "ربع سنوي",
+    "status": "drafted",
     "file": "src/components/common/ChartTab.tsx",
     "line": 30
   },
   {
+    "key": "charts.progress",
+    "en": "Progress",
+    "ar": "نسبة الإنجاز",
+    "status": "drafted",
+    "file": "src/components/ecommerce/MonthlyTarget.tsx",
+    "line": 66
+  },
+  {
+    "key": "charts.revenue",
+    "en": "Revenue",
+    "ar": "الإيرادات",
+    "status": "drafted",
+    "file": "src/components/charts/line/LineChartOne.tsx",
+    "line": 122
+  },
+  {
+    "key": "charts.sales",
+    "en": "Sales",
+    "ar": "المبيعات",
+    "status": "drafted",
+    "file": "src/components/charts/line/LineChartOne.tsx",
+    "line": 118
+  },
+  {
     "key": "checkbox-components.checkbox",
     "en": "Checkbox",
-    "ar": "",
-    "status": "pending",
+    "ar": "مربع اختيار",
+    "status": "drafted",
     "file": "src/components/form/form-elements/CheckboxComponents.tsx",
     "line": 11
   },
   {
     "key": "checkbox-components.checked",
     "en": "Checked",
-    "ar": "",
-    "status": "pending",
+    "ar": "محدد",
+    "status": "drafted",
     "file": "src/components/form/form-elements/CheckboxComponents.tsx",
     "line": 23
   },
   {
     "key": "checkbox-components.default",
     "en": "Default",
-    "ar": "",
-    "status": "pending",
+    "ar": "افتراضي",
+    "status": "drafted",
     "file": "src/components/form/form-elements/CheckboxComponents.tsx",
     "line": 16
   },
   {
     "key": "checkbox-components.disabled",
     "en": "Disabled",
-    "ar": "",
-    "status": "pending",
+    "ar": "معطّل",
+    "status": "drafted",
     "file": "src/components/form/form-elements/CheckboxComponents.tsx",
     "line": 31
   },
   {
+    "key": "country-map.india",
+    "en": "India",
+    "ar": "الهند",
+    "status": "drafted",
+    "file": "src/components/ecommerce/CountryMap.tsx",
+    "line": 65
+  },
+  {
+    "key": "country-map.sweden",
+    "en": "Sweden",
+    "ar": "السويد",
+    "status": "drafted",
+    "file": "src/components/ecommerce/CountryMap.tsx",
+    "line": 75
+  },
+  {
+    "key": "country-map.united-kingdom",
+    "en": "United Kingdom",
+    "ar": "المملكة المتحدة",
+    "status": "drafted",
+    "file": "src/components/ecommerce/CountryMap.tsx",
+    "line": 70
+  },
+  {
+    "key": "country-map.united-states",
+    "en": "United States",
+    "ar": "الولايات المتحدة",
+    "status": "drafted",
+    "file": "src/components/ecommerce/CountryMap.tsx",
+    "line": 55
+  },
+  {
     "key": "default-inputs.card-number",
     "en": "Card number",
-    "ar": "",
-    "status": "pending",
+    "ar": "رقم البطاقة",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 96
   },
   {
     "key": "default-inputs.date-picker-input",
     "en": "Date Picker Input",
-    "ar": "",
-    "status": "pending",
+    "ar": "حقل اختيار التاريخ",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 68
   },
   {
     "key": "default-inputs.default-inputs",
     "en": "Default Inputs",
-    "ar": "",
-    "status": "pending",
+    "ar": "الحقول الافتراضية",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 21
   },
   {
     "key": "default-inputs.enter-your-password",
     "en": "Enter your password",
-    "ar": "",
-    "status": "pending",
+    "ar": "أدخل كلمة المرور",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 50
   },
   {
     "key": "default-inputs.info-gmail-com",
     "en": "info@gmail.com",
-    "ar": "",
-    "status": "pending",
+    "ar": "info@gmail.com",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 29
   },
   {
     "key": "default-inputs.input",
     "en": "Input",
-    "ar": "",
-    "status": "pending",
+    "ar": "حقل إدخال",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 24
   },
   {
     "key": "default-inputs.input-with-payment",
     "en": "Input with Payment",
-    "ar": "",
-    "status": "pending",
+    "ar": "حقل مع وسيلة الدفع",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 92
   },
   {
     "key": "default-inputs.input-with-placeholder",
     "en": "Input with Placeholder",
-    "ar": "",
-    "status": "pending",
+    "ar": "حقل مع نص إرشادي",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 28
   },
   {
+    "key": "default-inputs.options.development",
+    "en": "Development",
+    "ar": "التطوير",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 17
+  },
+  {
+    "key": "default-inputs.options.marketing",
+    "en": "Marketing",
+    "ar": "التسويق",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 15
+  },
+  {
+    "key": "default-inputs.options.template",
+    "en": "Template",
+    "ar": "القوالب",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 16
+  },
+  {
     "key": "default-inputs.password-input",
     "en": "Password Input",
-    "ar": "",
-    "status": "pending",
+    "ar": "حقل كلمة المرور",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 46
   },
   {
     "key": "default-inputs.select-a-date",
     "en": "Select a date",
-    "ar": "",
-    "status": "pending",
+    "ar": "اختيار تاريخ",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 69
   },
   {
     "key": "default-inputs.select-an-option",
     "en": "Select an option",
-    "ar": "",
-    "status": "pending",
+    "ar": "اختيار أحد الخيارات",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 36
   },
   {
     "key": "default-inputs.select-input",
     "en": "Select Input",
-    "ar": "",
-    "status": "pending",
+    "ar": "قائمة اختيار",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 32
   },
   {
     "key": "default-inputs.time-picker-input",
     "en": "Time Picker Input",
-    "ar": "",
-    "status": "pending",
+    "ar": "حقل اختيار الوقت",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DefaultInputs.tsx",
     "line": 78
   },
   {
     "key": "default-modal.close",
     "en": "Close",
-    "ar": "",
-    "status": "pending",
+    "ar": "إغلاق",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/DefaultModal.tsx",
     "line": 43
   },
   {
     "key": "default-modal.default-modal",
     "en": "Default Modal",
-    "ar": "",
-    "status": "pending",
+    "ar": "النافذة الافتراضية",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/DefaultModal.tsx",
     "line": 18
   },
   {
     "key": "default-modal.lorem-ipsum-dolor-sit",
     "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit amet ipsum rutrum feugiat ultrices enim quam.",
-    "ar": "",
-    "status": "pending",
+    "ar": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها. وُضع هنا ليعطي تصورًا عن شكل المحتوى الحقيقي في التصميم، ولمعاينة طريقة توزيع الفقرات وأحجام الخطوط قبل إضافة النص النهائي.",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/DefaultModal.tsx",
     "line": 31
   },
   {
     "key": "default-modal.lorem-ipsum-dolor-sit-2",
     "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio.",
-    "ar": "",
-    "status": "pending",
+    "ar": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها. وُضع هنا ليعطي تصورًا عن شكل المحتوى الحقيقي في التصميم.",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/DefaultModal.tsx",
     "line": 37
   },
   {
     "key": "default-modal.modal-heading",
     "en": "Modal Heading",
-    "ar": "",
-    "status": "pending",
+    "ar": "عنوان النافذة",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/DefaultModal.tsx",
     "line": 28
   },
   {
     "key": "default-modal.open-modal",
     "en": "Open Modal",
-    "ar": "",
-    "status": "pending",
+    "ar": "فتح النافذة",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/DefaultModal.tsx",
     "line": 20
   },
   {
     "key": "default-modal.save-changes",
     "en": "Save Changes",
-    "ar": "",
-    "status": "pending",
+    "ar": "حفظ التغييرات",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/DefaultModal.tsx",
     "line": 46
   },
   {
     "key": "demographic-card.2-379-customers",
     "en": "2,379 Customers",
-    "ar": "",
-    "status": "pending",
+    "ar": "2,379 عميلًا",
+    "status": "drafted",
     "file": "src/components/ecommerce/DemographicCard.tsx",
     "line": 83
   },
   {
     "key": "demographic-card.589-customers",
     "en": "589 Customers",
-    "ar": "",
-    "status": "pending",
+    "ar": "589 عميلًا",
+    "status": "drafted",
     "file": "src/components/ecommerce/DemographicCard.tsx",
     "line": 114
   },
   {
     "key": "demographic-card.customers-demographic",
     "en": "Customers Demographic",
-    "ar": "",
-    "status": "pending",
+    "ar": "توزيع العملاء",
+    "status": "drafted",
     "file": "src/components/ecommerce/DemographicCard.tsx",
     "line": 26
   },
   {
     "key": "demographic-card.delete",
     "en": "Delete",
-    "ar": "",
-    "status": "pending",
+    "ar": "حذف",
+    "status": "drafted",
     "file": "src/components/ecommerce/DemographicCard.tsx",
     "line": 52
   },
   {
     "key": "demographic-card.france",
     "en": "france",
-    "ar": "",
-    "status": "pending",
+    "ar": "علم فرنسا",
+    "status": "drafted",
     "file": "src/components/ecommerce/DemographicCard.tsx",
     "line": 106
   },
   {
     "key": "demographic-card.france-2",
     "en": "France",
-    "ar": "",
-    "status": "pending",
+    "ar": "فرنسا",
+    "status": "drafted",
     "file": "src/components/ecommerce/DemographicCard.tsx",
     "line": 111
   },
   {
     "key": "demographic-card.number-of-customer-based",
     "en": "Number of customer based on country",
-    "ar": "",
-    "status": "pending",
+    "ar": "عدد العملاء حسب الدولة",
+    "status": "drafted",
     "file": "src/components/ecommerce/DemographicCard.tsx",
     "line": 29
   },
   {
     "key": "demographic-card.usa",
     "en": "usa",
-    "ar": "",
-    "status": "pending",
+    "ar": "علم الولايات المتحدة",
+    "status": "drafted",
     "file": "src/components/ecommerce/DemographicCard.tsx",
     "line": 74
   },
   {
     "key": "demographic-card.usa-2",
     "en": "USA",
-    "ar": "",
-    "status": "pending",
+    "ar": "الولايات المتحدة",
+    "status": "drafted",
     "file": "src/components/ecommerce/DemographicCard.tsx",
     "line": 80
   },
   {
     "key": "demographic-card.view-more",
     "en": "View More",
-    "ar": "",
-    "status": "pending",
+    "ar": "عرض المزيد",
+    "status": "drafted",
     "file": "src/components/ecommerce/DemographicCard.tsx",
     "line": 46
   },
   {
     "key": "drop-zone.browse-file",
     "en": "Browse File",
-    "ar": "",
-    "status": "pending",
+    "ar": "تصفح الملفات",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DropZone.tsx",
     "line": 68
   },
   {
     "key": "drop-zone.drag-and-drop-your",
     "en": "Drag and drop your PNG, JPG, WebP, SVG images here or browse",
-    "ar": "",
-    "status": "pending",
+    "ar": "اسحب صور PNG أو JPG أو WebP أو SVG وأفلتها هنا، أو تصفّح جهازك",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DropZone.tsx",
     "line": 64
   },
   {
+    "key": "drop-zone.drag-drop-files-here",
+    "en": "Drag & Drop Files Here",
+    "ar": "اسحب الملفات وأفلتها هنا",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/DropZone.tsx",
+    "line": 62
+  },
+  {
+    "key": "drop-zone.drop-files-here",
+    "en": "Drop Files Here",
+    "ar": "أفلت الملفات هنا",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/DropZone.tsx",
+    "line": 62
+  },
+  {
     "key": "drop-zone.dropzone",
     "en": "Dropzone",
-    "ar": "",
-    "status": "pending",
+    "ar": "منطقة الإفلات",
+    "status": "drafted",
     "file": "src/components/form/form-elements/DropZone.tsx",
     "line": 22
   },
   {
     "key": "ecommerce-metrics.customers",
     "en": "Customers",
-    "ar": "",
-    "status": "pending",
+    "ar": "العملاء",
+    "status": "drafted",
     "file": "src/components/ecommerce/EcommerceMetrics.tsx",
     "line": 18
   },
   {
     "key": "ecommerce-metrics.orders",
     "en": "Orders",
-    "ar": "",
-    "status": "pending",
+    "ar": "الطلبات",
+    "status": "drafted",
     "file": "src/components/ecommerce/EcommerceMetrics.tsx",
     "line": 40
   },
   {
     "key": "error-404.back-to-home-page",
     "en": "Back to Home Page",
-    "ar": "",
-    "status": "pending",
+    "ar": "العودة إلى الصفحة الرئيسية",
+    "status": "drafted",
     "file": "src/app/[locale]/(full-width-pages)/(error-pages)/error-404/page.tsx",
     "line": 45
   },
   {
     "key": "error-404.error",
     "en": "ERROR",
-    "ar": "",
-    "status": "pending",
+    "ar": "خطأ",
+    "status": "drafted",
     "file": "src/app/[locale]/(full-width-pages)/(error-pages)/error-404/page.tsx",
     "line": 19
   },
   {
     "key": "error-404.we-can-t-seem",
     "en": "We can’t seem to find the page you are looking for!",
-    "ar": "",
-    "status": "pending",
+    "ar": "يبدو أن الصفحة المطلوبة غير موجودة.",
+    "status": "drafted",
     "file": "src/app/[locale]/(full-width-pages)/(error-pages)/error-404/page.tsx",
     "line": 38
   },
   {
     "key": "file-input-example.file-input",
     "en": "File Input",
-    "ar": "",
-    "status": "pending",
+    "ar": "حقل رفع ملف",
+    "status": "drafted",
     "file": "src/components/form/form-elements/FileInputExample.tsx",
     "line": 16
   },
   {
     "key": "file-input-example.upload-file",
     "en": "Upload file",
-    "ar": "",
-    "status": "pending",
+    "ar": "رفع ملف",
+    "status": "drafted",
     "file": "src/components/form/form-elements/FileInputExample.tsx",
     "line": 18
   },
   {
     "key": "form-in-modal.bio",
     "en": "Bio",
-    "ar": "",
-    "status": "pending",
+    "ar": "النبذة",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 54
   },
   {
     "key": "form-in-modal.boruch",
     "en": "Boruch",
-    "ar": "",
-    "status": "pending",
+    "ar": "بوروخ",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 40
   },
   {
     "key": "form-in-modal.close",
     "en": "Close",
-    "ar": "",
-    "status": "pending",
+    "ar": "إغلاق",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 61
   },
   {
     "key": "form-in-modal.emirhan",
     "en": "Emirhan",
-    "ar": "",
-    "status": "pending",
+    "ar": "أمير خان",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 35
   },
   {
     "key": "form-in-modal.emirhanboruch55-gmail-com",
     "en": "emirhanboruch55@gmail.com",
-    "ar": "",
-    "status": "pending",
+    "ar": "emirhanboruch55@gmail.com",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 45
   },
   {
     "key": "form-in-modal.first-name",
     "en": "First Name",
-    "ar": "",
-    "status": "pending",
+    "ar": "الاسم الأول",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 34
   },
   {
     "key": "form-in-modal.form-in-modal",
     "en": "Form In Modal",
-    "ar": "",
-    "status": "pending",
+    "ar": "نموذج داخل نافذة",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 18
   },
   {
     "key": "form-in-modal.last-name",
     "en": "Last Name",
-    "ar": "",
-    "status": "pending",
+    "ar": "اسم العائلة",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 39
   },
   {
     "key": "form-in-modal.open-modal",
     "en": "Open Modal",
-    "ar": "",
-    "status": "pending",
+    "ar": "فتح النافذة",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 20
   },
   {
     "key": "form-in-modal.personal-information",
     "en": "Personal Information",
-    "ar": "",
-    "status": "pending",
+    "ar": "المعلومات الشخصية",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 29
   },
   {
     "key": "form-in-modal.phone",
     "en": "Phone",
-    "ar": "",
-    "status": "pending",
+    "ar": "الهاتف",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 49
   },
   {
     "key": "form-in-modal.save-changes",
     "en": "Save Changes",
-    "ar": "",
-    "status": "pending",
+    "ar": "حفظ التغييرات",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 64
   },
   {
     "key": "form-in-modal.team-manager",
     "en": "Team Manager",
-    "ar": "",
-    "status": "pending",
+    "ar": "مدير الفريق",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FormInModal.tsx",
     "line": 55
   },
   {
     "key": "four-is-to-three.youtube-video",
     "en": "YouTube video",
-    "ar": "",
-    "status": "pending",
+    "ar": "فيديو YouTube",
+    "status": "drafted",
     "file": "src/components/videos/FourIsToThree.tsx",
     "line": 8
   },
   {
     "key": "full-screen-modal.close",
     "en": "Close",
-    "ar": "",
-    "status": "pending",
+    "ar": "إغلاق",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FullScreenModal.tsx",
     "line": 56
   },
   {
     "key": "full-screen-modal.full-screen-modal",
     "en": "Full Screen Modal",
-    "ar": "",
-    "status": "pending",
+    "ar": "نافذة بملء الشاشة",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FullScreenModal.tsx",
     "line": 20
   },
   {
     "key": "full-screen-modal.lorem-ipsum-dolor-sit",
     "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit amet ipsum rutrum feugiat ultrices enim quam.",
-    "ar": "",
-    "status": "pending",
+    "ar": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها. وُضع هنا ليعطي تصورًا عن شكل المحتوى الحقيقي في التصميم، ولمعاينة طريقة توزيع الفقرات وأحجام الخطوط قبل إضافة النص النهائي.",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FullScreenModal.tsx",
     "line": 36
   },
   {
     "key": "full-screen-modal.lorem-ipsum-dolor-sit-2",
     "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit amet ipsum rutrum feugiat ultrices enim quam odio condimentum aliquet a nec nulla pellentesque euismod est quis mauris lacinia pharetra.",
-    "ar": "",
-    "status": "pending",
+    "ar": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها. وُضع هنا ليعطي تصورًا عن شكل المحتوى الحقيقي في التصميم، ولمعاينة طريقة توزيع الفقرات وأحجام الخطوط قبل إضافة النص النهائي. ويساعد ذلك على تقدير المساحة التي سيشغلها النص بعد اكتمال الصفحة.",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FullScreenModal.tsx",
     "line": 42
   },
   {
     "key": "full-screen-modal.lorem-ipsum-dolor-sit-3",
     "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra.",
-    "ar": "",
-    "status": "pending",
+    "ar": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها. وُضع هنا ليعطي تصورًا عن شكل المحتوى الحقيقي في التصميم.",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FullScreenModal.tsx",
     "line": 50
   },
   {
     "key": "full-screen-modal.modal-heading",
     "en": "Modal Heading",
-    "ar": "",
-    "status": "pending",
+    "ar": "عنوان النافذة",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FullScreenModal.tsx",
     "line": 33
   },
   {
     "key": "full-screen-modal.open-modal",
     "en": "Open Modal",
-    "ar": "",
-    "status": "pending",
+    "ar": "فتح النافذة",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FullScreenModal.tsx",
     "line": 22
   },
   {
     "key": "full-screen-modal.save-changes",
     "en": "Save Changes",
-    "ar": "",
-    "status": "pending",
+    "ar": "حفظ التغييرات",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/FullScreenModal.tsx",
     "line": 59
   },
   {
     "key": "grid-shape.grid",
     "en": "grid",
-    "ar": "",
-    "status": "pending",
+    "ar": "شبكة زخرفية",
+    "status": "drafted",
     "file": "src/components/common/GridShape.tsx",
     "line": 12
   },
   {
     "key": "home.free-and-open-source",
     "en": "Free and Open-Source Tailwind CSS Admin Dashboard Template",
-    "ar": "",
-    "status": "pending",
+    "ar": "قالب لوحة تحكم مجاني ومفتوح المصدر مبني على Tailwind CSS",
+    "status": "drafted",
     "file": "src/app/[locale]/(full-width-pages)/(auth)/layout.tsx",
     "line": 33
   },
   {
     "key": "home.logo",
     "en": "Logo",
-    "ar": "",
-    "status": "pending",
+    "ar": "شعار TailAdmin",
+    "status": "drafted",
     "file": "src/app/[locale]/(full-width-pages)/(auth)/layout.tsx",
     "line": 29
   },
   {
     "key": "images.image-in-2-grid",
     "en": "Image in 2 Grid",
-    "ar": "",
-    "status": "pending",
+    "ar": "صور في شبكة من عمودين",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/images/page.tsx",
     "line": 24
   },
   {
     "key": "images.image-in-3-grid",
     "en": "Image in 3 Grid",
-    "ar": "",
-    "status": "pending",
+    "ar": "صور في شبكة من ثلاثة أعمدة",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/images/page.tsx",
     "line": 27
   },
   {
     "key": "images.responsive-image",
     "en": "Responsive image",
-    "ar": "",
-    "status": "pending",
+    "ar": "صورة متجاوبة",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(ui-elements)/images/page.tsx",
     "line": 21
   },
   {
     "key": "input-group.email",
     "en": "Email",
-    "ar": "",
-    "status": "pending",
+    "ar": "البريد الإلكتروني",
+    "status": "drafted",
     "file": "src/components/form/form-elements/InputGroup.tsx",
     "line": 23
   },
   {
     "key": "input-group.info-gmail-com",
     "en": "info@gmail.com",
-    "ar": "",
-    "status": "pending",
+    "ar": "info@gmail.com",
+    "status": "drafted",
     "file": "src/components/form/form-elements/InputGroup.tsx",
     "line": 26
   },
   {
     "key": "input-group.input-group",
     "en": "Input Group",
-    "ar": "",
-    "status": "pending",
+    "ar": "مجموعة حقول",
+    "status": "drafted",
     "file": "src/components/form/form-elements/InputGroup.tsx",
     "line": 20
   },
   {
     "key": "input-group.phone",
     "en": "Phone",
-    "ar": "",
-    "status": "pending",
+    "ar": "الهاتف",
+    "status": "drafted",
     "file": "src/components/form/form-elements/InputGroup.tsx",
     "line": 36
   },
   {
+    "key": "input-states.description",
+    "en": "Validation styles for error, success and disabled states on form controls.",
+    "ar": "أنماط التحقق لحالات الخطأ والنجاح والتعطيل في حقول النماذج.",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/InputStates.tsx",
+    "line": 29
+  },
+  {
     "key": "input-states.disabled-email",
     "en": "Disabled email",
-    "ar": "",
-    "status": "pending",
+    "ar": "بريد إلكتروني معطّل",
+    "status": "drafted",
     "file": "src/components/form/form-elements/InputStates.tsx",
     "line": 63
   },
   {
     "key": "input-states.email",
     "en": "Email",
-    "ar": "",
-    "status": "pending",
+    "ar": "البريد الإلكتروني",
+    "status": "drafted",
     "file": "src/components/form/form-elements/InputStates.tsx",
     "line": 32
   },
   {
     "key": "input-states.enter-your-email",
     "en": "Enter your email",
-    "ar": "",
-    "status": "pending",
+    "ar": "أدخل بريدك الإلكتروني",
+    "status": "drafted",
     "file": "src/components/form/form-elements/InputStates.tsx",
     "line": 38
   },
   {
     "key": "input-states.input-states",
     "en": "Input States",
-    "ar": "",
-    "status": "pending",
+    "ar": "حالات الحقول",
+    "status": "drafted",
     "file": "src/components/form/form-elements/InputStates.tsx",
     "line": 26
   },
   {
+    "key": "input-states.this-field-is-disabled",
+    "en": "This field is disabled.",
+    "ar": "هذا الحقل معطّل.",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/InputStates.tsx",
+    "line": 66
+  },
+  {
+    "key": "input-states.this-is-an-invalid-email",
+    "en": "This is an invalid email address.",
+    "ar": "عنوان البريد الإلكتروني غير صالح.",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/InputStates.tsx",
+    "line": 41
+  },
+  {
+    "key": "input-states.valid-email",
+    "en": "Valid email!",
+    "ar": "البريد الإلكتروني صالح.",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/InputStates.tsx",
+    "line": 54
+  },
+  {
     "key": "line-chart.line-chart-1",
     "en": "Line Chart 1",
-    "ar": "",
-    "status": "pending",
+    "ar": "مخطط خطي 1",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/line-chart/page.tsx",
     "line": 17
   },
   {
+    "key": "meta.alerts.description",
+    "en": "This is Next.js Alerts page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة التنبيهات في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.alerts.title",
+    "en": "Next.js Alerts | TailAdmin - Next.js Dashboard Template",
+    "ar": "التنبيهات | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.avatars.description",
+    "en": "This is Next.js Avatars page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة الصور الرمزية في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.avatars.title",
+    "en": "Next.js Avatars | TailAdmin - Next.js Dashboard Template",
+    "ar": "الصور الرمزية | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.badge.description",
+    "en": "This is Next.js Badge page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة الشارات في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.badge.title",
+    "en": "Next.js Badge | TailAdmin - Next.js Dashboard Template",
+    "ar": "الشارات | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.bar-chart.description",
+    "en": "This is Next.js Bar Chart page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة المخطط الشريطي في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/bar-chart/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.bar-chart.title",
+    "en": "Next.js Bar Chart | TailAdmin - Next.js Dashboard Template",
+    "ar": "مخطط شريطي | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/bar-chart/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.basic-tables.description",
+    "en": "This is Next.js Basic Table  page for TailAdmin  Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة الجدول الأساسي في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(tables)/basic-tables/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.basic-tables.title",
+    "en": "Next.js Basic Table | TailAdmin - Next.js Dashboard Template",
+    "ar": "جدول أساسي | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(tables)/basic-tables/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.blank.description",
+    "en": "This is Next.js Blank Page TailAdmin Dashboard Template",
+    "ar": "الصفحة الفارغة في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/blank/page.tsx",
+    "line": 6
+  },
+  {
+    "key": "meta.blank.title",
+    "en": "Next.js Blank Page | TailAdmin - Next.js Dashboard Template",
+    "ar": "صفحة فارغة | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/blank/page.tsx",
+    "line": 6
+  },
+  {
+    "key": "meta.buttons.description",
+    "en": "This is Next.js Buttons page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة الأزرار في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
+    "line": 9
+  },
+  {
+    "key": "meta.buttons.title",
+    "en": "Next.js Buttons | TailAdmin - Next.js Dashboard Template",
+    "ar": "الأزرار | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
+    "line": 9
+  },
+  {
+    "key": "meta.calendar.description",
+    "en": "This is Next.js Calender page for TailAdmin  Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة التقويم في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/calendar/page.tsx",
+    "line": 6
+  },
+  {
+    "key": "meta.calendar.title",
+    "en": "Next.js Calender | TailAdmin - Next.js Dashboard Template",
+    "ar": "التقويم | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/calendar/page.tsx",
+    "line": 6
+  },
+  {
+    "key": "meta.error-404.description",
+    "en": "This is Next.js Error 404 page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة الخطأ 404 في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(full-width-pages)/(error-pages)/error-404/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.error-404.title",
+    "en": "Next.js Error 404 | TailAdmin - Next.js Dashboard Template",
+    "ar": "خطأ 404 | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(full-width-pages)/(error-pages)/error-404/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.form-elements.description",
+    "en": "This is Next.js Form Elements page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة عناصر النماذج في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(forms)/form-elements/page.tsx",
+    "line": 15
+  },
+  {
+    "key": "meta.form-elements.title",
+    "en": "Next.js Form Elements | TailAdmin - Next.js Dashboard Template",
+    "ar": "عناصر النماذج | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(forms)/form-elements/page.tsx",
+    "line": 15
+  },
+  {
+    "key": "meta.home.description",
+    "en": "This is Next.js Home for TailAdmin Dashboard Template",
+    "ar": "الصفحة الرئيسية في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/page.tsx",
+    "line": 10
+  },
+  {
+    "key": "meta.home.title",
+    "en": "Next.js E-commerce Dashboard | TailAdmin - Next.js Dashboard Template",
+    "ar": "لوحة التجارة الإلكترونية | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/page.tsx",
+    "line": 10
+  },
+  {
+    "key": "meta.images.description",
+    "en": "This is Next.js Images page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة الصور في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/images/page.tsx",
+    "line": 10
+  },
+  {
+    "key": "meta.images.title",
+    "en": "Next.js Images | TailAdmin - Next.js Dashboard Template",
+    "ar": "الصور | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/images/page.tsx",
+    "line": 10
+  },
+  {
+    "key": "meta.line-chart.description",
+    "en": "This is Next.js Line Chart page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة المخطط الخطي في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/line-chart/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.line-chart.title",
+    "en": "Next.js Line Chart | TailAdmin - Next.js Dashboard Template",
+    "ar": "مخطط خطي | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/line-chart/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.modals.description",
+    "en": "This is Next.js Modals page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة النوافذ المنبثقة في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/modals/page.tsx",
+    "line": 10
+  },
+  {
+    "key": "meta.modals.title",
+    "en": "Next.js Modals | TailAdmin - Next.js Dashboard Template",
+    "ar": "النوافذ المنبثقة | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/modals/page.tsx",
+    "line": 10
+  },
+  {
+    "key": "meta.profile.description",
+    "en": "This is Next.js Profile page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة الملف الشخصي في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/profile/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.profile.title",
+    "en": "Next.js Profile | TailAdmin - Next.js Dashboard Template",
+    "ar": "الملف الشخصي | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/profile/page.tsx",
+    "line": 8
+  },
+  {
+    "key": "meta.signin.description",
+    "en": "This is Next.js Signin Page TailAdmin Dashboard Template",
+    "ar": "صفحة تسجيل الدخول في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(full-width-pages)/(auth)/signin/page.tsx",
+    "line": 4
+  },
+  {
+    "key": "meta.signin.title",
+    "en": "Next.js SignIn Page | TailAdmin - Next.js Dashboard Template",
+    "ar": "تسجيل الدخول | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(full-width-pages)/(auth)/signin/page.tsx",
+    "line": 4
+  },
+  {
+    "key": "meta.signup.description",
+    "en": "This is Next.js SignUp Page TailAdmin Dashboard Template",
+    "ar": "صفحة إنشاء حساب في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(full-width-pages)/(auth)/signup/page.tsx",
+    "line": 4
+  },
+  {
+    "key": "meta.signup.title",
+    "en": "Next.js SignUp Page | TailAdmin - Next.js Dashboard Template",
+    "ar": "إنشاء حساب | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(full-width-pages)/(auth)/signup/page.tsx",
+    "line": 4
+  },
+  {
+    "key": "meta.videos.description",
+    "en": "This is Next.js Videos page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "ar": "صفحة الفيديو في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/videos/page.tsx",
+    "line": 6
+  },
+  {
+    "key": "meta.videos.title",
+    "en": "Next.js Videos | TailAdmin - Next.js Dashboard Template",
+    "ar": "الفيديو | TailAdmin، قالب لوحة تحكم Next.js",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/videos/page.tsx",
+    "line": 6
+  },
+  {
     "key": "modal-based-alerts.danger-alert",
     "en": "Danger Alert",
-    "ar": "",
-    "status": "pending",
+    "ar": "تنبيه خطر",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
     "line": 38
   },
   {
     "key": "modal-based-alerts.danger-alert-2",
     "en": "Danger Alert!",
-    "ar": "",
-    "status": "pending",
+    "ar": "تنبيه خطر!",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
     "line": 263
   },
   {
     "key": "modal-based-alerts.info-alert",
     "en": "Info Alert",
-    "ar": "",
-    "status": "pending",
+    "ar": "تنبيه معلومات",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
     "line": 26
   },
   {
     "key": "modal-based-alerts.information-alert",
     "en": "Information Alert!",
-    "ar": "",
-    "status": "pending",
+    "ar": "تنبيه معلومات!",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
     "line": 143
   },
   {
     "key": "modal-based-alerts.lorem-ipsum-dolor-sit",
     "en": "Lorem ipsum dolor sit amet consectetur. Feugiat ipsum libero tempor felis risus nisi non. Quisque eu ut tempor curabitur.",
-    "ar": "",
-    "status": "pending",
+    "ar": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها، ويعطي تصورًا عن شكل الرسالة الحقيقية.",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
     "line": 86
   },
   {
     "key": "modal-based-alerts.modal-based-alerts",
     "en": "Modal Based Alerts",
-    "ar": "",
-    "status": "pending",
+    "ar": "تنبيهات في نوافذ منبثقة",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
     "line": 14
   },
   {
     "key": "modal-based-alerts.okay-got-it",
     "en": "Okay, Got It",
-    "ar": "",
-    "status": "pending",
+    "ar": "حسنًا، فهمت",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
     "line": 95
   },
   {
     "key": "modal-based-alerts.success-alert",
     "en": "Success Alert",
-    "ar": "",
-    "status": "pending",
+    "ar": "تنبيه نجاح",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
     "line": 20
   },
   {
     "key": "modal-based-alerts.warning-alert",
     "en": "Warning Alert",
-    "ar": "",
-    "status": "pending",
+    "ar": "تنبيه تحذير",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
     "line": 32
   },
   {
     "key": "modal-based-alerts.warning-alert-2",
     "en": "Warning Alert!",
-    "ar": "",
-    "status": "pending",
+    "ar": "تنبيه تحذير!",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
     "line": 203
   },
   {
     "key": "modal-based-alerts.well-done",
     "en": "Well Done!",
-    "ar": "",
-    "status": "pending",
+    "ar": "أحسنت!",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
     "line": 83
   },
   {
     "key": "monthly-sales-chart.delete",
     "en": "Delete",
-    "ar": "",
-    "status": "pending",
+    "ar": "حذف",
+    "status": "drafted",
     "file": "src/components/ecommerce/MonthlySalesChart.tsx",
     "line": 136
   },
   {
     "key": "monthly-sales-chart.monthly-sales",
     "en": "Monthly Sales",
-    "ar": "",
-    "status": "pending",
+    "ar": "المبيعات الشهرية",
+    "status": "drafted",
     "file": "src/components/ecommerce/MonthlySalesChart.tsx",
     "line": 114
   },
   {
     "key": "monthly-sales-chart.view-more",
     "en": "View More",
-    "ar": "",
-    "status": "pending",
+    "ar": "عرض المزيد",
+    "status": "drafted",
     "file": "src/components/ecommerce/MonthlySalesChart.tsx",
     "line": 130
   },
   {
     "key": "monthly-target.20k",
     "en": "$20K",
-    "ar": "",
-    "status": "pending",
+    "ar": "$20K",
+    "status": "drafted",
     "file": "src/components/ecommerce/MonthlyTarget.tsx",
     "line": 139
   },
   {
     "key": "monthly-target.delete",
     "en": "Delete",
-    "ar": "",
-    "status": "pending",
+    "ar": "حذف",
+    "status": "drafted",
     "file": "src/components/ecommerce/MonthlyTarget.tsx",
     "line": 108
   },
   {
     "key": "monthly-target.monthly-target",
     "en": "Monthly Target",
-    "ar": "",
-    "status": "pending",
+    "ar": "الهدف الشهري",
+    "status": "drafted",
     "file": "src/components/ecommerce/MonthlyTarget.tsx",
     "line": 81
   },
   {
     "key": "monthly-target.revenue",
     "en": "Revenue",
-    "ar": "",
-    "status": "pending",
+    "ar": "الإيرادات",
+    "status": "drafted",
     "file": "src/components/ecommerce/MonthlyTarget.tsx",
     "line": 161
   },
   {
     "key": "monthly-target.target",
     "en": "Target",
-    "ar": "",
-    "status": "pending",
+    "ar": "الهدف",
+    "status": "drafted",
     "file": "src/components/ecommerce/MonthlyTarget.tsx",
     "line": 136
   },
   {
     "key": "monthly-target.target-you-ve-set",
     "en": "Target you’ve set for each month",
-    "ar": "",
-    "status": "pending",
+    "ar": "الهدف المحدد لكل شهر",
+    "status": "drafted",
     "file": "src/components/ecommerce/MonthlyTarget.tsx",
     "line": 84
   },
   {
     "key": "monthly-target.today",
     "en": "Today",
-    "ar": "",
-    "status": "pending",
+    "ar": "اليوم",
+    "status": "drafted",
     "file": "src/components/ecommerce/MonthlyTarget.tsx",
     "line": 186
   },
   {
     "key": "monthly-target.view-more",
     "en": "View More",
-    "ar": "",
-    "status": "pending",
+    "ar": "عرض المزيد",
+    "status": "drafted",
     "file": "src/components/ecommerce/MonthlyTarget.tsx",
     "line": 101
   },
   {
     "key": "monthly-target.you-earn-3287-today",
     "en": "You earn $3287 today, it's higher than last month. Keep up your good work!",
-    "ar": "",
-    "status": "pending",
+    "ar": "أرباح اليوم ⁦$3287⁩، وهي أعلى من الشهر الماضي. عمل رائع!",
+    "status": "drafted",
     "file": "src/components/ecommerce/MonthlyTarget.tsx",
     "line": 128
   },
   {
     "key": "multi-select.select-option",
     "en": "Select option",
-    "ar": "",
-    "status": "pending",
+    "ar": "اختيار خيار",
+    "status": "drafted",
     "file": "src/components/form/MultiSelect.tsx",
     "line": 97
   },
   {
     "key": "not-found.back-to-home-page",
     "en": "Back to Home Page",
-    "ar": "",
-    "status": "pending",
+    "ar": "العودة إلى الصفحة الرئيسية",
+    "status": "drafted",
     "file": "src/app/[locale]/not-found.tsx",
     "line": 38
   },
   {
     "key": "not-found.error",
     "en": "ERROR",
-    "ar": "",
-    "status": "pending",
+    "ar": "خطأ",
+    "status": "drafted",
     "file": "src/app/[locale]/not-found.tsx",
     "line": 12
   },
   {
     "key": "not-found.we-can-t-seem",
     "en": "We can’t seem to find the page you are looking for!",
-    "ar": "",
-    "status": "pending",
+    "ar": "يبدو أن الصفحة المطلوبة غير موجودة.",
+    "status": "drafted",
     "file": "src/app/[locale]/not-found.tsx",
     "line": 31
   },
   {
     "key": "notification-dropdown.1-hr-ago",
     "en": "1 hr ago",
-    "ar": "",
-    "status": "pending",
+    "ar": "قبل ساعة",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 223
   },
   {
     "key": "notification-dropdown.15-min-ago",
     "en": "15 min ago",
-    "ar": "",
-    "status": "pending",
+    "ar": "قبل 15 دقيقة",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 186
   },
   {
     "key": "notification-dropdown.5-min-ago",
     "en": "5 min ago",
-    "ar": "",
-    "status": "pending",
+    "ar": "قبل 5 دقائق",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 113
   },
   {
     "key": "notification-dropdown.8-min-ago",
     "en": "8 min ago",
-    "ar": "",
-    "status": "pending",
+    "ar": "قبل 8 دقائق",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 149
   },
   {
     "key": "notification-dropdown.alena-franci",
     "en": "Alena Franci",
-    "ar": "",
-    "status": "pending",
+    "ar": "ألينا فرانسي",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 138
   },
   {
     "key": "notification-dropdown.brandon-philips",
     "en": "Brandon Philips",
-    "ar": "",
-    "status": "pending",
+    "ar": "براندون فيليبس",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 212
   },
   {
     "key": "notification-dropdown.jocelyn-kenter",
     "en": "Jocelyn Kenter",
-    "ar": "",
-    "status": "pending",
+    "ar": "جوسلين كينتر",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 175
   },
   {
     "key": "notification-dropdown.notification",
     "en": "Notification",
-    "ar": "",
-    "status": "pending",
+    "ar": "الإشعارات",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 59
   },
   {
     "key": "notification-dropdown.project",
     "en": "Project",
-    "ar": "",
-    "status": "pending",
+    "ar": "مشروع",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 111
   },
   {
     "key": "notification-dropdown.project-nganter-app",
     "en": "Project - Nganter App",
-    "ar": "",
-    "status": "pending",
+    "ar": "مشروع تطبيق Nganter",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 106
   },
   {
     "key": "notification-dropdown.requests-permission-to-change",
     "en": "requests permission to change",
-    "ar": "",
-    "status": "pending",
+    "ar": "طلب إذنًا بتعديل",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 104
   },
   {
     "key": "notification-dropdown.terry-franci",
     "en": "Terry Franci",
-    "ar": "",
-    "status": "pending",
+    "ar": "تيري فرانسي",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 102
   },
   {
     "key": "notification-dropdown.user",
     "en": "User",
-    "ar": "",
-    "status": "pending",
+    "ar": "المستخدم",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 93
   },
   {
     "key": "notification-dropdown.view-all-notifications",
     "en": "View All Notifications",
-    "ar": "",
-    "status": "pending",
+    "ar": "عرض كل الإشعارات",
+    "status": "drafted",
     "file": "src/components/header/NotificationDropdown.tsx",
     "line": 379
   },
   {
     "key": "one-is-to-one.youtube-video",
     "en": "YouTube video",
-    "ar": "",
-    "status": "pending",
+    "ar": "فيديو YouTube",
+    "status": "drafted",
     "file": "src/components/videos/OneIsToOne.tsx",
     "line": 8
   },
   {
     "key": "page-bread-crumb.home",
     "en": "Home",
-    "ar": "",
-    "status": "pending",
+    "ar": "الرئيسية",
+    "status": "drafted",
     "file": "src/components/common/PageBreadCrumb.tsx",
     "line": 24
   },
   {
+    "key": "page-title.alerts",
+    "en": "Alerts",
+    "ar": "التنبيهات",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+    "line": 19
+  },
+  {
+    "key": "page-title.avatar",
+    "en": "Avatar",
+    "ar": "الصور الرمزية",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
+    "line": 19
+  },
+  {
+    "key": "page-title.badges",
+    "en": "Badges",
+    "ar": "الشارات",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 19
+  },
+  {
+    "key": "page-title.bar-chart",
+    "en": "Bar Chart",
+    "ar": "مخطط شريطي",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/bar-chart/page.tsx",
+    "line": 19
+  },
+  {
+    "key": "page-title.basic-table",
+    "en": "Basic Table",
+    "ar": "جدول أساسي",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(tables)/basic-tables/page.tsx",
+    "line": 19
+  },
+  {
+    "key": "page-title.blank-page",
+    "en": "Blank Page",
+    "ar": "صفحة فارغة",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/blank/page.tsx",
+    "line": 17
+  },
+  {
+    "key": "page-title.buttons",
+    "en": "Buttons",
+    "ar": "الأزرار",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
+    "line": 20
+  },
+  {
+    "key": "page-title.calendar",
+    "en": "Calendar",
+    "ar": "التقويم",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/calendar/page.tsx",
+    "line": 15
+  },
+  {
+    "key": "page-title.from-elements",
+    "en": "From Elements",
+    "ar": "عناصر النماذج",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(forms)/form-elements/page.tsx",
+    "line": 25
+  },
+  {
+    "key": "page-title.images",
+    "en": "Images",
+    "ar": "الصور",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/images/page.tsx",
+    "line": 21
+  },
+  {
+    "key": "page-title.line-chart",
+    "en": "Line Chart",
+    "ar": "مخطط خطي",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/line-chart/page.tsx",
+    "line": 18
+  },
+  {
+    "key": "page-title.modals",
+    "en": "Modals",
+    "ar": "النوافذ المنبثقة",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/modals/page.tsx",
+    "line": 20
+  },
+  {
+    "key": "page-title.videos",
+    "en": "Videos",
+    "ar": "الفيديو",
+    "status": "drafted",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/videos/page.tsx",
+    "line": 16
+  },
+  {
     "key": "pagination.next",
     "en": "Next",
-    "ar": "",
-    "status": "pending",
+    "ar": "التالي",
+    "status": "drafted",
     "file": "src/components/tables/Pagination.tsx",
     "line": 48
   },
   {
     "key": "pagination.previous",
     "en": "Previous",
-    "ar": "",
-    "status": "pending",
+    "ar": "السابق",
+    "status": "drafted",
     "file": "src/components/tables/Pagination.tsx",
     "line": 24
   },
   {
     "key": "profile.profile",
     "en": "Profile",
-    "ar": "",
-    "status": "pending",
+    "ar": "الملف الشخصي",
+    "status": "drafted",
     "file": "src/app/[locale]/(admin)/(others-pages)/profile/page.tsx",
     "line": 18
   },
   {
     "key": "radio-buttons.default",
     "en": "Default",
-    "ar": "",
-    "status": "pending",
+    "ar": "افتراضي",
+    "status": "drafted",
     "file": "src/components/form/form-elements/RadioButtons.tsx",
     "line": 21
   },
   {
     "key": "radio-buttons.disabled",
     "en": "Disabled",
-    "ar": "",
-    "status": "pending",
+    "ar": "معطّل",
+    "status": "drafted",
     "file": "src/components/form/form-elements/RadioButtons.tsx",
     "line": 37
   },
   {
     "key": "radio-buttons.radio-buttons",
     "en": "Radio Buttons",
-    "ar": "",
-    "status": "pending",
+    "ar": "أزرار الاختيار",
+    "status": "drafted",
     "file": "src/components/form/form-elements/RadioButtons.tsx",
     "line": 13
   },
   {
     "key": "radio-buttons.selected",
     "en": "Selected",
-    "ar": "",
-    "status": "pending",
+    "ar": "محدد",
+    "status": "drafted",
     "file": "src/components/form/form-elements/RadioButtons.tsx",
     "line": 29
   },
   {
+    "key": "recent-orders.categories.accessories",
+    "en": "Accessories",
+    "ar": "إكسسوارات",
+    "status": "drafted",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 190
+  },
+  {
+    "key": "recent-orders.categories.electronics",
+    "en": "Electronics",
+    "ar": "إلكترونيات",
+    "status": "drafted",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 190
+  },
+  {
+    "key": "recent-orders.categories.laptop",
+    "en": "Laptop",
+    "ar": "حاسوب محمول",
+    "status": "drafted",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 190
+  },
+  {
+    "key": "recent-orders.categories.smartphone",
+    "en": "SmartPhone",
+    "ar": "هاتف ذكي",
+    "status": "drafted",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 190
+  },
+  {
+    "key": "recent-orders.categories.watch",
+    "en": "Watch",
+    "ar": "ساعة",
+    "status": "drafted",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 190
+  },
+  {
     "key": "recent-orders.category",
     "en": "Category",
-    "ar": "",
-    "status": "pending",
+    "ar": "الفئة",
+    "status": "drafted",
     "file": "src/components/ecommerce/RecentOrders.tsx",
     "line": 141
   },
   {
     "key": "recent-orders.filter",
     "en": "Filter",
-    "ar": "",
-    "status": "pending",
+    "ar": "تصفية",
+    "status": "drafted",
     "file": "src/components/ecommerce/RecentOrders.tsx",
     "line": 119
   },
   {
     "key": "recent-orders.price",
     "en": "Price",
-    "ar": "",
-    "status": "pending",
+    "ar": "السعر",
+    "status": "drafted",
     "file": "src/components/ecommerce/RecentOrders.tsx",
     "line": 147
   },
   {
     "key": "recent-orders.products",
     "en": "Products",
-    "ar": "",
-    "status": "pending",
+    "ar": "المنتجات",
+    "status": "drafted",
     "file": "src/components/ecommerce/RecentOrders.tsx",
     "line": 135
   },
   {
     "key": "recent-orders.recent-orders",
     "en": "Recent Orders",
-    "ar": "",
-    "status": "pending",
+    "ar": "أحدث الطلبات",
+    "status": "drafted",
     "file": "src/components/ecommerce/RecentOrders.tsx",
     "line": 78
   },
   {
     "key": "recent-orders.see-all",
     "en": "See all",
-    "ar": "",
-    "status": "pending",
+    "ar": "عرض الكل",
+    "status": "drafted",
     "file": "src/components/ecommerce/RecentOrders.tsx",
     "line": 122
   },
   {
     "key": "recent-orders.status",
     "en": "Status",
-    "ar": "",
-    "status": "pending",
+    "ar": "الحالة",
+    "status": "drafted",
     "file": "src/components/ecommerce/RecentOrders.tsx",
     "line": 153
   },
   {
+    "key": "recent-orders.statuses.canceled",
+    "en": "Canceled",
+    "ar": "ملغى",
+    "status": "drafted",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 203
+  },
+  {
+    "key": "recent-orders.statuses.delivered",
+    "en": "Delivered",
+    "ar": "تم التوصيل",
+    "status": "drafted",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 203
+  },
+  {
+    "key": "recent-orders.statuses.pending",
+    "en": "Pending",
+    "ar": "قيد الانتظار",
+    "status": "drafted",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 203
+  },
+  {
+    "key": "recent-orders.variants",
+    "en": "{count, plural, one {# Variant} other {# Variants}}",
+    "ar": "{count, plural, zero {لا خيارات} one {خيار واحد} two {خياران} few {# خيارات} many {# خيارًا} other {# خيار}}",
+    "status": "drafted",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 181
+  },
+  {
     "key": "responsive-image.cover",
     "en": "Cover",
-    "ar": "",
-    "status": "pending",
+    "ar": "صورة الغلاف",
+    "status": "drafted",
     "file": "src/components/ui/images/ResponsiveImage.tsx",
     "line": 10
   },
   {
     "key": "select-inputs.multiple-select-options",
     "en": "Multiple Select Options",
-    "ar": "",
-    "status": "pending",
+    "ar": "قائمة متعددة الاختيارات",
+    "status": "drafted",
     "file": "src/components/form/form-elements/SelectInputs.tsx",
     "line": 49
   },
   {
+    "key": "select-inputs.option",
+    "en": "Option {number}",
+    "ar": "الخيار {number}",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/SelectInputs.tsx",
+    "line": 13
+  },
+  {
+    "key": "select-inputs.options.development",
+    "en": "Development",
+    "ar": "التطوير",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/SelectInputs.tsx",
+    "line": 15
+  },
+  {
+    "key": "select-inputs.options.marketing",
+    "en": "Marketing",
+    "ar": "التسويق",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/SelectInputs.tsx",
+    "line": 13
+  },
+  {
+    "key": "select-inputs.options.template",
+    "en": "Template",
+    "ar": "القوالب",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/SelectInputs.tsx",
+    "line": 14
+  },
+  {
     "key": "select-inputs.select-input",
     "en": "Select Input",
-    "ar": "",
-    "status": "pending",
+    "ar": "قائمة اختيار",
+    "status": "drafted",
     "file": "src/components/form/form-elements/SelectInputs.tsx",
     "line": 34
   },
   {
     "key": "select-inputs.select-inputs",
     "en": "Select Inputs",
-    "ar": "",
-    "status": "pending",
+    "ar": "قوائم الاختيار",
+    "status": "drafted",
     "file": "src/components/form/form-elements/SelectInputs.tsx",
     "line": 31
   },
   {
     "key": "select-inputs.select-option",
     "en": "Select Option",
-    "ar": "",
-    "status": "pending",
+    "ar": "اختيار خيار",
+    "status": "drafted",
     "file": "src/components/form/form-elements/SelectInputs.tsx",
     "line": 38
   },
   {
+    "key": "select-inputs.selected-values",
+    "en": "Selected Values: {values}",
+    "ar": "القيم المحددة: {values}",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/SelectInputs.tsx",
+    "line": 57
+  },
+  {
+    "key": "select.select-an-option",
+    "en": "Select an option",
+    "ar": "اختيار أحد الخيارات",
+    "status": "drafted",
+    "file": "src/components/form/Select.tsx",
+    "line": 50
+  },
+  {
     "key": "sidebar-widget.1-tailwind-css-dashboard",
     "en": "#1 Tailwind CSS Dashboard",
-    "ar": "",
-    "status": "pending",
+    "ar": "لوحة التحكم الأولى على Tailwind CSS",
+    "status": "drafted",
     "file": "src/layout/SidebarWidget.tsx",
     "line": 10
   },
   {
     "key": "sidebar-widget.leading-tailwind-css-admin",
     "en": "Leading Tailwind CSS Admin Template with 400+ UI Component and Pages.",
-    "ar": "",
-    "status": "pending",
+    "ar": "قالب إدارة رائد مبني على Tailwind CSS، يضم أكثر من 400 مكوّن وصفحة.",
+    "status": "drafted",
     "file": "src/layout/SidebarWidget.tsx",
     "line": 13
   },
   {
     "key": "sidebar-widget.upgrade-to-pro",
     "en": "Upgrade To Pro",
-    "ar": "",
-    "status": "pending",
+    "ar": "الترقية إلى Pro",
+    "status": "drafted",
     "file": "src/layout/SidebarWidget.tsx",
     "line": 21
   },
   {
     "key": "sign-in-form.back-to-dashboard",
     "en": "Back to dashboard",
-    "ar": "",
-    "status": "pending",
+    "ar": "العودة إلى لوحة التحكم",
+    "status": "drafted",
     "file": "src/components/auth/SignInForm.tsx",
     "line": 21
   },
   {
+    "key": "sign-in-form.don-t-have-an-account",
+    "en": "Don't have an account?",
+    "ar": "ليس لديك حساب؟",
+    "status": "drafted",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 142
+  },
+  {
+    "key": "sign-in-form.email",
+    "en": "Email",
+    "ar": "البريد الإلكتروني",
+    "status": "drafted",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 93
+  },
+  {
     "key": "sign-in-form.enter-your-email-and",
     "en": "Enter your email and password to sign in!",
-    "ar": "",
-    "status": "pending",
+    "ar": "أدخل بريدك الإلكتروني وكلمة المرور لتسجيل الدخول.",
+    "status": "drafted",
     "file": "src/components/auth/SignInForm.tsx",
     "line": 31
   },
   {
     "key": "sign-in-form.enter-your-password",
     "en": "Enter your password",
-    "ar": "",
-    "status": "pending",
+    "ar": "أدخل كلمة المرور",
+    "status": "drafted",
     "file": "src/components/auth/SignInForm.tsx",
     "line": 102
   },
   {
     "key": "sign-in-form.forgot-password",
     "en": "Forgot password?",
-    "ar": "",
-    "status": "pending",
+    "ar": "نسيت كلمة المرور؟",
+    "status": "drafted",
     "file": "src/components/auth/SignInForm.tsx",
     "line": 127
   },
   {
     "key": "sign-in-form.info-gmail-com",
     "en": "info@gmail.com",
-    "ar": "",
-    "status": "pending",
+    "ar": "info@gmail.com",
+    "status": "drafted",
     "file": "src/components/auth/SignInForm.tsx",
     "line": 93
   },
   {
     "key": "sign-in-form.keep-me-logged-in",
     "en": "Keep me logged in",
-    "ar": "",
-    "status": "pending",
+    "ar": "إبقائي مسجلًا",
+    "status": "drafted",
     "file": "src/components/auth/SignInForm.tsx",
     "line": 120
   },
   {
     "key": "sign-in-form.or",
     "en": "Or",
-    "ar": "",
-    "status": "pending",
+    "ar": "أو",
+    "status": "drafted",
     "file": "src/components/auth/SignInForm.tsx",
     "line": 83
   },
   {
+    "key": "sign-in-form.password",
+    "en": "Password",
+    "ar": "كلمة المرور",
+    "status": "drafted",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 99
+  },
+  {
     "key": "sign-in-form.sign-in",
     "en": "Sign In",
-    "ar": "",
-    "status": "pending",
+    "ar": "تسجيل الدخول",
+    "status": "drafted",
     "file": "src/components/auth/SignInForm.tsx",
     "line": 28
   },
   {
     "key": "sign-in-form.sign-in-2",
     "en": "Sign in",
-    "ar": "",
-    "status": "pending",
+    "ar": "تسجيل الدخول",
+    "status": "drafted",
     "file": "src/components/auth/SignInForm.tsx",
     "line": 132
   },
   {
     "key": "sign-in-form.sign-in-with-google",
     "en": "Sign in with Google",
-    "ar": "",
-    "status": "pending",
+    "ar": "تسجيل الدخول عبر Google",
+    "status": "drafted",
     "file": "src/components/auth/SignInForm.tsx",
     "line": 61
   },
   {
     "key": "sign-in-form.sign-in-with-x",
     "en": "Sign in with X",
-    "ar": "",
-    "status": "pending",
+    "ar": "تسجيل الدخول عبر X",
+    "status": "drafted",
     "file": "src/components/auth/SignInForm.tsx",
     "line": 74
   },
   {
+    "key": "sign-in-form.sign-up",
+    "en": "Sign Up",
+    "ar": "إنشاء حساب",
+    "status": "drafted",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 147
+  },
+  {
+    "key": "sign-up-form.already-have-an-account",
+    "en": "Already have an account?",
+    "ar": "لديك حساب بالفعل؟",
+    "status": "drafted",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 179
+  },
+  {
     "key": "sign-up-form.back-to-dashboard",
     "en": "Back to dashboard",
-    "ar": "",
-    "status": "pending",
+    "ar": "العودة إلى لوحة التحكم",
+    "status": "drafted",
     "file": "src/components/auth/SignUpForm.tsx",
     "line": 20
   },
   {
+    "key": "sign-up-form.by-creating-an-account",
+    "en": "By creating an account means you agree to the <terms>Terms and Conditions,</terms> and our <privacy>Privacy Policy</privacy>",
+    "ar": "إنشاء حساب يعني الموافقة على <terms>الشروط والأحكام</terms> و<privacy>سياسة الخصوصية</privacy>.",
+    "status": "drafted",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 158
+  },
+  {
+    "key": "sign-up-form.email",
+    "en": "Email",
+    "ar": "البريد الإلكتروني",
+    "status": "drafted",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 119
+  },
+  {
     "key": "sign-up-form.enter-your-email",
     "en": "Enter your email",
-    "ar": "",
-    "status": "pending",
+    "ar": "أدخل بريدك الإلكتروني",
+    "status": "drafted",
     "file": "src/components/auth/SignUpForm.tsx",
     "line": 123
   },
   {
     "key": "sign-up-form.enter-your-email-and",
     "en": "Enter your email and password to sign up!",
-    "ar": "",
-    "status": "pending",
+    "ar": "أدخل بريدك الإلكتروني وكلمة المرور لإنشاء حساب.",
+    "status": "drafted",
     "file": "src/components/auth/SignUpForm.tsx",
     "line": 30
   },
   {
     "key": "sign-up-form.enter-your-first-name",
     "en": "Enter your first name",
-    "ar": "",
-    "status": "pending",
+    "ar": "أدخل اسمك الأول",
+    "status": "drafted",
     "file": "src/components/auth/SignUpForm.tsx",
     "line": 98
   },
   {
     "key": "sign-up-form.enter-your-last-name",
     "en": "Enter your last name",
-    "ar": "",
-    "status": "pending",
+    "ar": "أدخل اسم العائلة",
+    "status": "drafted",
     "file": "src/components/auth/SignUpForm.tsx",
     "line": 110
   },
   {
     "key": "sign-up-form.enter-your-password",
     "en": "Enter your password",
-    "ar": "",
-    "status": "pending",
+    "ar": "أدخل كلمة المرور",
+    "status": "drafted",
     "file": "src/components/auth/SignUpForm.tsx",
     "line": 133
   },
   {
+    "key": "sign-up-form.first-name",
+    "en": "First Name",
+    "ar": "الاسم الأول",
+    "status": "drafted",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 94
+  },
+  {
+    "key": "sign-up-form.last-name",
+    "en": "Last Name",
+    "ar": "اسم العائلة",
+    "status": "drafted",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 106
+  },
+  {
     "key": "sign-up-form.or",
     "en": "Or",
-    "ar": "",
-    "status": "pending",
+    "ar": "أو",
+    "status": "drafted",
     "file": "src/components/auth/SignUpForm.tsx",
     "line": 82
   },
   {
+    "key": "sign-up-form.password",
+    "en": "Password",
+    "ar": "كلمة المرور",
+    "status": "drafted",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 131
+  },
+  {
+    "key": "sign-up-form.sign-in",
+    "en": "Sign In",
+    "ar": "تسجيل الدخول",
+    "status": "drafted",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 184
+  },
+  {
     "key": "sign-up-form.sign-up",
     "en": "Sign Up",
-    "ar": "",
-    "status": "pending",
+    "ar": "إنشاء حساب",
+    "status": "drafted",
     "file": "src/components/auth/SignUpForm.tsx",
     "line": 27
   },
   {
     "key": "sign-up-form.sign-up-with-google",
     "en": "Sign up with Google",
-    "ar": "",
-    "status": "pending",
+    "ar": "إنشاء حساب عبر Google",
+    "status": "drafted",
     "file": "src/components/auth/SignUpForm.tsx",
     "line": 60
   },
   {
     "key": "sign-up-form.sign-up-with-x",
     "en": "Sign up with X",
-    "ar": "",
-    "status": "pending",
+    "ar": "إنشاء حساب عبر X",
+    "status": "drafted",
     "file": "src/components/auth/SignUpForm.tsx",
     "line": 73
   },
   {
     "key": "sixteen-is-to-nine.youtube-video",
     "en": "YouTube video",
-    "ar": "",
-    "status": "pending",
+    "ar": "فيديو YouTube",
+    "status": "drafted",
     "file": "src/components/videos/SixteenIsToNine.tsx",
     "line": 8
   },
   {
     "key": "statistics-chart.select-date-range",
     "en": "Select date range",
-    "ar": "",
-    "status": "pending",
+    "ar": "اختيار الفترة",
+    "status": "drafted",
     "file": "src/components/ecommerce/StatisticsChart.tsx",
     "line": 167
   },
   {
     "key": "statistics-chart.statistics",
     "en": "Statistics",
-    "ar": "",
-    "status": "pending",
+    "ar": "الإحصاءات",
+    "status": "drafted",
     "file": "src/components/ecommerce/StatisticsChart.tsx",
     "line": 154
   },
   {
     "key": "statistics-chart.target-you-ve-set",
     "en": "Target you've set for each month",
-    "ar": "",
-    "status": "pending",
+    "ar": "الهدف المحدد لكل شهر",
+    "status": "drafted",
     "file": "src/components/ecommerce/StatisticsChart.tsx",
     "line": 157
   },
   {
     "key": "text-area-input.description",
     "en": "Description",
-    "ar": "",
-    "status": "pending",
+    "ar": "الوصف",
+    "status": "drafted",
     "file": "src/components/form/form-elements/TextAreaInput.tsx",
     "line": 15
   },
   {
+    "key": "text-area-input.please-enter-a-valid",
+    "en": "Please enter a valid message.",
+    "ar": "يُرجى إدخال رسالة صالحة.",
+    "status": "drafted",
+    "file": "src/components/form/form-elements/TextAreaInput.tsx",
+    "line": 39
+  },
+  {
     "key": "text-area-input.textarea-input-field",
     "en": "Textarea input field",
-    "ar": "",
-    "status": "pending",
+    "ar": "حقل نص متعدد الأسطر",
+    "status": "drafted",
     "file": "src/components/form/form-elements/TextAreaInput.tsx",
     "line": 11
   },
   {
+    "key": "text-area.enter-your-message",
+    "en": "Enter your message",
+    "ar": "اكتب رسالتك",
+    "status": "drafted",
+    "file": "src/components/form/input/TextArea.tsx",
+    "line": 45
+  },
+  {
     "key": "three-column-image-grid.grid",
     "en": "grid",
-    "ar": "",
-    "status": "pending",
+    "ar": "صورة في الشبكة",
+    "status": "drafted",
     "file": "src/components/ui/images/ThreeColumnImageGrid.tsx",
     "line": 10
   },
   {
     "key": "toggle-switch.checked",
     "en": "Checked",
-    "ar": "",
-    "status": "pending",
+    "ar": "مفعّل",
+    "status": "drafted",
     "file": "src/components/form/form-elements/ToggleSwitch.tsx",
     "line": 19
   },
   {
     "key": "toggle-switch.default",
     "en": "Default",
-    "ar": "",
-    "status": "pending",
+    "ar": "افتراضي",
+    "status": "drafted",
     "file": "src/components/form/form-elements/ToggleSwitch.tsx",
     "line": 14
   },
   {
     "key": "toggle-switch.disabled",
     "en": "Disabled",
-    "ar": "",
-    "status": "pending",
+    "ar": "معطّل",
+    "status": "drafted",
     "file": "src/components/form/form-elements/ToggleSwitch.tsx",
     "line": 23
   },
   {
     "key": "toggle-switch.toggle-switch-input",
     "en": "Toggle switch input",
-    "ar": "",
-    "status": "pending",
+    "ar": "مفتاح التبديل",
+    "status": "drafted",
     "file": "src/components/form/form-elements/ToggleSwitch.tsx",
     "line": 11
   },
   {
     "key": "twenty-one-is-to-nine.youtube-video",
     "en": "YouTube video",
-    "ar": "",
-    "status": "pending",
+    "ar": "فيديو YouTube",
+    "status": "drafted",
     "file": "src/components/videos/TwentyOneIsToNine.tsx",
     "line": 8
   },
   {
     "key": "two-column-image-grid.grid",
     "en": "grid",
-    "ar": "",
-    "status": "pending",
+    "ar": "صورة في الشبكة",
+    "status": "drafted",
     "file": "src/components/ui/images/TwoColumnImageGrid.tsx",
     "line": 10
   },
   {
     "key": "user-address-card.address",
     "en": "Address",
-    "ar": "",
-    "status": "pending",
+    "ar": "العنوان",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 22
   },
   {
     "key": "user-address-card.as4568384",
     "en": "AS4568384",
-    "ar": "",
-    "status": "pending",
+    "ar": "AS4568384",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 58
   },
   {
     "key": "user-address-card.city-state",
     "en": "City/State",
-    "ar": "",
-    "status": "pending",
+    "ar": "المدينة أو الولاية",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 37
   },
   {
     "key": "user-address-card.close",
     "en": "Close",
-    "ar": "",
-    "status": "pending",
+    "ar": "إغلاق",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 123
   },
   {
     "key": "user-address-card.country",
     "en": "Country",
-    "ar": "",
-    "status": "pending",
+    "ar": "الدولة",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 28
   },
   {
     "key": "user-address-card.edit",
     "en": "Edit",
-    "ar": "",
-    "status": "pending",
+    "ar": "تعديل",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 83
   },
   {
     "key": "user-address-card.edit-address",
     "en": "Edit Address",
-    "ar": "",
-    "status": "pending",
+    "ar": "تعديل العنوان",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 91
   },
   {
     "key": "user-address-card.ert-2489",
     "en": "ERT 2489",
-    "ar": "",
-    "status": "pending",
+    "ar": "ERT 2489",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 49
   },
   {
     "key": "user-address-card.phoenix-arizona-united-states",
     "en": "Phoenix, Arizona, United States.",
-    "ar": "",
-    "status": "pending",
+    "ar": "فينكس، أريزونا، الولايات المتحدة",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 40
   },
   {
     "key": "user-address-card.postal-code",
     "en": "Postal Code",
-    "ar": "",
-    "status": "pending",
+    "ar": "الرمز البريدي",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 46
   },
   {
     "key": "user-address-card.save-changes",
     "en": "Save Changes",
-    "ar": "",
-    "status": "pending",
+    "ar": "حفظ التغييرات",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 126
   },
   {
     "key": "user-address-card.tax-id",
     "en": "TAX ID",
-    "ar": "",
-    "status": "pending",
+    "ar": "الرقم الضريبي",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 55
   },
   {
     "key": "user-address-card.united-states",
     "en": "United States",
-    "ar": "",
-    "status": "pending",
+    "ar": "الولايات المتحدة",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 31
   },
   {
     "key": "user-address-card.update-your-details-to",
     "en": "Update your details to keep your profile up-to-date.",
-    "ar": "",
-    "status": "pending",
+    "ar": "حدّث بياناتك ليبقى ملفك الشخصي محدّثًا.",
+    "status": "drafted",
     "file": "src/components/user-profile/UserAddressCard.tsx",
     "line": 94
   },
   {
     "key": "user-dropdown.account-settings",
     "en": "Account settings",
-    "ar": "",
-    "status": "pending",
+    "ar": "إعدادات الحساب",
+    "status": "drafted",
     "file": "src/components/header/UserDropdown.tsx",
     "line": 118
   },
   {
     "key": "user-dropdown.edit-profile",
     "en": "Edit profile",
-    "ar": "",
-    "status": "pending",
+    "ar": "تعديل الملف الشخصي",
+    "status": "drafted",
     "file": "src/components/header/UserDropdown.tsx",
     "line": 93
   },
   {
+    "key": "user-dropdown.language",
+    "en": "Language",
+    "ar": "اللغة",
+    "status": "drafted",
+    "file": "src/components/header/UserDropdown.tsx",
+    "line": 150
+  },
+  {
     "key": "user-dropdown.musharof",
     "en": "Musharof",
-    "ar": "",
-    "status": "pending",
+    "ar": "مشرف",
+    "status": "drafted",
     "file": "src/components/header/UserDropdown.tsx",
     "line": 34
   },
   {
     "key": "user-dropdown.musharof-chowdhury",
     "en": "Musharof Chowdhury",
-    "ar": "",
-    "status": "pending",
+    "ar": "مشرف تشودري",
+    "status": "drafted",
     "file": "src/components/header/UserDropdown.tsx",
     "line": 63
   },
   {
     "key": "user-dropdown.randomuser-pimjo-com",
     "en": "randomuser@pimjo.com",
-    "ar": "",
-    "status": "pending",
+    "ar": "randomuser@pimjo.com",
+    "status": "drafted",
     "file": "src/components/header/UserDropdown.tsx",
     "line": 66
   },
   {
     "key": "user-dropdown.sign-out",
     "en": "Sign out",
-    "ar": "",
-    "status": "pending",
+    "ar": "تسجيل الخروج",
+    "status": "drafted",
     "file": "src/components/header/UserDropdown.tsx",
     "line": 166
   },
   {
     "key": "user-dropdown.support",
     "en": "Support",
-    "ar": "",
-    "status": "pending",
+    "ar": "الدعم",
+    "status": "drafted",
     "file": "src/components/header/UserDropdown.tsx",
     "line": 143
   },
   {
     "key": "user-dropdown.user",
     "en": "User",
-    "ar": "",
-    "status": "pending",
+    "ar": "المستخدم",
+    "status": "drafted",
     "file": "src/components/header/UserDropdown.tsx",
     "line": 30
   },
   {
     "key": "user-info-card.bio",
     "en": "Bio",
-    "ar": "",
-    "status": "pending",
+    "ar": "النبذة",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 63
   },
   {
     "key": "user-info-card.chowdhury",
     "en": "Chowdhury",
-    "ar": "",
-    "status": "pending",
+    "ar": "تشودري",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 39
   },
   {
     "key": "user-info-card.close",
     "en": "Close",
-    "ar": "",
-    "status": "pending",
+    "ar": "إغلاق",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 178
   },
   {
     "key": "user-info-card.edit",
     "en": "Edit",
-    "ar": "",
-    "status": "pending",
+    "ar": "تعديل",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 91
   },
   {
     "key": "user-info-card.edit-personal-information",
     "en": "Edit Personal Information",
-    "ar": "",
-    "status": "pending",
+    "ar": "تعديل المعلومات الشخصية",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 99
   },
   {
     "key": "user-info-card.email-address",
     "en": "Email address",
-    "ar": "",
-    "status": "pending",
+    "ar": "البريد الإلكتروني",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 45
   },
   {
     "key": "user-info-card.email-address-2",
     "en": "Email Address",
-    "ar": "",
-    "status": "pending",
+    "ar": "البريد الإلكتروني",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 160
   },
   {
     "key": "user-info-card.facebook",
     "en": "Facebook",
-    "ar": "",
-    "status": "pending",
+    "ar": "Facebook",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 114
   },
   {
     "key": "user-info-card.first-name",
     "en": "First Name",
-    "ar": "",
-    "status": "pending",
+    "ar": "الاسم الأول",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 27
   },
   {
     "key": "user-info-card.instagram",
     "en": "Instagram",
-    "ar": "",
-    "status": "pending",
+    "ar": "Instagram",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 135
   },
   {
     "key": "user-info-card.last-name",
     "en": "Last Name",
-    "ar": "",
-    "status": "pending",
+    "ar": "اسم العائلة",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 36
   },
   {
     "key": "user-info-card.linkedin",
     "en": "Linkedin",
-    "ar": "",
-    "status": "pending",
+    "ar": "LinkedIn",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 127
   },
   {
     "key": "user-info-card.musharof",
     "en": "Musharof",
-    "ar": "",
-    "status": "pending",
+    "ar": "مشرف",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 30
   },
   {
     "key": "user-info-card.personal-information",
     "en": "Personal Information",
-    "ar": "",
-    "status": "pending",
+    "ar": "المعلومات الشخصية",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 21
   },
   {
     "key": "user-info-card.phone",
     "en": "Phone",
-    "ar": "",
-    "status": "pending",
+    "ar": "الهاتف",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 54
   },
   {
     "key": "user-info-card.randomuser-pimjo-com",
     "en": "randomuser@pimjo.com",
-    "ar": "",
-    "status": "pending",
+    "ar": "randomuser@pimjo.com",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 48
   },
   {
     "key": "user-info-card.save-changes",
     "en": "Save Changes",
-    "ar": "",
-    "status": "pending",
+    "ar": "حفظ التغييرات",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 181
   },
   {
     "key": "user-info-card.social-links",
     "en": "Social Links",
-    "ar": "",
-    "status": "pending",
+    "ar": "روابط التواصل الاجتماعي",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 109
   },
   {
     "key": "user-info-card.team-manager",
     "en": "Team Manager",
-    "ar": "",
-    "status": "pending",
+    "ar": "مدير الفريق",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 66
   },
   {
     "key": "user-info-card.update-your-details-to",
     "en": "Update your details to keep your profile up-to-date.",
-    "ar": "",
-    "status": "pending",
+    "ar": "حدّث بياناتك ليبقى ملفك الشخصي محدّثًا.",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 102
   },
   {
     "key": "user-info-card.x-com",
     "en": "X.com",
-    "ar": "",
-    "status": "pending",
+    "ar": "X.com",
+    "status": "drafted",
     "file": "src/components/user-profile/UserInfoCard.tsx",
     "line": 122
   },
   {
     "key": "user-meta-card.arizona-united-states",
     "en": "Arizona, United States",
-    "ar": "",
-    "status": "pending",
+    "ar": "أريزونا، الولايات المتحدة",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 41
   },
   {
     "key": "user-meta-card.bio",
     "en": "Bio",
-    "ar": "",
-    "status": "pending",
+    "ar": "النبذة",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 214
   },
   {
     "key": "user-meta-card.close",
     "en": "Close",
-    "ar": "",
-    "status": "pending",
+    "ar": "إغلاق",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 222
   },
   {
     "key": "user-meta-card.edit",
     "en": "Edit",
-    "ar": "",
-    "status": "pending",
+    "ar": "تعديل",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 135
   },
   {
     "key": "user-meta-card.edit-personal-information",
     "en": "Edit Personal Information",
-    "ar": "",
-    "status": "pending",
+    "ar": "تعديل المعلومات الشخصية",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 143
   },
   {
     "key": "user-meta-card.email-address",
     "en": "Email Address",
-    "ar": "",
-    "status": "pending",
+    "ar": "البريد الإلكتروني",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 204
   },
   {
     "key": "user-meta-card.facebook",
     "en": "Facebook",
-    "ar": "",
-    "status": "pending",
+    "ar": "Facebook",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 158
   },
   {
     "key": "user-meta-card.first-name",
     "en": "First Name",
-    "ar": "",
-    "status": "pending",
+    "ar": "الاسم الأول",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 194
   },
   {
     "key": "user-meta-card.instagram",
     "en": "Instagram",
-    "ar": "",
-    "status": "pending",
+    "ar": "Instagram",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 179
   },
   {
     "key": "user-meta-card.last-name",
     "en": "Last Name",
-    "ar": "",
-    "status": "pending",
+    "ar": "اسم العائلة",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 199
   },
   {
     "key": "user-meta-card.linkedin",
     "en": "Linkedin",
-    "ar": "",
-    "status": "pending",
+    "ar": "LinkedIn",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 171
   },
   {
     "key": "user-meta-card.musharof-chowdhury",
     "en": "Musharof Chowdhury",
-    "ar": "",
-    "status": "pending",
+    "ar": "مشرف تشودري",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 33
   },
   {
     "key": "user-meta-card.personal-information",
     "en": "Personal Information",
-    "ar": "",
-    "status": "pending",
+    "ar": "المعلومات الشخصية",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 189
   },
   {
     "key": "user-meta-card.phone",
     "en": "Phone",
-    "ar": "",
-    "status": "pending",
+    "ar": "الهاتف",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 209
   },
   {
     "key": "user-meta-card.save-changes",
     "en": "Save Changes",
-    "ar": "",
-    "status": "pending",
+    "ar": "حفظ التغييرات",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 225
   },
   {
     "key": "user-meta-card.social-links",
     "en": "Social Links",
-    "ar": "",
-    "status": "pending",
+    "ar": "روابط التواصل الاجتماعي",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 153
   },
   {
     "key": "user-meta-card.team-manager",
     "en": "Team Manager",
-    "ar": "",
-    "status": "pending",
+    "ar": "مدير الفريق",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 37
   },
   {
     "key": "user-meta-card.update-your-details-to",
     "en": "Update your details to keep your profile up-to-date.",
-    "ar": "",
-    "status": "pending",
+    "ar": "حدّث بياناتك ليبقى ملفك الشخصي محدّثًا.",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 146
   },
   {
     "key": "user-meta-card.user",
     "en": "user",
-    "ar": "",
-    "status": "pending",
+    "ar": "صورة المستخدم",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 28
   },
   {
     "key": "user-meta-card.x-com",
     "en": "X.com",
-    "ar": "",
-    "status": "pending",
+    "ar": "X.com",
+    "status": "drafted",
     "file": "src/components/user-profile/UserMetaCard.tsx",
     "line": 166
   },
   {
     "key": "vertically-centered-modal.all-done-success-confirmed",
     "en": "All Done! Success Confirmed",
-    "ar": "",
-    "status": "pending",
+    "ar": "تم بنجاح!",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
     "line": 28
   },
   {
     "key": "vertically-centered-modal.close",
     "en": "Close",
-    "ar": "",
-    "status": "pending",
+    "ar": "إغلاق",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
     "line": 37
   },
   {
     "key": "vertically-centered-modal.lorem-ipsum-dolor-sit",
     "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra.",
-    "ar": "",
-    "status": "pending",
+    "ar": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها. وُضع هنا ليعطي تصورًا عن شكل المحتوى الحقيقي في التصميم.",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
     "line": 31
   },
   {
     "key": "vertically-centered-modal.open-modal",
     "en": "Open Modal",
-    "ar": "",
-    "status": "pending",
+    "ar": "فتح النافذة",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
     "line": 18
   },
   {
     "key": "vertically-centered-modal.save-changes",
     "en": "Save Changes",
-    "ar": "",
-    "status": "pending",
+    "ar": "حفظ التغييرات",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
     "line": 40
   },
   {
     "key": "vertically-centered-modal.vertically-centered-modal",
     "en": "Vertically Centered Modal",
-    "ar": "",
-    "status": "pending",
+    "ar": "نافذة في منتصف الشاشة",
+    "status": "drafted",
     "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
     "line": 16
   },
   {
     "key": "videos-example.video-ratio-1-1",
     "en": "Video Ratio 1:1",
-    "ar": "",
-    "status": "pending",
+    "ar": "فيديو بنسبة ⁦1:1⁩",
+    "status": "drafted",
     "file": "src/components/ui/video/VideosExample.tsx",
     "line": 21
   },
   {
     "key": "videos-example.video-ratio-16-9",
     "en": "Video Ratio 16:9",
-    "ar": "",
-    "status": "pending",
+    "ar": "فيديو بنسبة ⁦16:9⁩",
+    "status": "drafted",
     "file": "src/components/ui/video/VideosExample.tsx",
     "line": 10
   },
   {
     "key": "videos-example.video-ratio-21-9",
     "en": "Video Ratio 21:9",
-    "ar": "",
-    "status": "pending",
+    "ar": "فيديو بنسبة ⁦21:9⁩",
+    "status": "drafted",
     "file": "src/components/ui/video/VideosExample.tsx",
     "line": 18
   },
   {
     "key": "videos-example.video-ratio-4-3",
     "en": "Video Ratio 4:3",
-    "ar": "",
-    "status": "pending",
+    "ar": "فيديو بنسبة ⁦4:3⁩",
+    "status": "drafted",
     "file": "src/components/ui/video/VideosExample.tsx",
     "line": 13
+  },
+  {
+    "key": "youtube-embed.youtube-video",
+    "en": "YouTube video",
+    "ar": "فيديو YouTube",
+    "status": "drafted",
+    "file": "src/components/ui/video/YouTubeEmbed.tsx",
+    "line": 1
   }
 ]

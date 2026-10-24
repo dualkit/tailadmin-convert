@@ -1,430 +1,657 @@
 {
+  "alert": {
+    "learn-more": "اعرف المزيد"
+  },
   "alerts": {
-    "error-alert": "Error Alert",
-    "error-message": "Error Message",
-    "info-alert": "Info Alert",
-    "info-message": "Info Message",
-    "success-alert": "Success Alert",
-    "success-message": "Success Message",
-    "warning-alert": "Warning Alert",
-    "warning-message": "Warning Message"
+    "error-alert": "تنبيه خطأ",
+    "error-message": "رسالة خطأ",
+    "info-alert": "تنبيه معلومات",
+    "info-message": "رسالة معلومات",
+    "success-alert": "تنبيه نجاح",
+    "success-message": "رسالة نجاح",
+    "warning-alert": "تنبيه تحذير",
+    "warning-message": "رسالة تحذير"
   },
   "app-header": {
     "k": "K",
-    "logo": "Logo",
-    "search-or-type-command": "Search or type command...",
-    "toggle-sidebar": "Toggle Sidebar"
+    "logo": "شعار TailAdmin",
+    "search-or-type-command": "ابحث أو اكتب أمرًا...",
+    "toggle-sidebar": "إظهار الشريط الجانبي أو إخفاؤه"
   },
   "app-sidebar": {
-    "logo": "Logo",
-    "new": "new",
-    "pro": "pro"
+    "404-error": "خطأ 404",
+    "alerts": "التنبيهات",
+    "authentication": "المصادقة",
+    "avatar": "الصور الرمزية",
+    "badge": "الشارات",
+    "bar-chart": "مخطط شريطي",
+    "basic-tables": "الجداول الأساسية",
+    "blank-page": "صفحة فارغة",
+    "buttons": "الأزرار",
+    "calendar": "التقويم",
+    "charts": "المخططات",
+    "dashboard": "لوحة التحكم",
+    "ecommerce": "التجارة الإلكترونية",
+    "form-elements": "عناصر النماذج",
+    "forms": "النماذج",
+    "images": "الصور",
+    "line-chart": "مخطط خطي",
+    "logo": "شعار TailAdmin",
+    "menu": "القائمة",
+    "new": "جديد",
+    "others": "أخرى",
+    "pages": "الصفحات",
+    "pro": "احترافي",
+    "sign-in": "تسجيل الدخول",
+    "sign-up": "إنشاء حساب",
+    "tables": "الجداول",
+    "ui-elements": "عناصر الواجهة",
+    "user-profile": "الملف الشخصي",
+    "videos": "الفيديو"
+  },
+  "avatar": {
+    "user-avatar": "الصورة الرمزية للمستخدم"
   },
   "avatars": {
-    "avatar-with-busy-indicator": "Avatar with busy indicator",
-    "avatar-with-offline-indicator": "Avatar with Offline indicator",
-    "avatar-with-online-indicator": "Avatar with online indicator",
-    "default-avatar": "Default Avatar"
+    "avatar-with-busy-indicator": "صورة رمزية مع مؤشر الانشغال",
+    "avatar-with-offline-indicator": "صورة رمزية مع مؤشر عدم الاتصال",
+    "avatar-with-online-indicator": "صورة رمزية مع مؤشر الاتصال",
+    "default-avatar": "الصورة الرمزية الافتراضية"
   },
   "badge": {
-    "dark": "Dark",
-    "error": "Error",
-    "info": "Info",
-    "light": "Light",
-    "light-background-with-left": "Light Background with Left Icon",
-    "light-background-with-right": "Light Background with Right Icon",
-    "primary": "Primary",
-    "solid-background-with-left": "Solid Background with Left Icon",
-    "solid-background-with-right": "Solid Background with Right Icon",
-    "success": "Success",
-    "warning": "Warning",
-    "with-light-background": "With Light Background",
-    "with-solid-background": "With Solid Background"
+    "dark": "داكن",
+    "error": "خطأ",
+    "info": "معلومات",
+    "light": "فاتح",
+    "light-background-with-left": "خلفية فاتحة مع أيقونة في البداية",
+    "light-background-with-right": "خلفية فاتحة مع أيقونة في النهاية",
+    "primary": "أساسي",
+    "solid-background-with-left": "خلفية مصمتة مع أيقونة في البداية",
+    "solid-background-with-right": "خلفية مصمتة مع أيقونة في النهاية",
+    "success": "نجاح",
+    "warning": "تحذير",
+    "with-light-background": "بخلفية فاتحة",
+    "with-solid-background": "بخلفية مصمتة"
   },
   "bar-chart": {
-    "bar-chart-1": "Bar Chart 1"
+    "bar-chart-1": "مخطط شريطي 1"
   },
   "basic-table-one": {
-    "budget": "Budget",
-    "project-name": "Project Name",
-    "status": "Status",
-    "team": "Team",
-    "user": "User"
+    "budget": "الميزانية",
+    "people": {
+      "abram-schleifer": "أبرام شلايفر",
+      "carla-george": "كارلا جورج",
+      "kaiya-george": "كايا جورج",
+      "lindsey-curtis": "ليندسي كيرتس",
+      "zain-geidt": "زين غايدت"
+    },
+    "project-name": "اسم المشروع",
+    "projects": {
+      "agency-website": "موقع الوكالة",
+      "blog-writing": "كتابة المدونة",
+      "social-media": "وسائل التواصل الاجتماعي",
+      "technology": "التقنية",
+      "website": "الموقع الإلكتروني"
+    },
+    "roles": {
+      "content-writing": "كتابة المحتوى",
+      "digital-marketer": "مسوّق رقمي",
+      "front-end-developer": "مطورة واجهات أمامية",
+      "project-manager": "مديرة مشاريع",
+      "web-designer": "مصممة مواقع"
+    },
+    "status": "الحالة",
+    "statuses": {
+      "active": "نشط",
+      "cancel": "ملغى",
+      "pending": "قيد الانتظار"
+    },
+    "team": "الفريق",
+    "team-member": "عضو الفريق {number}",
+    "user": "المستخدم"
   },
   "basic-tables": {
-    "basic-table-1": "Basic Table 1"
+    "basic-table-1": "جدول أساسي 1"
   },
   "blank": {
-    "card-title-here": "Card Title Here",
-    "start-putting-content-on": "Start putting content on grids or panels, you can also use different combinations of grids.Please check out the dashboard and other pages"
+    "card-title-here": "عنوان البطاقة هنا",
+    "start-putting-content-on": "ابدأ بإضافة المحتوى إلى الشبكات أو اللوحات، ويمكن أيضًا استخدام تركيبات مختلفة من الشبكات. اطّلع على لوحة التحكم والصفحات الأخرى للمزيد من الأمثلة."
   },
   "buttons": {
-    "button-text": "Button Text",
-    "outline-button-with-left": "Outline Button with Left Icon",
-    "outline-button-with-right": "Outline Button with Right Icon",
-    "primary-button": "Primary Button",
-    "primary-button-with-left": "Primary Button with Left Icon",
-    "primary-button-with-right": "Primary Button with Right Icon",
-    "secondary-button": "Secondary Button"
+    "button-text": "نص الزر",
+    "outline-button-with-left": "زر بإطار مع أيقونة في البداية",
+    "outline-button-with-right": "زر بإطار مع أيقونة في النهاية",
+    "primary-button": "زر أساسي",
+    "primary-button-with-left": "زر أساسي مع أيقونة في البداية",
+    "primary-button-with-right": "زر أساسي مع أيقونة في النهاية",
+    "secondary-button": "زر ثانوي"
   },
   "calendar": {
-    "close": "Close",
-    "enter-end-date": "Enter End Date",
-    "enter-start-date": "Enter Start Date",
-    "event-color": "Event Color",
-    "event-title": "Event Title",
-    "plan-your-next-big": "Plan your next big moment: schedule or edit an event to stay on track"
+    "add-event": "إضافة حدث",
+    "add-event-button": "إضافة حدث +",
+    "close": "إغلاق",
+    "edit-event": "تعديل الحدث",
+    "enter-end-date": "تاريخ الانتهاء",
+    "enter-start-date": "تاريخ البدء",
+    "event-color": "لون الحدث",
+    "event-title": "عنوان الحدث",
+    "events": {
+      "event-conf": "مؤتمر",
+      "meeting": "اجتماع",
+      "workshop": "ورشة عمل"
+    },
+    "levels": {
+      "danger": "خطر",
+      "primary": "أساسي",
+      "success": "نجاح",
+      "warning": "تحذير"
+    },
+    "plan-your-next-big": "جدولة حدث جديد أو تعديل حدث قائم لمتابعة خططك القادمة",
+    "update-changes": "حفظ التغييرات"
   },
   "chart-tab": {
-    "annually": "Annually",
-    "monthly": "Monthly",
-    "quarterly": "Quarterly"
+    "annually": "سنوي",
+    "monthly": "شهري",
+    "quarterly": "ربع سنوي"
+  },
+  "charts": {
+    "progress": "نسبة الإنجاز",
+    "revenue": "الإيرادات",
+    "sales": "المبيعات"
   },
   "checkbox-components": {
-    "checkbox": "Checkbox",
-    "checked": "Checked",
-    "default": "Default",
-    "disabled": "Disabled"
+    "checkbox": "مربع اختيار",
+    "checked": "محدد",
+    "default": "افتراضي",
+    "disabled": "معطّل"
+  },
+  "country-map": {
+    "india": "الهند",
+    "sweden": "السويد",
+    "united-kingdom": "المملكة المتحدة",
+    "united-states": "الولايات المتحدة"
   },
   "default-inputs": {
-    "card-number": "Card number",
-    "date-picker-input": "Date Picker Input",
-    "default-inputs": "Default Inputs",
-    "enter-your-password": "Enter your password",
+    "card-number": "رقم البطاقة",
+    "date-picker-input": "حقل اختيار التاريخ",
+    "default-inputs": "الحقول الافتراضية",
+    "enter-your-password": "أدخل كلمة المرور",
     "info-gmail-com": "info@gmail.com",
-    "input": "Input",
-    "input-with-payment": "Input with Payment",
-    "input-with-placeholder": "Input with Placeholder",
-    "password-input": "Password Input",
-    "select-a-date": "Select a date",
-    "select-an-option": "Select an option",
-    "select-input": "Select Input",
-    "time-picker-input": "Time Picker Input"
+    "input": "حقل إدخال",
+    "input-with-payment": "حقل مع وسيلة الدفع",
+    "input-with-placeholder": "حقل مع نص إرشادي",
+    "options": {
+      "development": "التطوير",
+      "marketing": "التسويق",
+      "template": "القوالب"
+    },
+    "password-input": "حقل كلمة المرور",
+    "select-a-date": "اختيار تاريخ",
+    "select-an-option": "اختيار أحد الخيارات",
+    "select-input": "قائمة اختيار",
+    "time-picker-input": "حقل اختيار الوقت"
   },
   "default-modal": {
-    "close": "Close",
-    "default-modal": "Default Modal",
-    "lorem-ipsum-dolor-sit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit amet ipsum rutrum feugiat ultrices enim quam.",
-    "lorem-ipsum-dolor-sit-2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio.",
-    "modal-heading": "Modal Heading",
-    "open-modal": "Open Modal",
-    "save-changes": "Save Changes"
+    "close": "إغلاق",
+    "default-modal": "النافذة الافتراضية",
+    "lorem-ipsum-dolor-sit": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها. وُضع هنا ليعطي تصورًا عن شكل المحتوى الحقيقي في التصميم، ولمعاينة طريقة توزيع الفقرات وأحجام الخطوط قبل إضافة النص النهائي.",
+    "lorem-ipsum-dolor-sit-2": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها. وُضع هنا ليعطي تصورًا عن شكل المحتوى الحقيقي في التصميم.",
+    "modal-heading": "عنوان النافذة",
+    "open-modal": "فتح النافذة",
+    "save-changes": "حفظ التغييرات"
   },
   "demographic-card": {
-    "2-379-customers": "2,379 Customers",
-    "589-customers": "589 Customers",
-    "customers-demographic": "Customers Demographic",
-    "delete": "Delete",
-    "france": "france",
-    "france-2": "France",
-    "number-of-customer-based": "Number of customer based on country",
-    "usa": "usa",
-    "usa-2": "USA",
-    "view-more": "View More"
+    "2-379-customers": "2,379 عميلًا",
+    "589-customers": "589 عميلًا",
+    "customers-demographic": "توزيع العملاء",
+    "delete": "حذف",
+    "france": "علم فرنسا",
+    "france-2": "فرنسا",
+    "number-of-customer-based": "عدد العملاء حسب الدولة",
+    "usa": "علم الولايات المتحدة",
+    "usa-2": "الولايات المتحدة",
+    "view-more": "عرض المزيد"
   },
   "drop-zone": {
-    "browse-file": "Browse File",
-    "drag-and-drop-your": "Drag and drop your PNG, JPG, WebP, SVG images here or browse",
-    "dropzone": "Dropzone"
+    "browse-file": "تصفح الملفات",
+    "drag-and-drop-your": "اسحب صور PNG أو JPG أو WebP أو SVG وأفلتها هنا، أو تصفّح جهازك",
+    "drag-drop-files-here": "اسحب الملفات وأفلتها هنا",
+    "drop-files-here": "أفلت الملفات هنا",
+    "dropzone": "منطقة الإفلات"
   },
   "ecommerce-metrics": {
-    "customers": "Customers",
-    "orders": "Orders"
+    "customers": "العملاء",
+    "orders": "الطلبات"
   },
   "error-404": {
-    "back-to-home-page": "Back to Home Page",
-    "error": "ERROR",
-    "we-can-t-seem": "We can’t seem to find the page you are looking for!"
+    "back-to-home-page": "العودة إلى الصفحة الرئيسية",
+    "error": "خطأ",
+    "we-can-t-seem": "يبدو أن الصفحة المطلوبة غير موجودة."
   },
   "file-input-example": {
-    "file-input": "File Input",
-    "upload-file": "Upload file"
+    "file-input": "حقل رفع ملف",
+    "upload-file": "رفع ملف"
   },
   "form-in-modal": {
-    "bio": "Bio",
-    "boruch": "Boruch",
-    "close": "Close",
-    "emirhan": "Emirhan",
+    "bio": "النبذة",
+    "boruch": "بوروخ",
+    "close": "إغلاق",
+    "emirhan": "أمير خان",
     "emirhanboruch55-gmail-com": "emirhanboruch55@gmail.com",
-    "first-name": "First Name",
-    "form-in-modal": "Form In Modal",
-    "last-name": "Last Name",
-    "open-modal": "Open Modal",
-    "personal-information": "Personal Information",
-    "phone": "Phone",
-    "save-changes": "Save Changes",
-    "team-manager": "Team Manager"
+    "first-name": "الاسم الأول",
+    "form-in-modal": "نموذج داخل نافذة",
+    "last-name": "اسم العائلة",
+    "open-modal": "فتح النافذة",
+    "personal-information": "المعلومات الشخصية",
+    "phone": "الهاتف",
+    "save-changes": "حفظ التغييرات",
+    "team-manager": "مدير الفريق"
   },
   "four-is-to-three": {
-    "youtube-video": "YouTube video"
+    "youtube-video": "فيديو YouTube"
   },
   "full-screen-modal": {
-    "close": "Close",
-    "full-screen-modal": "Full Screen Modal",
-    "lorem-ipsum-dolor-sit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit amet ipsum rutrum feugiat ultrices enim quam.",
-    "lorem-ipsum-dolor-sit-2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit amet ipsum rutrum feugiat ultrices enim quam odio condimentum aliquet a nec nulla pellentesque euismod est quis mauris lacinia pharetra.",
-    "lorem-ipsum-dolor-sit-3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra.",
-    "modal-heading": "Modal Heading",
-    "open-modal": "Open Modal",
-    "save-changes": "Save Changes"
+    "close": "إغلاق",
+    "full-screen-modal": "نافذة بملء الشاشة",
+    "lorem-ipsum-dolor-sit": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها. وُضع هنا ليعطي تصورًا عن شكل المحتوى الحقيقي في التصميم، ولمعاينة طريقة توزيع الفقرات وأحجام الخطوط قبل إضافة النص النهائي.",
+    "lorem-ipsum-dolor-sit-2": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها. وُضع هنا ليعطي تصورًا عن شكل المحتوى الحقيقي في التصميم، ولمعاينة طريقة توزيع الفقرات وأحجام الخطوط قبل إضافة النص النهائي. ويساعد ذلك على تقدير المساحة التي سيشغلها النص بعد اكتمال الصفحة.",
+    "lorem-ipsum-dolor-sit-3": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها. وُضع هنا ليعطي تصورًا عن شكل المحتوى الحقيقي في التصميم.",
+    "modal-heading": "عنوان النافذة",
+    "open-modal": "فتح النافذة",
+    "save-changes": "حفظ التغييرات"
   },
   "grid-shape": {
-    "grid": "grid"
+    "grid": "شبكة زخرفية"
   },
   "home": {
-    "free-and-open-source": "Free and Open-Source Tailwind CSS Admin Dashboard Template",
-    "logo": "Logo"
+    "free-and-open-source": "قالب لوحة تحكم مجاني ومفتوح المصدر مبني على Tailwind CSS",
+    "logo": "شعار TailAdmin"
   },
   "images": {
-    "image-in-2-grid": "Image in 2 Grid",
-    "image-in-3-grid": "Image in 3 Grid",
-    "responsive-image": "Responsive image"
+    "image-in-2-grid": "صور في شبكة من عمودين",
+    "image-in-3-grid": "صور في شبكة من ثلاثة أعمدة",
+    "responsive-image": "صورة متجاوبة"
   },
   "input-group": {
-    "email": "Email",
+    "email": "البريد الإلكتروني",
     "info-gmail-com": "info@gmail.com",
-    "input-group": "Input Group",
-    "phone": "Phone"
+    "input-group": "مجموعة حقول",
+    "phone": "الهاتف"
   },
   "input-states": {
-    "disabled-email": "Disabled email",
-    "email": "Email",
-    "enter-your-email": "Enter your email",
-    "input-states": "Input States"
+    "description": "أنماط التحقق لحالات الخطأ والنجاح والتعطيل في حقول النماذج.",
+    "disabled-email": "بريد إلكتروني معطّل",
+    "email": "البريد الإلكتروني",
+    "enter-your-email": "أدخل بريدك الإلكتروني",
+    "input-states": "حالات الحقول",
+    "this-field-is-disabled": "هذا الحقل معطّل.",
+    "this-is-an-invalid-email": "عنوان البريد الإلكتروني غير صالح.",
+    "valid-email": "البريد الإلكتروني صالح."
   },
   "line-chart": {
-    "line-chart-1": "Line Chart 1"
+    "line-chart-1": "مخطط خطي 1"
+  },
+  "meta": {
+    "alerts": {
+      "description": "صفحة التنبيهات في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "التنبيهات | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "avatars": {
+      "description": "صفحة الصور الرمزية في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "الصور الرمزية | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "badge": {
+      "description": "صفحة الشارات في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "الشارات | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "bar-chart": {
+      "description": "صفحة المخطط الشريطي في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "مخطط شريطي | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "basic-tables": {
+      "description": "صفحة الجدول الأساسي في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "جدول أساسي | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "blank": {
+      "description": "الصفحة الفارغة في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "صفحة فارغة | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "buttons": {
+      "description": "صفحة الأزرار في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "الأزرار | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "calendar": {
+      "description": "صفحة التقويم في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "التقويم | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "error-404": {
+      "description": "صفحة الخطأ 404 في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "خطأ 404 | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "form-elements": {
+      "description": "صفحة عناصر النماذج في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "عناصر النماذج | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "home": {
+      "description": "الصفحة الرئيسية في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "لوحة التجارة الإلكترونية | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "images": {
+      "description": "صفحة الصور في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "الصور | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "line-chart": {
+      "description": "صفحة المخطط الخطي في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "مخطط خطي | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "modals": {
+      "description": "صفحة النوافذ المنبثقة في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "النوافذ المنبثقة | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "profile": {
+      "description": "صفحة الملف الشخصي في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "الملف الشخصي | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "signin": {
+      "description": "صفحة تسجيل الدخول في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "تسجيل الدخول | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "signup": {
+      "description": "صفحة إنشاء حساب في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "إنشاء حساب | TailAdmin، قالب لوحة تحكم Next.js"
+    },
+    "videos": {
+      "description": "صفحة الفيديو في TailAdmin، قالب لوحة تحكم مبني على Next.js مع Tailwind CSS.",
+      "title": "الفيديو | TailAdmin، قالب لوحة تحكم Next.js"
+    }
   },
   "modal-based-alerts": {
-    "danger-alert": "Danger Alert",
-    "danger-alert-2": "Danger Alert!",
-    "info-alert": "Info Alert",
-    "information-alert": "Information Alert!",
-    "lorem-ipsum-dolor-sit": "Lorem ipsum dolor sit amet consectetur. Feugiat ipsum libero tempor felis risus nisi non. Quisque eu ut tempor curabitur.",
-    "modal-based-alerts": "Modal Based Alerts",
-    "okay-got-it": "Okay, Got It",
-    "success-alert": "Success Alert",
-    "warning-alert": "Warning Alert",
-    "warning-alert-2": "Warning Alert!",
-    "well-done": "Well Done!"
+    "danger-alert": "تنبيه خطر",
+    "danger-alert-2": "تنبيه خطر!",
+    "info-alert": "تنبيه معلومات",
+    "information-alert": "تنبيه معلومات!",
+    "lorem-ipsum-dolor-sit": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها، ويعطي تصورًا عن شكل الرسالة الحقيقية.",
+    "modal-based-alerts": "تنبيهات في نوافذ منبثقة",
+    "okay-got-it": "حسنًا، فهمت",
+    "success-alert": "تنبيه نجاح",
+    "warning-alert": "تنبيه تحذير",
+    "warning-alert-2": "تنبيه تحذير!",
+    "well-done": "أحسنت!"
   },
   "monthly-sales-chart": {
-    "delete": "Delete",
-    "monthly-sales": "Monthly Sales",
-    "view-more": "View More"
+    "delete": "حذف",
+    "monthly-sales": "المبيعات الشهرية",
+    "view-more": "عرض المزيد"
   },
   "monthly-target": {
     "20k": "$20K",
-    "delete": "Delete",
-    "monthly-target": "Monthly Target",
-    "revenue": "Revenue",
-    "target": "Target",
-    "target-you-ve-set": "Target you’ve set for each month",
-    "today": "Today",
-    "view-more": "View More",
-    "you-earn-3287-today": "You earn $3287 today, it's higher than last month. Keep up your good work!"
+    "delete": "حذف",
+    "monthly-target": "الهدف الشهري",
+    "revenue": "الإيرادات",
+    "target": "الهدف",
+    "target-you-ve-set": "الهدف المحدد لكل شهر",
+    "today": "اليوم",
+    "view-more": "عرض المزيد",
+    "you-earn-3287-today": "أرباح اليوم ⁦$3287⁩، وهي أعلى من الشهر الماضي. عمل رائع!"
   },
   "multi-select": {
-    "select-option": "Select option"
+    "select-option": "اختيار خيار"
   },
   "not-found": {
-    "back-to-home-page": "Back to Home Page",
-    "error": "ERROR",
-    "we-can-t-seem": "We can’t seem to find the page you are looking for!"
+    "back-to-home-page": "العودة إلى الصفحة الرئيسية",
+    "error": "خطأ",
+    "we-can-t-seem": "يبدو أن الصفحة المطلوبة غير موجودة."
   },
   "notification-dropdown": {
-    "1-hr-ago": "1 hr ago",
-    "15-min-ago": "15 min ago",
-    "5-min-ago": "5 min ago",
-    "8-min-ago": "8 min ago",
-    "alena-franci": "Alena Franci",
-    "brandon-philips": "Brandon Philips",
-    "jocelyn-kenter": "Jocelyn Kenter",
-    "notification": "Notification",
-    "project": "Project",
-    "project-nganter-app": "Project - Nganter App",
-    "requests-permission-to-change": "requests permission to change",
-    "terry-franci": "Terry Franci",
-    "user": "User",
-    "view-all-notifications": "View All Notifications"
+    "1-hr-ago": "قبل ساعة",
+    "15-min-ago": "قبل 15 دقيقة",
+    "5-min-ago": "قبل 5 دقائق",
+    "8-min-ago": "قبل 8 دقائق",
+    "alena-franci": "ألينا فرانسي",
+    "brandon-philips": "براندون فيليبس",
+    "jocelyn-kenter": "جوسلين كينتر",
+    "notification": "الإشعارات",
+    "project": "مشروع",
+    "project-nganter-app": "مشروع تطبيق Nganter",
+    "requests-permission-to-change": "طلب إذنًا بتعديل",
+    "terry-franci": "تيري فرانسي",
+    "user": "المستخدم",
+    "view-all-notifications": "عرض كل الإشعارات"
   },
   "one-is-to-one": {
-    "youtube-video": "YouTube video"
+    "youtube-video": "فيديو YouTube"
   },
   "page-bread-crumb": {
-    "home": "Home"
+    "home": "الرئيسية"
+  },
+  "page-title": {
+    "alerts": "التنبيهات",
+    "avatar": "الصور الرمزية",
+    "badges": "الشارات",
+    "bar-chart": "مخطط شريطي",
+    "basic-table": "جدول أساسي",
+    "blank-page": "صفحة فارغة",
+    "buttons": "الأزرار",
+    "calendar": "التقويم",
+    "from-elements": "عناصر النماذج",
+    "images": "الصور",
+    "line-chart": "مخطط خطي",
+    "modals": "النوافذ المنبثقة",
+    "videos": "الفيديو"
   },
   "pagination": {
-    "next": "Next",
-    "previous": "Previous"
+    "next": "التالي",
+    "previous": "السابق"
   },
   "profile": {
-    "profile": "Profile"
+    "profile": "الملف الشخصي"
   },
   "radio-buttons": {
-    "default": "Default",
-    "disabled": "Disabled",
-    "radio-buttons": "Radio Buttons",
-    "selected": "Selected"
+    "default": "افتراضي",
+    "disabled": "معطّل",
+    "radio-buttons": "أزرار الاختيار",
+    "selected": "محدد"
   },
   "recent-orders": {
-    "category": "Category",
-    "filter": "Filter",
-    "price": "Price",
-    "products": "Products",
-    "recent-orders": "Recent Orders",
-    "see-all": "See all",
-    "status": "Status"
+    "categories": {
+      "accessories": "إكسسوارات",
+      "electronics": "إلكترونيات",
+      "laptop": "حاسوب محمول",
+      "smartphone": "هاتف ذكي",
+      "watch": "ساعة"
+    },
+    "category": "الفئة",
+    "filter": "تصفية",
+    "price": "السعر",
+    "products": "المنتجات",
+    "recent-orders": "أحدث الطلبات",
+    "see-all": "عرض الكل",
+    "status": "الحالة",
+    "statuses": {
+      "canceled": "ملغى",
+      "delivered": "تم التوصيل",
+      "pending": "قيد الانتظار"
+    },
+    "variants": "{count, plural, zero {لا خيارات} one {خيار واحد} two {خياران} few {# خيارات} many {# خيارًا} other {# خيار}}"
   },
   "responsive-image": {
-    "cover": "Cover"
+    "cover": "صورة الغلاف"
   },
   "select-inputs": {
-    "multiple-select-options": "Multiple Select Options",
-    "select-input": "Select Input",
-    "select-inputs": "Select Inputs",
-    "select-option": "Select Option"
+    "multiple-select-options": "قائمة متعددة الاختيارات",
+    "option": "الخيار {number}",
+    "options": {
+      "development": "التطوير",
+      "marketing": "التسويق",
+      "template": "القوالب"
+    },
+    "select-input": "قائمة اختيار",
+    "select-inputs": "قوائم الاختيار",
+    "select-option": "اختيار خيار",
+    "selected-values": "القيم المحددة: {values}"
+  },
+  "select": {
+    "select-an-option": "اختيار أحد الخيارات"
   },
   "sidebar-widget": {
-    "1-tailwind-css-dashboard": "#1 Tailwind CSS Dashboard",
-    "leading-tailwind-css-admin": "Leading Tailwind CSS Admin Template with 400+ UI Component and Pages.",
-    "upgrade-to-pro": "Upgrade To Pro"
+    "1-tailwind-css-dashboard": "لوحة التحكم الأولى على Tailwind CSS",
+    "leading-tailwind-css-admin": "قالب إدارة رائد مبني على Tailwind CSS، يضم أكثر من 400 مكوّن وصفحة.",
+    "upgrade-to-pro": "الترقية إلى Pro"
   },
   "sign-in-form": {
-    "back-to-dashboard": "Back to dashboard",
-    "enter-your-email-and": "Enter your email and password to sign in!",
-    "enter-your-password": "Enter your password",
-    "forgot-password": "Forgot password?",
+    "back-to-dashboard": "العودة إلى لوحة التحكم",
+    "don-t-have-an-account": "ليس لديك حساب؟",
+    "email": "البريد الإلكتروني",
+    "enter-your-email-and": "أدخل بريدك الإلكتروني وكلمة المرور لتسجيل الدخول.",
+    "enter-your-password": "أدخل كلمة المرور",
+    "forgot-password": "نسيت كلمة المرور؟",
     "info-gmail-com": "info@gmail.com",
-    "keep-me-logged-in": "Keep me logged in",
-    "or": "Or",
-    "sign-in": "Sign In",
-    "sign-in-2": "Sign in",
-    "sign-in-with-google": "Sign in with Google",
-    "sign-in-with-x": "Sign in with X"
+    "keep-me-logged-in": "إبقائي مسجلًا",
+    "or": "أو",
+    "password": "كلمة المرور",
+    "sign-in": "تسجيل الدخول",
+    "sign-in-2": "تسجيل الدخول",
+    "sign-in-with-google": "تسجيل الدخول عبر Google",
+    "sign-in-with-x": "تسجيل الدخول عبر X",
+    "sign-up": "إنشاء حساب"
   },
   "sign-up-form": {
-    "back-to-dashboard": "Back to dashboard",
-    "enter-your-email": "Enter your email",
-    "enter-your-email-and": "Enter your email and password to sign up!",
-    "enter-your-first-name": "Enter your first name",
-    "enter-your-last-name": "Enter your last name",
-    "enter-your-password": "Enter your password",
-    "or": "Or",
-    "sign-up": "Sign Up",
-    "sign-up-with-google": "Sign up with Google",
-    "sign-up-with-x": "Sign up with X"
+    "already-have-an-account": "لديك حساب بالفعل؟",
+    "back-to-dashboard": "العودة إلى لوحة التحكم",
+    "by-creating-an-account": "إنشاء حساب يعني الموافقة على <terms>الشروط والأحكام</terms> و<privacy>سياسة الخصوصية</privacy>.",
+    "email": "البريد الإلكتروني",
+    "enter-your-email": "أدخل بريدك الإلكتروني",
+    "enter-your-email-and": "أدخل بريدك الإلكتروني وكلمة المرور لإنشاء حساب.",
+    "enter-your-first-name": "أدخل اسمك الأول",
+    "enter-your-last-name": "أدخل اسم العائلة",
+    "enter-your-password": "أدخل كلمة المرور",
+    "first-name": "الاسم الأول",
+    "last-name": "اسم العائلة",
+    "or": "أو",
+    "password": "كلمة المرور",
+    "sign-in": "تسجيل الدخول",
+    "sign-up": "إنشاء حساب",
+    "sign-up-with-google": "إنشاء حساب عبر Google",
+    "sign-up-with-x": "إنشاء حساب عبر X"
   },
   "sixteen-is-to-nine": {
-    "youtube-video": "YouTube video"
+    "youtube-video": "فيديو YouTube"
   },
   "statistics-chart": {
-    "select-date-range": "Select date range",
-    "statistics": "Statistics",
-    "target-you-ve-set": "Target you've set for each month"
+    "select-date-range": "اختيار الفترة",
+    "statistics": "الإحصاءات",
+    "target-you-ve-set": "الهدف المحدد لكل شهر"
   },
   "text-area-input": {
-    "description": "Description",
-    "textarea-input-field": "Textarea input field"
+    "description": "الوصف",
+    "please-enter-a-valid": "يُرجى إدخال رسالة صالحة.",
+    "textarea-input-field": "حقل نص متعدد الأسطر"
+  },
+  "text-area": {
+    "enter-your-message": "اكتب رسالتك"
   },
   "three-column-image-grid": {
-    "grid": "grid"
+    "grid": "صورة في الشبكة"
   },
   "toggle-switch": {
-    "checked": "Checked",
-    "default": "Default",
-    "disabled": "Disabled",
-    "toggle-switch-input": "Toggle switch input"
+    "checked": "مفعّل",
+    "default": "افتراضي",
+    "disabled": "معطّل",
+    "toggle-switch-input": "مفتاح التبديل"
   },
   "twenty-one-is-to-nine": {
-    "youtube-video": "YouTube video"
+    "youtube-video": "فيديو YouTube"
   },
   "two-column-image-grid": {
-    "grid": "grid"
+    "grid": "صورة في الشبكة"
   },
   "user-address-card": {
-    "address": "Address",
+    "address": "العنوان",
     "as4568384": "AS4568384",
-    "city-state": "City/State",
-    "close": "Close",
-    "country": "Country",
-    "edit": "Edit",
-    "edit-address": "Edit Address",
+    "city-state": "المدينة أو الولاية",
+    "close": "إغلاق",
+    "country": "الدولة",
+    "edit": "تعديل",
+    "edit-address": "تعديل العنوان",
     "ert-2489": "ERT 2489",
-    "phoenix-arizona-united-states": "Phoenix, Arizona, United States.",
-    "postal-code": "Postal Code",
-    "save-changes": "Save Changes",
-    "tax-id": "TAX ID",
-    "united-states": "United States",
-    "update-your-details-to": "Update your details to keep your profile up-to-date."
+    "phoenix-arizona-united-states": "فينكس، أريزونا، الولايات المتحدة",
+    "postal-code": "الرمز البريدي",
+    "save-changes": "حفظ التغييرات",
+    "tax-id": "الرقم الضريبي",
+    "united-states": "الولايات المتحدة",
+    "update-your-details-to": "حدّث بياناتك ليبقى ملفك الشخصي محدّثًا."
   },
   "user-dropdown": {
-    "account-settings": "Account settings",
-    "edit-profile": "Edit profile",
-    "musharof": "Musharof",
-    "musharof-chowdhury": "Musharof Chowdhury",
+    "account-settings": "إعدادات الحساب",
+    "edit-profile": "تعديل الملف الشخصي",
+    "language": "اللغة",
+    "musharof": "مشرف",
+    "musharof-chowdhury": "مشرف تشودري",
     "randomuser-pimjo-com": "randomuser@pimjo.com",
-    "sign-out": "Sign out",
-    "support": "Support",
-    "user": "User"
+    "sign-out": "تسجيل الخروج",
+    "support": "الدعم",
+    "user": "المستخدم"
   },
   "user-info-card": {
-    "bio": "Bio",
-    "chowdhury": "Chowdhury",
-    "close": "Close",
-    "edit": "Edit",
-    "edit-personal-information": "Edit Personal Information",
-    "email-address": "Email address",
-    "email-address-2": "Email Address",
+    "bio": "النبذة",
+    "chowdhury": "تشودري",
+    "close": "إغلاق",
+    "edit": "تعديل",
+    "edit-personal-information": "تعديل المعلومات الشخصية",
+    "email-address": "البريد الإلكتروني",
+    "email-address-2": "البريد الإلكتروني",
     "facebook": "Facebook",
-    "first-name": "First Name",
+    "first-name": "الاسم الأول",
     "instagram": "Instagram",
-    "last-name": "Last Name",
-    "linkedin": "Linkedin",
-    "musharof": "Musharof",
-    "personal-information": "Personal Information",
-    "phone": "Phone",
+    "last-name": "اسم العائلة",
+    "linkedin": "LinkedIn",
+    "musharof": "مشرف",
+    "personal-information": "المعلومات الشخصية",
+    "phone": "الهاتف",
     "randomuser-pimjo-com": "randomuser@pimjo.com",
-    "save-changes": "Save Changes",
-    "social-links": "Social Links",
-    "team-manager": "Team Manager",
-    "update-your-details-to": "Update your details to keep your profile up-to-date.",
+    "save-changes": "حفظ التغييرات",
+    "social-links": "روابط التواصل الاجتماعي",
+    "team-manager": "مدير الفريق",
+    "update-your-details-to": "حدّث بياناتك ليبقى ملفك الشخصي محدّثًا.",
     "x-com": "X.com"
   },
   "user-meta-card": {
-    "arizona-united-states": "Arizona, United States",
-    "bio": "Bio",
-    "close": "Close",
-    "edit": "Edit",
-    "edit-personal-information": "Edit Personal Information",
-    "email-address": "Email Address",
+    "arizona-united-states": "أريزونا، الولايات المتحدة",
+    "bio": "النبذة",
+    "close": "إغلاق",
+    "edit": "تعديل",
+    "edit-personal-information": "تعديل المعلومات الشخصية",
+    "email-address": "البريد الإلكتروني",
     "facebook": "Facebook",
-    "first-name": "First Name",
+    "first-name": "الاسم الأول",
     "instagram": "Instagram",
-    "last-name": "Last Name",
-    "linkedin": "Linkedin",
-    "musharof-chowdhury": "Musharof Chowdhury",
-    "personal-information": "Personal Information",
-    "phone": "Phone",
-    "save-changes": "Save Changes",
-    "social-links": "Social Links",
-    "team-manager": "Team Manager",
-    "update-your-details-to": "Update your details to keep your profile up-to-date.",
-    "user": "user",
+    "last-name": "اسم العائلة",
+    "linkedin": "LinkedIn",
+    "musharof-chowdhury": "مشرف تشودري",
+    "personal-information": "المعلومات الشخصية",
+    "phone": "الهاتف",
+    "save-changes": "حفظ التغييرات",
+    "social-links": "روابط التواصل الاجتماعي",
+    "team-manager": "مدير الفريق",
+    "update-your-details-to": "حدّث بياناتك ليبقى ملفك الشخصي محدّثًا.",
+    "user": "صورة المستخدم",
     "x-com": "X.com"
   },
   "vertically-centered-modal": {
-    "all-done-success-confirmed": "All Done! Success Confirmed",
-    "close": "Close",
-    "lorem-ipsum-dolor-sit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra.",
-    "open-modal": "Open Modal",
-    "save-changes": "Save Changes",
-    "vertically-centered-modal": "Vertically Centered Modal"
+    "all-done-success-confirmed": "تم بنجاح!",
+    "close": "إغلاق",
+    "lorem-ipsum-dolor-sit": "هذا النص مثال لنص يمكن استبداله في المساحة نفسها. وُضع هنا ليعطي تصورًا عن شكل المحتوى الحقيقي في التصميم.",
+    "open-modal": "فتح النافذة",
+    "save-changes": "حفظ التغييرات",
+    "vertically-centered-modal": "نافذة في منتصف الشاشة"
   },
   "videos-example": {
-    "video-ratio-1-1": "Video Ratio 1:1",
-    "video-ratio-16-9": "Video Ratio 16:9",
-    "video-ratio-21-9": "Video Ratio 21:9",
-    "video-ratio-4-3": "Video Ratio 4:3"
+    "video-ratio-1-1": "فيديو بنسبة ⁦1:1⁩",
+    "video-ratio-16-9": "فيديو بنسبة ⁦16:9⁩",
+    "video-ratio-21-9": "فيديو بنسبة ⁦21:9⁩",
+    "video-ratio-4-3": "فيديو بنسبة ⁦4:3⁩"
+  },
+  "youtube-embed": {
+    "youtube-video": "فيديو YouTube"
   }
 }
