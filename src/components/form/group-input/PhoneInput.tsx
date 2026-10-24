@@ -45,7 +45,7 @@ const PhoneInput: React.FC<PhoneInputProps> = ({
   };
 
   return (
-    <div className="relative flex">
+    <div className="relative flex" dir="ltr">
       {/* Dropdown position: Start */}
       {selectPosition === "start" && (
         <div className="absolute">
@@ -64,7 +64,7 @@ const PhoneInput: React.FC<PhoneInputProps> = ({
               </option>
             ))}
           </select>
-          <div className="absolute inset-y-0 flex items-center text-gray-700 pointer-events-none bg-none right-3 dark:text-gray-400">
+          <div className="absolute inset-y-0 flex items-center text-gray-700 pointer-events-none bg-none end-3 dark:text-gray-400">
             <svg
               className="stroke-current"
               width="20"
@@ -86,7 +86,7 @@ const PhoneInput: React.FC<PhoneInputProps> = ({
       )}
 
       {/* Input field */}
-      <input dir="ltr"
+      <input
         type="tel"
         value={phoneNumber}
         onChange={handlePhoneNumberChange}
@@ -114,7 +114,7 @@ const PhoneInput: React.FC<PhoneInputProps> = ({
               </option>
             ))}
           </select>
-          <div className="absolute inset-y-0 flex items-center text-gray-700 pointer-events-none right-3 dark:text-gray-400">
+          <div className="absolute inset-y-0 flex items-center text-gray-700 pointer-events-none end-3 dark:text-gray-400">
             <svg
               className="stroke-current"
               width="20"

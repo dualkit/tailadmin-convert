@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import React from "react";
 
 interface AvatarProps {
@@ -34,10 +35,11 @@ const statusColorClasses = {
 
 const Avatar: React.FC<AvatarProps> = ({
   src,
-  alt = "User Avatar",
+  alt,
   size = "medium",
   status = "none",
 }) => {
+  const t = useTranslations();
   return (
     <div className={`relative  rounded-full ${sizeClasses[size]}`}>
       {/* Avatar Image */}
@@ -46,7 +48,7 @@ const Avatar: React.FC<AvatarProps> = ({
         height="0"
         sizes="100vw"
         src={src}
-        alt={alt}
+        alt={alt ?? t('avatar.user-avatar')}
         className="object-cover w-full rounded-full"
       />
 

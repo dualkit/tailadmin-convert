@@ -2,21 +2,21 @@ import PageBreadcrumb from "@/components/common/PageBreadCrumb";
 import Badge from "@/components/ui/badge/Badge";
 import { PlusIcon } from "@/icons";
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export const metadata: Metadata = {
-  title: "Next.js Badge | TailAdmin - Next.js Dashboard Template",
-  description:
-    "This is Next.js Badge page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
-  // other metadata
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return { title: t("badge.title"), description: t("badge.description") };
+}
 
 export default function BadgePage() {
   const t = useTranslations();
   return (
     <div>
-      <PageBreadcrumb pageTitle="Badges" />
+      <PageBreadcrumb pageTitle={t('page-title.badges')} />
       <div className="space-y-5 sm:space-y-6">
         <div className="rounded-2xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-white/[0.03]">
           <div className="px-6 py-5">

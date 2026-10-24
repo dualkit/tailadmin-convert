@@ -99,7 +99,7 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
                     placeholder={t('multi-select.select-option')}
                     className="w-full h-full p-1 pe-2 text-sm bg-transparent border-0 outline-hidden appearance-none placeholder:text-gray-800 focus:border-0 focus:outline-hidden focus:ring-0 dark:placeholder:text-white/90"
                     readOnly
-                    value="Select option"
+                    value={t('multi-select.select-option')}
                   />
                 )}
               </div>

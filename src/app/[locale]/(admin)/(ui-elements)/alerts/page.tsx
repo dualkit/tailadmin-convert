@@ -2,21 +2,21 @@ import ComponentCard from "@/components/common/ComponentCard";
 import PageBreadcrumb from "@/components/common/PageBreadCrumb";
 import Alert from "@/components/ui/alert/Alert";
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export const metadata: Metadata = {
-  title: "Next.js Alerts | TailAdmin - Next.js Dashboard Template",
-  description:
-    "This is Next.js Alerts page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
-  // other metadata
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return { title: t("alerts.title"), description: t("alerts.description") };
+}
 
 export default function Alerts() {
   const t = useTranslations();
   return (
     <div>
-      <PageBreadcrumb pageTitle="Alerts" />
+      <PageBreadcrumb pageTitle={t('page-title.alerts')} />
       <div className="space-y-5 sm:space-y-6">
         <ComponentCard title={t('alerts.success-alert')}>
           <Alert

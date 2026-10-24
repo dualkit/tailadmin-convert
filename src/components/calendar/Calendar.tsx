@@ -12,7 +12,9 @@ import {
 } from "@fullcalendar/core";
 import { useModal } from "@/hooks/useModal";
 import { Modal } from "@/components/ui/modal";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import arLocale from "@fullcalendar/core/locales/ar";
+import { dkIntlLocale } from "@/lib/dualkit-locale";
 
 interface CalendarEvent extends EventInput {
   extendedProps: {
@@ -20,8 +22,19 @@ interface CalendarEvent extends EventInput {
   };
 }
 
+/**
+ * FullCalendar settings for Arabic: its Arabic labels and right-to-left layout, Western digits
+ * through the app's Intl locale, and the app's Sunday week start (a regional choice left to the
+ * product). English gets nothing, so the English calendar keeps its defaults.
+ */
+const calendarLocale = (locale: string) =>
+  locale === "ar"
+    ? { locale: { ...arLocale, code: dkIntlLocale(locale) }, direction: "rtl" as const, firstDay: 0 }
+    : {};
+
 const Calendar: React.FC = () => {
   const t = useTranslations();
+  const locale = useLocale();
   const [selectedEvent, setSelectedEvent] = useState<CalendarEvent | null>(
     null
   );
@@ -45,25 +58,25 @@ const Calendar: React.FC = () => {
     setEvents([
       {
         id: "1",
-        title: "Event Conf.",
+        title: t('calendar.events.event-conf'),
         start: new Date().toISOString().split("T")[0],
         extendedProps: { calendar: "Danger" },
       },
       {
         id: "2",
-        title: "Meeting",
+        title: t('calendar.events.meeting'),
         start: new Date(Date.now() + 86400000).toISOString().split("T")[0],
         extendedProps: { calendar: "Success" },
       },
       {
         id: "3",
-        title: "Workshop",
+        title: t('calendar.events.workshop'),
         start: new Date(Date.now() + 172800000).toISOString().split("T")[0],
         end: new Date(Date.now() + 259200000).toISOString().split("T")[0],
         extendedProps: { calendar: "Primary" },
       },
     ]);
-  }, []);
+  }, [t]);
 
   const handleDateSelect = (selectInfo: DateSelectArg) => {
     resetModalFields();
@@ -129,6 +142,7 @@ const Calendar: React.FC = () => {
           ref={calendarRef}
           plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
           initialView="dayGridMonth"
+          {...calendarLocale(locale)}
           headerToolbar={{
             left: "prev,next addEventButton",
             center: "title",
@@ -141,7 +155,7 @@ const Calendar: React.FC = () => {
           eventContent={renderEventContent}
           customButtons={{
             addEventButton: {
-              text: "Add Event +",
+              text: t('calendar.add-event-button'),
               click: openModal,
             },
           }}
@@ -155,7 +169,7 @@ const Calendar: React.FC = () => {
         <div className="flex flex-col px-2 overflow-y-auto custom-scrollbar">
           <div>
             <h5 className="mb-2 font-semibold text-gray-800 modal-title text-theme-xl dark:text-white/90 lg:text-2xl">
-              {selectedEvent ? "Edit Event" : "Add Event"}
+              {selectedEvent ? t('calendar.edit-event') : t('calendar.add-event')}
             </h5>
             <p className="text-sm text-gray-500 dark:text-gray-400">
               {t('calendar.plan-your-next-big')}
@@ -208,7 +222,7 @@ const Calendar: React.FC = () => {
                             ></span>
                           </span>
                         </span>
-                        {key}
+                        {t(`calendar.levels.${key.toLowerCase()}`)}
                       </label>
                     </div>
                   </div>
@@ -259,7 +273,7 @@ const Calendar: React.FC = () => {
               type="button"
               className="btn btn-success btn-update-event flex w-full justify-center rounded-lg bg-brand-500 px-4 py-2.5 text-sm font-medium text-white hover:bg-brand-600 sm:w-auto"
             >
-              {selectedEvent ? "Update Changes" : "Add Event"}
+              {selectedEvent ? t('calendar.update-changes') : t('calendar.add-event')}
             </button>
           </div>
         </div>

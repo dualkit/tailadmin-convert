@@ -5,11 +5,15 @@ import { ApexOptions } from "apexcharts";
 import flatpickr from "flatpickr";
 import ChartTab from "../common/ChartTab";
 import { CalenderIcon } from "../../icons";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { chartLocale } from "@/lib/chart-locale";
+import { flatpickrLocale } from "@/lib/flatpickr-locale";
 
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 export default function StatisticsChart() {
+  const locale = useLocale();
+  const chart = chartLocale(locale);
   const t = useTranslations();
   const datePickerRef = useRef<HTMLInputElement>(null);
 
@@ -25,6 +29,7 @@ export default function StatisticsChart() {
       static: true,
       monthSelectorType: "static",
       dateFormat: "M d",
+      ...flatpickrLocale(locale),
       defaultDate: [sevenDaysAgo, today],
       clickOpens: true,
       prevArrow:
@@ -38,17 +43,17 @@ export default function StatisticsChart() {
         fp.destroy();
       }
     };
-  }, []);
+  }, [locale]);
 
   const options: ApexOptions = {
     legend: {
       show: false, // Hide legend
       position: "top",
-      horizontalAlign: "left",
+      horizontalAlign: chart.start("left"),
     },
     colors: ["#465FFF", "#9CB9FF"], // Define line colors
     chart: {
-      fontFamily: "Outfit, sans-serif",
+      fontFamily: chart.font("Outfit, sans-serif"),
       height: 310,
       type: "line", // Set the chart type to 'line'
       toolbar: {
@@ -76,6 +81,8 @@ export default function StatisticsChart() {
       },
     },
     grid: {
+      // Room for the outer Arabic month names, which are wider than "Jan" and "Dec".
+      ...chart.arabic({ padding: { left: 24, right: 24 } }),
       xaxis: {
         lines: {
           show: false, // Hide grid lines on x-axis
@@ -98,7 +105,7 @@ export default function StatisticsChart() {
     },
     xaxis: {
       type: "category", // Category-based x-axis
-      categories: [
+      categories: chart.months([
         "Jan",
         "Feb",
         "Mar",
@@ -111,7 +118,7 @@ export default function StatisticsChart() {
         "Oct",
         "Nov",
         "Dec",
-      ],
+      ]),
       axisBorder: {
         show: false, // Hide x-axis border
       },
@@ -123,6 +130,7 @@ export default function StatisticsChart() {
       },
     },
     yaxis: {
+      opposite: chart.rtl,
       labels: {
         style: {
           fontSize: "12px", // Adjust font size for y-axis labels
@@ -138,16 +146,16 @@ export default function StatisticsChart() {
     },
   };
 
-  const series = [
+  const series = chart.series([
     {
-      name: "Sales",
+      name: t('charts.sales'),
       data: [180, 190, 170, 160, 175, 165, 170, 205, 230, 210, 240, 235],
     },
     {
-      name: "Revenue",
+      name: t('charts.revenue'),
       data: [40, 30, 50, 40, 55, 40, 70, 100, 110, 120, 150, 140],
     },
-  ];
+  ]);
   return (
     <div className="rounded-2xl border border-gray-200 bg-white px-5 pb-5 pt-5 dark:border-gray-800 dark:bg-white/[0.03] sm:px-6 sm:pt-6">
       <div className="flex flex-col gap-5 mb-6 sm:flex-row sm:justify-between">
@@ -162,10 +170,10 @@ export default function StatisticsChart() {
         <div className="flex items-center gap-3 sm:justify-end">
           <ChartTab />
           <div className="relative inline-flex items-center">
-            <CalenderIcon className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 lg:left-3 lg:top-1/2 lg:translate-x-0 lg:-translate-y-1/2  text-gray-500 dark:text-gray-400 pointer-events-none z-10" />
+            <CalenderIcon className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 lg:start-3 lg:top-1/2 lg:translate-x-0 lg:-translate-y-1/2  text-gray-500 dark:text-gray-400 pointer-events-none z-10" />
             <input
               ref={datePickerRef}
-              className="h-10 w-10 lg:w-40 lg:h-auto  lg:ps-10 lg:pe-3 lg:py-2 rounded-lg border border-gray-200 bg-white text-sm font-medium text-transparent lg:text-gray-700 outline-none dark:border-gray-700 dark:bg-gray-800 dark:lg:text-gray-300 cursor-pointer"
+              className="h-10 w-10 lg:w-40 rtl:lg:w-56 lg:h-auto  lg:ps-10 lg:pe-3 lg:py-2 rounded-lg border border-gray-200 bg-white text-sm font-medium text-transparent lg:text-gray-700 outline-none dark:border-gray-700 dark:bg-gray-800 dark:lg:text-gray-300 cursor-pointer"
               placeholder={t('statistics-chart.select-date-range')}
             />
           </div>

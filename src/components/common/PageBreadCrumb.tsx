@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import React from "react";
 import { useTranslations } from "next-intl";
 
@@ -25,6 +25,7 @@ const PageBreadcrumb: React.FC<BreadcrumbProps> = ({ pageTitle }) => {
             >
               {t('page-bread-crumb.home')}
               <svg
+                data-dk-mirror=""
                 className="stroke-current"
                 width="17"
                 height="16"

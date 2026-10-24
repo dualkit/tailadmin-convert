@@ -204,12 +204,12 @@ export default function UserMetaCard() {
 
                   <div className="col-span-2 lg:col-span-1">
                     <Label>{t('user-meta-card.email-address')}</Label>
-                    <Input type="text" defaultValue="randomuser@pimjo.com" />
+                    <Input type="email" defaultValue="randomuser@pimjo.com" />
                   </div>
 
                   <div className="col-span-2 lg:col-span-1">
                     <Label>{t('user-meta-card.phone')}</Label>
-                    <Input type="text" defaultValue="+09 363 398 46" />
+                    <Input type="tel" defaultValue="+09 363 398 46" />
                   </div>
 
                   <div className="col-span-2">

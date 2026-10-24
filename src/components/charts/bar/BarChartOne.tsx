@@ -2,6 +2,8 @@
 import React from "react";
 
 import { ApexOptions } from "apexcharts";
+import { useLocale, useTranslations } from "next-intl";
+import { chartLocale } from "@/lib/chart-locale";
 
 import dynamic from "next/dynamic";
 // Dynamically import the ReactApexChart component
@@ -10,10 +12,12 @@ const ReactApexChart = dynamic(() => import("react-apexcharts"), {
 });
 
 export default function BarChartOne() {
+  const t = useTranslations();
+  const chart = chartLocale(useLocale());
   const options: ApexOptions = {
     colors: ["#465fff"],
     chart: {
-      fontFamily: "Outfit, sans-serif",
+      fontFamily: chart.font("Outfit, sans-serif"),
       type: "bar",
       height: 180,
       toolbar: {
@@ -37,7 +41,7 @@ export default function BarChartOne() {
       colors: ["transparent"],
     },
     xaxis: {
-      categories: [
+      categories: chart.months([
         "Jan",
         "Feb",
         "Mar",
@@ -50,7 +54,7 @@ export default function BarChartOne() {
         "Oct",
         "Nov",
         "Dec",
-      ],
+      ]),
       axisBorder: {
         show: false,
       },
@@ -61,10 +65,11 @@ export default function BarChartOne() {
     legend: {
       show: true,
       position: "top",
-      horizontalAlign: "left",
-      fontFamily: "Outfit",
+      horizontalAlign: chart.start("left"),
+      fontFamily: chart.font("Outfit"),
     },
     yaxis: {
+      opposite: chart.rtl,
       title: {
         text: undefined,
       },
@@ -89,12 +94,12 @@ export default function BarChartOne() {
       },
     },
   };
-  const series = [
+  const series = chart.series([
     {
-      name: "Sales",
+      name: t('charts.sales'),
       data: [168, 385, 201, 298, 187, 195, 291, 110, 215, 390, 280, 112],
     },
-  ];
+  ]);
   return (
     <div className="max-w-full overflow-x-auto custom-scrollbar">
       <div id="chartOne" className="min-w-[1000px]">

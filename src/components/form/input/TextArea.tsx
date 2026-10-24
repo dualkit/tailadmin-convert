@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import React from "react";
 
 interface TextareaProps {
@@ -12,7 +13,7 @@ interface TextareaProps {
 }
 
 const TextArea: React.FC<TextareaProps> = ({
-  placeholder = "Enter your message", // Default placeholder
+  placeholder, // Placeholder text, translated by default
   rows = 3, // Default number of rows
   value = "", // Default value
   onChange, // Callback for changes
@@ -21,6 +22,7 @@ const TextArea: React.FC<TextareaProps> = ({
   error = false, // Error state
   hint = "", // Default hint text
 }) => {
+  const t = useTranslations();
   const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     if (onChange) {
       onChange(e.target.value);
@@ -40,7 +42,7 @@ const TextArea: React.FC<TextareaProps> = ({
   return (
     <div className="relative">
       <textarea
-        placeholder={placeholder}
+        placeholder={placeholder ?? t('text-area.enter-your-message')}
         rows={rows}
         value={value}
         onChange={handleChange}

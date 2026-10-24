@@ -2,20 +2,21 @@ import ComponentCard from "@/components/common/ComponentCard";
 import PageBreadcrumb from "@/components/common/PageBreadCrumb";
 import Avatar from "@/components/ui/avatar/Avatar";
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export const metadata: Metadata = {
-  title: "Next.js Avatars | TailAdmin - Next.js Dashboard Template",
-  description:
-    "This is Next.js Avatars page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return { title: t("avatars.title"), description: t("avatars.description") };
+}
 
 export default function AvatarPage() {
   const t = useTranslations();
   return (
     <div>
-      <PageBreadcrumb pageTitle="Avatar" />
+      <PageBreadcrumb pageTitle={t('page-title.avatar')} />
       <div className="space-y-5 sm:space-y-6">
         <ComponentCard title={t('avatars.default-avatar')}>
           {/* Default Avatar (No Status) */}

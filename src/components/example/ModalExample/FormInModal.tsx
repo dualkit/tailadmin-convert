@@ -49,7 +49,9 @@ export default function FormInModal() {
 
             <div className="col-span-1">
               <Label>{t('form-in-modal.phone')}</Label>
-              <Input type="text" placeholder="+09 363 398 46" />
+              <div dir="ltr">
+                <Input type="text" placeholder="+09 363 398 46" />
+              </div>
             </div>
 
             <div className="col-span-1 sm:col-span-2">

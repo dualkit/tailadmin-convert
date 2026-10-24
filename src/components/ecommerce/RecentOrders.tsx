@@ -175,10 +175,10 @@ export default function RecentOrders() {
                     </div>
                     <div>
                       <p className="font-medium text-gray-800 text-theme-sm dark:text-white/90">
-                        {product.name}
+                        <bdi>{product.name}</bdi>
                       </p>
                       <span className="text-gray-500 text-theme-xs dark:text-gray-400">
-                        {product.variants}
+                        {t('recent-orders.variants', { count: parseInt(product.variants, 10) })}
                       </span>
                     </div>
                   </div>
@@ -187,7 +187,7 @@ export default function RecentOrders() {
                   <bdi>{product.price}</bdi>
                 </TableCell>
                 <TableCell className="py-3 text-gray-500 text-theme-sm dark:text-gray-400">
-                  {product.category}
+                  {t(`recent-orders.categories.${product.category.toLowerCase()}`)}
                 </TableCell>
                 <TableCell className="py-3 text-gray-500 text-theme-sm dark:text-gray-400">
                   <Badge
@@ -200,7 +200,7 @@ export default function RecentOrders() {
                         : "error"
                     }
                   >
-                    {product.status}
+                    {t(`recent-orders.statuses.${product.status.toLowerCase()}`)}
                   </Badge>
                 </TableCell>
               </TableRow>

@@ -3,7 +3,7 @@ import Checkbox from "@/components/form/input/Checkbox";
 import Input from "@/components/form/input/InputField";
 import Label from "@/components/form/Label";
 import { ChevronLeftIcon, EyeCloseIcon, EyeIcon } from "@/icons";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import React, { useState } from "react";
 import { useTranslations } from "next-intl";
 
@@ -18,7 +18,7 @@ export default function SignUpForm() {
           href="/"
           className="inline-flex items-center text-sm text-gray-500 transition-colors hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
         >
-          <ChevronLeftIcon />
+          <ChevronLeftIcon data-dk-mirror="" />
           {t('sign-up-form.back-to-dashboard')}
         </Link>
       </div>
@@ -91,7 +91,7 @@ export default function SignUpForm() {
                   {/* <!-- First Name --> */}
                   <div className="sm:col-span-1">
                     <Label>
-                      First Name<span className="text-error-500">*</span>
+                      {t('sign-up-form.first-name')}<span className="text-error-500">*</span>
                     </Label>
                     <Input
                       type="text"
@@ -103,7 +103,7 @@ export default function SignUpForm() {
                   {/* <!-- Last Name --> */}
                   <div className="sm:col-span-1">
                     <Label>
-                      Last Name<span className="text-error-500">*</span>
+                      {t('sign-up-form.last-name')}<span className="text-error-500">*</span>
                     </Label>
                     <Input
                       type="text"
@@ -116,7 +116,7 @@ export default function SignUpForm() {
                 {/* <!-- Email --> */}
                 <div>
                   <Label>
-                    Email<span className="text-error-500">*</span>
+                    {t('sign-up-form.email')}<span className="text-error-500">*</span>
                   </Label>
                   <Input
                     type="email"
@@ -128,7 +128,7 @@ export default function SignUpForm() {
                 {/* <!-- Password --> */}
                 <div>
                   <Label>
-                    Password<span className="text-error-500">*</span>
+                    {t('sign-up-form.password')}<span className="text-error-500">*</span>
                   </Label>
                   <div className="relative">
                     <Input
@@ -155,14 +155,14 @@ export default function SignUpForm() {
                     onChange={setIsChecked}
                   />
                   <p className="inline-block font-normal text-gray-500 dark:text-gray-400">
-                    By creating an account means you agree to the{" "}
-                    <span className="text-gray-800 dark:text-white/90">
-                      Terms and Conditions,
-                    </span>{" "}
-                    and our{" "}
-                    <span className="text-gray-800 dark:text-white">
-                      Privacy Policy
-                    </span>
+                    {t.rich('sign-up-form.by-creating-an-account', {
+                      terms: (chunks) => (
+                        <span className="text-gray-800 dark:text-white/90">{chunks}</span>
+                      ),
+                      privacy: (chunks) => (
+                        <span className="text-gray-800 dark:text-white">{chunks}</span>
+                      ),
+                    })}
                   </p>
                 </div>
                 {/* <!-- Button --> */}
@@ -176,12 +176,12 @@ export default function SignUpForm() {
 
             <div className="mt-5">
               <p className="text-sm font-normal text-center text-gray-700 dark:text-gray-400 sm:text-start">
-                Already have an account?
+                {t('sign-up-form.already-have-an-account')}
                 <Link
                   href="/signin"
                   className="text-brand-500 hover:text-brand-600 dark:text-brand-400"
                 >
-                  Sign In
+                  {t('sign-up-form.sign-in')}
                 </Link>
               </p>
             </div>

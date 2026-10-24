@@ -4,21 +4,21 @@ import ResponsiveImage from "@/components/ui/images/ResponsiveImage";
 import ThreeColumnImageGrid from "@/components/ui/images/ThreeColumnImageGrid";
 import TwoColumnImageGrid from "@/components/ui/images/TwoColumnImageGrid";
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export const metadata: Metadata = {
-  title: "Next.js Images | TailAdmin - Next.js Dashboard Template",
-  description:
-    "This is Next.js Images page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
-  // other metadata
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return { title: t("images.title"), description: t("images.description") };
+}
 
 export default function Images() {
   const t = useTranslations();
   return (
     <div>
-      <PageBreadcrumb pageTitle="Images" />
+      <PageBreadcrumb pageTitle={t('page-title.images')} />
       <div className="space-y-5 sm:space-y-6">
         <ComponentCard title={t('images.responsive-image')}>
           <ResponsiveImage />

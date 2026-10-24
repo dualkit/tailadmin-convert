@@ -112,6 +112,9 @@ const tableData: Order[] = [
   },
 ];
 
+/** Message keys are the English values in kebab case, so the sample data stays as it is. */
+const keyOf = (value: string): string => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
 export default function BasicTableOne() {
   const t = useTranslations();
   return (
@@ -166,21 +169,21 @@ export default function BasicTableOne() {
                           width={40}
                           height={40}
                           src={order.user.image}
-                          alt={order.user.name}
+                          alt={t(`basic-table-one.people.${keyOf(order.user.name)}`)}
                         />
                       </div>
                       <div>
                         <span className="block font-medium text-gray-800 text-theme-sm dark:text-white/90">
-                          {order.user.name}
+                          {t(`basic-table-one.people.${keyOf(order.user.name)}`)}
                         </span>
                         <span className="block text-gray-500 text-theme-xs dark:text-gray-400">
-                          {order.user.role}
+                          {t(`basic-table-one.roles.${keyOf(order.user.role)}`)}
                         </span>
                       </div>
                     </div>
                   </TableCell>
                   <TableCell className="px-4 py-3 text-gray-500 text-start text-theme-sm dark:text-gray-400">
-                    {order.projectName}
+                    {t(`basic-table-one.projects.${keyOf(order.projectName)}`)}
                   </TableCell>
                   <TableCell className="px-4 py-3 text-gray-500 text-start text-theme-sm dark:text-gray-400">
                     <div className="flex -space-x-2">
@@ -193,7 +196,7 @@ export default function BasicTableOne() {
                             width={24}
                             height={24}
                             src={teamImage}
-                            alt={`Team member ${index + 1}`}
+                            alt={t('basic-table-one.team-member', { number: index + 1 })}
                             className="w-full"
                           />
                         </div>
@@ -211,7 +214,7 @@ export default function BasicTableOne() {
                           : "error"
                       }
                     >
-                      {order.status}
+                      {t(`basic-table-one.statuses.${keyOf(order.status)}`)}
                     </Badge>
                   </TableCell>
                   <TableCell className="px-4 py-3 text-gray-500 text-theme-sm dark:text-gray-400">

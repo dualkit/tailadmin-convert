@@ -56,7 +56,7 @@ export default function UserInfoCard() {
                 {t('user-info-card.phone')}
               </p>
               <p className="text-sm font-medium text-gray-800 dark:text-white/90">
-                +09 363 398 46
+                <bdi dir="ltr">+09 363 398 46</bdi>
               </p>
             </div>
 
@@ -160,12 +160,12 @@ export default function UserInfoCard() {
 
                   <div className="col-span-2 lg:col-span-1">
                     <Label>{t('user-info-card.email-address-2')}</Label>
-                    <Input type="text" defaultValue="randomuser@pimjo.com" />
+                    <Input type="email" defaultValue="randomuser@pimjo.com" />
                   </div>
 
                   <div className="col-span-2 lg:col-span-1">
                     <Label>{t('user-info-card.phone')}</Label>
-                    <Input type="text" defaultValue="+09 363 398 46" />
+                    <Input type="tel" defaultValue="+09 363 398 46" />
                   </div>
 
                   <div className="col-span-2">

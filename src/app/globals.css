@@ -750,3 +750,18 @@ span.flatpickr-weekday,
   opacity: 0.8;
   cursor: grabbing; /* Changes the cursor to indicate dragging */
 }
+
+/* Arabic: the range join sits on the other side when days run right to left. */
+[dir="rtl"] .flatpickr-day.selected.startRange + .endRange:not(:nth-child(7n + 1)),
+[dir="rtl"] .flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n + 1)),
+[dir="rtl"] .flatpickr-day.endRange.startRange + .endRange:not(:nth-child(7n + 1)) {
+  box-shadow: 10px 0 0 #465fff;
+}
+
+/* Arabic: previous sits on the right and points right; next sits on the left and points left. */
+[dir="rtl"] .fc-button-group .fc-button.fc-prev-button:before,
+[dir="rtl"] .fc-button-group .fc-button.fc-next-button:before,
+[dir="rtl"] .flatpickr-months .flatpickr-prev-month svg,
+[dir="rtl"] .flatpickr-months .flatpickr-next-month svg {
+  scale: -1 1;
+}

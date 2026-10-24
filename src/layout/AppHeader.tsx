@@ -4,7 +4,7 @@ import NotificationDropdown from "@/components/header/NotificationDropdown";
 import UserDropdown from "@/components/header/UserDropdown";
 import { useSidebar } from "@/context/SidebarContext";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import React, { useState ,useEffect,useRef} from "react";
 import { useTranslations } from "next-intl";
 
@@ -68,6 +68,7 @@ const AppHeader: React.FC = () => {
               </svg>
             ) : (
               <svg
+                data-dk-mirror=""
                 width="16"
                 height="12"
                 viewBox="0 0 16 12"
@@ -90,14 +91,14 @@ const AppHeader: React.FC = () => {
               width={154}
               height={32}
               className="dark:hidden"
-              src="./images/logo/logo.svg"
+              src="/images/logo/logo.svg"
               alt={t('app-header.logo')}
             />
             <Image
               width={154}
               height={32}
               className="hidden dark:block"
-              src="./images/logo/logo-dark.svg"
+              src="/images/logo/logo-dark.svg"
               alt={t('app-header.logo')}
             />
           </Link>
@@ -125,7 +126,7 @@ const AppHeader: React.FC = () => {
           <div className="hidden lg:block">
             <form>
               <div className="relative">
-                <span className="absolute -translate-y-1/2 left-4 top-1/2 pointer-events-none">
+                <span className="absolute -translate-y-1/2 start-4 top-1/2 pointer-events-none">
                   <svg
                     className="fill-gray-500 dark:fill-gray-400"
                     width="20"

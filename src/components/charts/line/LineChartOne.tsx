@@ -2,6 +2,8 @@
 import React from "react";
 
 import { ApexOptions } from "apexcharts";
+import { useLocale, useTranslations } from "next-intl";
+import { chartLocale } from "@/lib/chart-locale";
 
 import dynamic from "next/dynamic";
 // Dynamically import the ReactApexChart component
@@ -10,15 +12,17 @@ const ReactApexChart = dynamic(() => import("react-apexcharts"), {
 });
 
 export default function LineChartOne() {
+  const t = useTranslations();
+  const chart = chartLocale(useLocale());
   const options: ApexOptions = {
     legend: {
       show: false, // Hide legend
       position: "top",
-      horizontalAlign: "left",
+      horizontalAlign: chart.start("left"),
     },
     colors: ["#465FFF", "#9CB9FF"], // Define line colors
     chart: {
-      fontFamily: "Outfit, sans-serif",
+      fontFamily: chart.font("Outfit, sans-serif"),
       height: 310,
       type: "line", // Set the chart type to 'line'
       toolbar: {
@@ -68,7 +72,7 @@ export default function LineChartOne() {
     },
     xaxis: {
       type: "category", // Category-based x-axis
-      categories: [
+      categories: chart.months([
         "Jan",
         "Feb",
         "Mar",
@@ -81,7 +85,7 @@ export default function LineChartOne() {
         "Oct",
         "Nov",
         "Dec",
-      ],
+      ]),
       axisBorder: {
         show: false, // Hide x-axis border
       },
@@ -93,6 +97,7 @@ export default function LineChartOne() {
       },
     },
     yaxis: {
+      opposite: chart.rtl,
       labels: {
         style: {
           fontSize: "12px", // Adjust font size for y-axis labels
@@ -108,16 +113,16 @@ export default function LineChartOne() {
     },
   };
 
-  const series = [
+  const series = chart.series([
     {
-      name: "Sales",
+      name: t('charts.sales'),
       data: [180, 190, 170, 160, 175, 165, 170, 205, 230, 210, 240, 235],
     },
     {
-      name: "Revenue",
+      name: t('charts.revenue'),
       data: [40, 30, 50, 40, 55, 40, 70, 100, 110, 120, 150, 140],
     },
-  ];
+  ]);
   return (
     <div className="max-w-full overflow-x-auto custom-scrollbar">
       <div id="chartEight" className="min-w-[1000px]">

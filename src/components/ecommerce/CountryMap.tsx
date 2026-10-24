@@ -2,6 +2,7 @@ import React from "react";
 // import { VectorMap } from "@react-jvectormap/core";
 import { worldMill } from "@react-jvectormap/world";
 import dynamic from "next/dynamic";
+import { useTranslations } from "next-intl";
 
 const VectorMap = dynamic(
   () => import("@react-jvectormap/core").then((mod) => mod.VectorMap),
@@ -33,6 +34,7 @@ type Marker = {
 };
 
 const CountryMap: React.FC<CountryMapProps> = ({ mapColor }) => {
+  const t = useTranslations();
   return (
     <VectorMap
       map={worldMill}
@@ -50,7 +52,7 @@ const CountryMap: React.FC<CountryMapProps> = ({ mapColor }) => {
         [
           {
             latLng: [37.2580397, -104.657039],
-            name: "United States",
+            name: t('country-map.united-states'),
             style: {
               fill: "#465FFF",
               borderWidth: 1,
@@ -60,17 +62,17 @@ const CountryMap: React.FC<CountryMapProps> = ({ mapColor }) => {
           },
           {
             latLng: [20.7504374, 73.7276105],
-            name: "India",
+            name: t('country-map.india'),
             style: { fill: "#465FFF", borderWidth: 1, borderColor: "white" },
           },
           {
             latLng: [53.613, -11.6368],
-            name: "United Kingdom",
+            name: t('country-map.united-kingdom'),
             style: { fill: "#465FFF", borderWidth: 1, borderColor: "white" },
           },
           {
             latLng: [-25.0304388, 115.2092761],
-            name: "Sweden",
+            name: t('country-map.sweden'),
             style: {
               fill: "#465FFF",
               borderWidth: 1,

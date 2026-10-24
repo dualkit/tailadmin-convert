@@ -36,7 +36,7 @@ export default function TextAreaInput() {
             value={messageTwo}
             error
             onChange={(value) => setMessageTwo(value)}
-            hint="Please enter a valid message."
+            hint={t('text-area-input.please-enter-a-valid')}
           />
         </div>
       </div>

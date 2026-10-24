@@ -1,8 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState,useCallback } from "react";
-import Link from "next/link";
+import { Link, usePathname } from "@/i18n/navigation";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 import { useSidebar } from "../context/SidebarContext";
 import {
   BoxCubeIcon,
@@ -22,44 +21,52 @@ import { useTranslations } from "next-intl";
 
 type NavItem = {
   name: string;
+  /** Message key under app-sidebar for the item's label. */
+  label: string;
   icon: React.ReactNode;
   path?: string;
-  subItems?: { name: string; path: string; pro?: boolean; new?: boolean }[];
+  subItems?: { name: string; label: string; path: string; pro?: boolean; new?: boolean }[];
 };
 
 const navItems: NavItem[] = [
   {
     icon: <GridIcon />,
     name: "Dashboard",
-    subItems: [{ name: "Ecommerce", path: "/", pro: false }],
+    label: "dashboard",
+    subItems: [{ name: "Ecommerce", label: "ecommerce", path: "/", pro: false }],
   },
   {
     icon: <CalenderIcon />,
     name: "Calendar",
+    label: "calendar",
     path: "/calendar",
   },
   {
     icon: <UserCircleIcon />,
     name: "User Profile",
+    label: "user-profile",
     path: "/profile",
   },
 
   {
     name: "Forms",
+    label: "forms",
     icon: <ListIcon />,
-    subItems: [{ name: "Form Elements", path: "/form-elements", pro: false }],
+    subItems: [{ name: "Form Elements", label: "form-elements", path: "/form-elements", pro: false }],
   },
   {
     name: "Tables",
+    label: "tables",
     icon: <TableIcon />,
-    subItems: [{ name: "Basic Tables", path: "/basic-tables", pro: false }],
+    subItems: [{ name: "Basic Tables", label: "basic-tables", path: "/basic-tables", pro: false }],
   },
   {
     name: "Pages",
+    label: "pages",
     icon: <PageIcon />,
     subItems: [
-      { name: "Blank Page", path: "/blank", pro: false },
-      { name: "404 Error", path: "/error-404", pro: false },
+      { name: "Blank Page", label: "blank-page", path: "/blank", pro: false },
+      { name: "404 Error", label: "404-error", path: "/error-404", pro: false },
     ],
   },
 ];
@@ -68,29 +75,32 @@ const othersItems: NavItem[] = [
   {
     icon: <PieChartIcon />,
     name: "Charts",
+    label: "charts",
     subItems: [
-      { name: "Line Chart", path: "/line-chart", pro: false },
-      { name: "Bar Chart", path: "/bar-chart", pro: false },
+      { name: "Line Chart", label: "line-chart", path: "/line-chart", pro: false },
+      { name: "Bar Chart", label: "bar-chart", path: "/bar-chart", pro: false },
     ],
   },
   {
     icon: <BoxCubeIcon />,
     name: "UI Elements",
+    label: "ui-elements",
     subItems: [
-      { name: "Alerts", path: "/alerts", pro: false },
-      { name: "Avatar", path: "/avatars", pro: false },
-      { name: "Badge", path: "/badge", pro: false },
-      { name: "Buttons", path: "/buttons", pro: false },
-      { name: "Images", path: "/images", pro: false },
-      { name: "Videos", path: "/videos", pro: false },
+      { name: "Alerts", label: "alerts", path: "/alerts", pro: false },
+      { name: "Avatar", label: "avatar", path: "/avatars", pro: false },
+      { name: "Badge", label: "badge", path: "/badge", pro: false },
+      { name: "Buttons", label: "buttons", path: "/buttons", pro: false },
+      { name: "Images", label: "images", path: "/images", pro: false },
+      { name: "Videos", label: "videos", path: "/videos", pro: false },
     ],
   },
   {
     icon: <PlugInIcon />,
     name: "Authentication",
+    label: "authentication",
     subItems: [
-      { name: "Sign In", path: "/signin", pro: false },
-      { name: "Sign Up", path: "/signup", pro: false },
+      { name: "Sign In", label: "sign-in", path: "/signin", pro: false },
+      { name: "Sign Up", label: "sign-up", path: "/signup", pro: false },
     ],
   },
 ];
@@ -130,7 +140,7 @@ const AppSidebar: React.FC = () => {
                 {nav.icon}
               </span>
               {(isExpanded || isHovered || isMobileOpen) && (
-                <span className={`menu-item-text`}>{nav.name}</span>
+                <span className={`menu-item-text`}>{t(`app-sidebar.${nav.label}`)}</span>
               )}
               {(isExpanded || isHovered || isMobileOpen) && (
                 <ChevronDownIcon
@@ -161,7 +171,7 @@ const AppSidebar: React.FC = () => {
                   {nav.icon}
                 </span>
                 {(isExpanded || isHovered || isMobileOpen) && (
-                  <span className={`menu-item-text`}>{nav.name}</span>
+                  <span className={`menu-item-text`}>{t(`app-sidebar.${nav.label}`)}</span>
                 )}
               </Link>
             )
@@ -190,7 +200,7 @@ const AppSidebar: React.FC = () => {
                           : "menu-dropdown-item-inactive"
                       }`}
                     >
-                      {subItem.name}
+                      {t(`app-sidebar.${subItem.label}`)}
                       <span className="flex items-center gap-1 ms-auto">
                         {subItem.new && (
                           <span
@@ -300,8 +310,8 @@ const AppSidebar: React.FC = () => {
             ? "w-[290px]"
             : "w-[90px]"
         }
-        ${isMobileOpen ? "translate-x-0" : "-translate-x-full"}
-        lg:translate-x-0`}
+        ${isMobileOpen ? "translate-x-0" : "-translate-x-full rtl:translate-x-full"}
+        lg:translate-x-0 rtl:lg:translate-x-0`}
       onMouseEnter={() => !isExpanded && setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -350,7 +360,7 @@ const AppSidebar: React.FC = () => {
                 }`}
               >
                 {isExpanded || isHovered || isMobileOpen ? (
-                  "Menu"
+                  t('app-sidebar.menu')
                 ) : (
                   <HorizontaLDots />
                 )}
@@ -367,7 +377,7 @@ const AppSidebar: React.FC = () => {
                 }`}
               >
                 {isExpanded || isHovered || isMobileOpen ? (
-                  "Others"
+                  t('app-sidebar.others')
                 ) : (
                   <HorizontaLDots />
                 )}

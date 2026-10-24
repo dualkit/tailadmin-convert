@@ -5,7 +5,8 @@ import { MoreDotIcon } from "@/icons";
 import { DropdownItem } from "../ui/dropdown/DropdownItem";
 import { useState } from "react";
 import { Dropdown } from "../ui/dropdown/Dropdown";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { chartLocale } from "@/lib/chart-locale";
 
 // Dynamically import the ReactApexChart component
 const ReactApexChart = dynamic(() => import("react-apexcharts"), {
@@ -13,11 +14,12 @@ const ReactApexChart = dynamic(() => import("react-apexcharts"), {
 });
 
 export default function MonthlySalesChart() {
+  const chart = chartLocale(useLocale());
   const t = useTranslations();
   const options: ApexOptions = {
     colors: ["#465fff"],
     chart: {
-      fontFamily: "Outfit, sans-serif",
+      fontFamily: chart.font("Outfit, sans-serif"),
       type: "bar",
       height: 180,
       toolbar: {
@@ -41,7 +43,7 @@ export default function MonthlySalesChart() {
       colors: ["transparent"],
     },
     xaxis: {
-      categories: [
+      categories: chart.months([
         "Jan",
         "Feb",
         "Mar",
@@ -54,7 +56,9 @@ export default function MonthlySalesChart() {
         "Oct",
         "Nov",
         "Dec",
-      ],
+      ]),
+      // Arabic month names are longer than three-letter English ones; slant them so they do not collide.
+      ...chart.arabic({ labels: { rotate: -45, rotateAlways: true } }),
       axisBorder: {
         show: false,
       },
@@ -65,10 +69,11 @@ export default function MonthlySalesChart() {
     legend: {
       show: true,
       position: "top",
-      horizontalAlign: "left",
-      fontFamily: "Outfit",
+      horizontalAlign: chart.start("left"),
+      fontFamily: chart.font("Outfit"),
     },
     yaxis: {
+      opposite: chart.rtl,
       title: {
         text: undefined,
       },
@@ -93,12 +98,12 @@ export default function MonthlySalesChart() {
       },
     },
   };
-  const series = [
+  const series = chart.series([
     {
-      name: "Sales",
+      name: t('charts.sales'),
       data: [168, 385, 201, 298, 187, 195, 291, 110, 215, 390, 280, 112],
     },
-  ];
+  ]);
   const [isOpen, setIsOpen] = useState(false);
 
   function toggleDropdown() {

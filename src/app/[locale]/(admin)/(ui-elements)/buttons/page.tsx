@@ -3,20 +3,21 @@ import PageBreadcrumb from "@/components/common/PageBreadCrumb";
 import Button from "@/components/ui/button/Button";
 import { BoxIcon } from "@/icons";
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export const metadata: Metadata = {
-  title: "Next.js Buttons | TailAdmin - Next.js Dashboard Template",
-  description:
-    "This is Next.js Buttons page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return { title: t("buttons.title"), description: t("buttons.description") };
+}
 
 export default function Buttons() {
   const t = useTranslations();
   return (
     <div>
-      <PageBreadcrumb pageTitle="Buttons" />
+      <PageBreadcrumb pageTitle={t('page-title.buttons')} />
       <div className="space-y-5 sm:space-y-6">
         {/* Primary Button */}
         <ComponentCard title={t('buttons.primary-button')}>

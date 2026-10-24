@@ -12,9 +12,9 @@ export default function DefaultInputs() {
   const t = useTranslations();
   const [showPassword, setShowPassword] = useState(false);
   const options = [
-    { value: "marketing", label: "Marketing" },
-    { value: "template", label: "Template" },
-    { value: "development", label: "Development" },
+    { value: "marketing", label: t('default-inputs.options.marketing') },
+    { value: "template", label: t('default-inputs.options.template') },
+    { value: "development", label: t('default-inputs.options.development') },
   ];
   const handleSelectChange = (value: string) => {
     console.log("Selected value:", value);
@@ -39,7 +39,7 @@ export default function DefaultInputs() {
             onChange={handleSelectChange}
             className="dark:bg-dark-900"
           />
-             <span className="absolute text-gray-500 -translate-y-1/2 pointer-events-none right-3 top-1/2 dark:text-gray-400">
+             <span className="absolute text-gray-500 -translate-y-1/2 pointer-events-none end-3 top-1/2 dark:text-gray-400">
               <ChevronDownIcon/>
             </span>
           </div>
@@ -85,7 +85,7 @@ export default function DefaultInputs() {
               name="tm"
               onChange={(e) => console.log(e.target.value)}
             />
-            <span className="absolute text-gray-500 -translate-y-1/2 pointer-events-none right-3 top-1/2 dark:text-gray-400">
+            <span className="absolute text-gray-500 -translate-y-1/2 pointer-events-none end-3 top-1/2 dark:text-gray-400">
               <TimeIcon />
             </span>
           </div>

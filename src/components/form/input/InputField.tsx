@@ -47,9 +47,13 @@ const Input: FC<InputProps> = ({
     inputClasses += ` bg-transparent text-gray-800 border-gray-300 focus:border-brand-300 focus:ring-3 focus:ring-brand-500/10 dark:border-gray-700 dark:bg-gray-900 dark:text-white/90 dark:focus:border-brand-800`;
   }
 
+  // Fixed formats read left to right in Arabic too; free text follows the page.
+  const fixedFormat = ["email", "tel", "url", "password", "number"].includes(type);
+
   return (
     <div className="relative">
       <input
+        dir={fixedFormat ? "ltr" : undefined}
         type={type}
         id={id}
         name={name}
