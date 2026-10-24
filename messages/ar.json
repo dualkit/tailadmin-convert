@@ -1,0 +1,430 @@
+{
+  "alerts": {
+    "error-alert": "Error Alert",
+    "error-message": "Error Message",
+    "info-alert": "Info Alert",
+    "info-message": "Info Message",
+    "success-alert": "Success Alert",
+    "success-message": "Success Message",
+    "warning-alert": "Warning Alert",
+    "warning-message": "Warning Message"
+  },
+  "app-header": {
+    "k": "K",
+    "logo": "Logo",
+    "search-or-type-command": "Search or type command...",
+    "toggle-sidebar": "Toggle Sidebar"
+  },
+  "app-sidebar": {
+    "logo": "Logo",
+    "new": "new",
+    "pro": "pro"
+  },
+  "avatars": {
+    "avatar-with-busy-indicator": "Avatar with busy indicator",
+    "avatar-with-offline-indicator": "Avatar with Offline indicator",
+    "avatar-with-online-indicator": "Avatar with online indicator",
+    "default-avatar": "Default Avatar"
+  },
+  "badge": {
+    "dark": "Dark",
+    "error": "Error",
+    "info": "Info",
+    "light": "Light",
+    "light-background-with-left": "Light Background with Left Icon",
+    "light-background-with-right": "Light Background with Right Icon",
+    "primary": "Primary",
+    "solid-background-with-left": "Solid Background with Left Icon",
+    "solid-background-with-right": "Solid Background with Right Icon",
+    "success": "Success",
+    "warning": "Warning",
+    "with-light-background": "With Light Background",
+    "with-solid-background": "With Solid Background"
+  },
+  "bar-chart": {
+    "bar-chart-1": "Bar Chart 1"
+  },
+  "basic-table-one": {
+    "budget": "Budget",
+    "project-name": "Project Name",
+    "status": "Status",
+    "team": "Team",
+    "user": "User"
+  },
+  "basic-tables": {
+    "basic-table-1": "Basic Table 1"
+  },
+  "blank": {
+    "card-title-here": "Card Title Here",
+    "start-putting-content-on": "Start putting content on grids or panels, you can also use different combinations of grids.Please check out the dashboard and other pages"
+  },
+  "buttons": {
+    "button-text": "Button Text",
+    "outline-button-with-left": "Outline Button with Left Icon",
+    "outline-button-with-right": "Outline Button with Right Icon",
+    "primary-button": "Primary Button",
+    "primary-button-with-left": "Primary Button with Left Icon",
+    "primary-button-with-right": "Primary Button with Right Icon",
+    "secondary-button": "Secondary Button"
+  },
+  "calendar": {
+    "close": "Close",
+    "enter-end-date": "Enter End Date",
+    "enter-start-date": "Enter Start Date",
+    "event-color": "Event Color",
+    "event-title": "Event Title",
+    "plan-your-next-big": "Plan your next big moment: schedule or edit an event to stay on track"
+  },
+  "chart-tab": {
+    "annually": "Annually",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly"
+  },
+  "checkbox-components": {
+    "checkbox": "Checkbox",
+    "checked": "Checked",
+    "default": "Default",
+    "disabled": "Disabled"
+  },
+  "default-inputs": {
+    "card-number": "Card number",
+    "date-picker-input": "Date Picker Input",
+    "default-inputs": "Default Inputs",
+    "enter-your-password": "Enter your password",
+    "info-gmail-com": "info@gmail.com",
+    "input": "Input",
+    "input-with-payment": "Input with Payment",
+    "input-with-placeholder": "Input with Placeholder",
+    "password-input": "Password Input",
+    "select-a-date": "Select a date",
+    "select-an-option": "Select an option",
+    "select-input": "Select Input",
+    "time-picker-input": "Time Picker Input"
+  },
+  "default-modal": {
+    "close": "Close",
+    "default-modal": "Default Modal",
+    "lorem-ipsum-dolor-sit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit amet ipsum rutrum feugiat ultrices enim quam.",
+    "lorem-ipsum-dolor-sit-2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio.",
+    "modal-heading": "Modal Heading",
+    "open-modal": "Open Modal",
+    "save-changes": "Save Changes"
+  },
+  "demographic-card": {
+    "2-379-customers": "2,379 Customers",
+    "589-customers": "589 Customers",
+    "customers-demographic": "Customers Demographic",
+    "delete": "Delete",
+    "france": "france",
+    "france-2": "France",
+    "number-of-customer-based": "Number of customer based on country",
+    "usa": "usa",
+    "usa-2": "USA",
+    "view-more": "View More"
+  },
+  "drop-zone": {
+    "browse-file": "Browse File",
+    "drag-and-drop-your": "Drag and drop your PNG, JPG, WebP, SVG images here or browse",
+    "dropzone": "Dropzone"
+  },
+  "ecommerce-metrics": {
+    "customers": "Customers",
+    "orders": "Orders"
+  },
+  "error-404": {
+    "back-to-home-page": "Back to Home Page",
+    "error": "ERROR",
+    "we-can-t-seem": "We can’t seem to find the page you are looking for!"
+  },
+  "file-input-example": {
+    "file-input": "File Input",
+    "upload-file": "Upload file"
+  },
+  "form-in-modal": {
+    "bio": "Bio",
+    "boruch": "Boruch",
+    "close": "Close",
+    "emirhan": "Emirhan",
+    "emirhanboruch55-gmail-com": "emirhanboruch55@gmail.com",
+    "first-name": "First Name",
+    "form-in-modal": "Form In Modal",
+    "last-name": "Last Name",
+    "open-modal": "Open Modal",
+    "personal-information": "Personal Information",
+    "phone": "Phone",
+    "save-changes": "Save Changes",
+    "team-manager": "Team Manager"
+  },
+  "four-is-to-three": {
+    "youtube-video": "YouTube video"
+  },
+  "full-screen-modal": {
+    "close": "Close",
+    "full-screen-modal": "Full Screen Modal",
+    "lorem-ipsum-dolor-sit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit amet ipsum rutrum feugiat ultrices enim quam.",
+    "lorem-ipsum-dolor-sit-2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit amet ipsum rutrum feugiat ultrices enim quam odio condimentum aliquet a nec nulla pellentesque euismod est quis mauris lacinia pharetra.",
+    "lorem-ipsum-dolor-sit-3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra.",
+    "modal-heading": "Modal Heading",
+    "open-modal": "Open Modal",
+    "save-changes": "Save Changes"
+  },
+  "grid-shape": {
+    "grid": "grid"
+  },
+  "home": {
+    "free-and-open-source": "Free and Open-Source Tailwind CSS Admin Dashboard Template",
+    "logo": "Logo"
+  },
+  "images": {
+    "image-in-2-grid": "Image in 2 Grid",
+    "image-in-3-grid": "Image in 3 Grid",
+    "responsive-image": "Responsive image"
+  },
+  "input-group": {
+    "email": "Email",
+    "info-gmail-com": "info@gmail.com",
+    "input-group": "Input Group",
+    "phone": "Phone"
+  },
+  "input-states": {
+    "disabled-email": "Disabled email",
+    "email": "Email",
+    "enter-your-email": "Enter your email",
+    "input-states": "Input States"
+  },
+  "line-chart": {
+    "line-chart-1": "Line Chart 1"
+  },
+  "modal-based-alerts": {
+    "danger-alert": "Danger Alert",
+    "danger-alert-2": "Danger Alert!",
+    "info-alert": "Info Alert",
+    "information-alert": "Information Alert!",
+    "lorem-ipsum-dolor-sit": "Lorem ipsum dolor sit amet consectetur. Feugiat ipsum libero tempor felis risus nisi non. Quisque eu ut tempor curabitur.",
+    "modal-based-alerts": "Modal Based Alerts",
+    "okay-got-it": "Okay, Got It",
+    "success-alert": "Success Alert",
+    "warning-alert": "Warning Alert",
+    "warning-alert-2": "Warning Alert!",
+    "well-done": "Well Done!"
+  },
+  "monthly-sales-chart": {
+    "delete": "Delete",
+    "monthly-sales": "Monthly Sales",
+    "view-more": "View More"
+  },
+  "monthly-target": {
+    "20k": "$20K",
+    "delete": "Delete",
+    "monthly-target": "Monthly Target",
+    "revenue": "Revenue",
+    "target": "Target",
+    "target-you-ve-set": "Target you’ve set for each month",
+    "today": "Today",
+    "view-more": "View More",
+    "you-earn-3287-today": "You earn $3287 today, it's higher than last month. Keep up your good work!"
+  },
+  "multi-select": {
+    "select-option": "Select option"
+  },
+  "not-found": {
+    "back-to-home-page": "Back to Home Page",
+    "error": "ERROR",
+    "we-can-t-seem": "We can’t seem to find the page you are looking for!"
+  },
+  "notification-dropdown": {
+    "1-hr-ago": "1 hr ago",
+    "15-min-ago": "15 min ago",
+    "5-min-ago": "5 min ago",
+    "8-min-ago": "8 min ago",
+    "alena-franci": "Alena Franci",
+    "brandon-philips": "Brandon Philips",
+    "jocelyn-kenter": "Jocelyn Kenter",
+    "notification": "Notification",
+    "project": "Project",
+    "project-nganter-app": "Project - Nganter App",
+    "requests-permission-to-change": "requests permission to change",
+    "terry-franci": "Terry Franci",
+    "user": "User",
+    "view-all-notifications": "View All Notifications"
+  },
+  "one-is-to-one": {
+    "youtube-video": "YouTube video"
+  },
+  "page-bread-crumb": {
+    "home": "Home"
+  },
+  "pagination": {
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "profile": {
+    "profile": "Profile"
+  },
+  "radio-buttons": {
+    "default": "Default",
+    "disabled": "Disabled",
+    "radio-buttons": "Radio Buttons",
+    "selected": "Selected"
+  },
+  "recent-orders": {
+    "category": "Category",
+    "filter": "Filter",
+    "price": "Price",
+    "products": "Products",
+    "recent-orders": "Recent Orders",
+    "see-all": "See all",
+    "status": "Status"
+  },
+  "responsive-image": {
+    "cover": "Cover"
+  },
+  "select-inputs": {
+    "multiple-select-options": "Multiple Select Options",
+    "select-input": "Select Input",
+    "select-inputs": "Select Inputs",
+    "select-option": "Select Option"
+  },
+  "sidebar-widget": {
+    "1-tailwind-css-dashboard": "#1 Tailwind CSS Dashboard",
+    "leading-tailwind-css-admin": "Leading Tailwind CSS Admin Template with 400+ UI Component and Pages.",
+    "upgrade-to-pro": "Upgrade To Pro"
+  },
+  "sign-in-form": {
+    "back-to-dashboard": "Back to dashboard",
+    "enter-your-email-and": "Enter your email and password to sign in!",
+    "enter-your-password": "Enter your password",
+    "forgot-password": "Forgot password?",
+    "info-gmail-com": "info@gmail.com",
+    "keep-me-logged-in": "Keep me logged in",
+    "or": "Or",
+    "sign-in": "Sign In",
+    "sign-in-2": "Sign in",
+    "sign-in-with-google": "Sign in with Google",
+    "sign-in-with-x": "Sign in with X"
+  },
+  "sign-up-form": {
+    "back-to-dashboard": "Back to dashboard",
+    "enter-your-email": "Enter your email",
+    "enter-your-email-and": "Enter your email and password to sign up!",
+    "enter-your-first-name": "Enter your first name",
+    "enter-your-last-name": "Enter your last name",
+    "enter-your-password": "Enter your password",
+    "or": "Or",
+    "sign-up": "Sign Up",
+    "sign-up-with-google": "Sign up with Google",
+    "sign-up-with-x": "Sign up with X"
+  },
+  "sixteen-is-to-nine": {
+    "youtube-video": "YouTube video"
+  },
+  "statistics-chart": {
+    "select-date-range": "Select date range",
+    "statistics": "Statistics",
+    "target-you-ve-set": "Target you've set for each month"
+  },
+  "text-area-input": {
+    "description": "Description",
+    "textarea-input-field": "Textarea input field"
+  },
+  "three-column-image-grid": {
+    "grid": "grid"
+  },
+  "toggle-switch": {
+    "checked": "Checked",
+    "default": "Default",
+    "disabled": "Disabled",
+    "toggle-switch-input": "Toggle switch input"
+  },
+  "twenty-one-is-to-nine": {
+    "youtube-video": "YouTube video"
+  },
+  "two-column-image-grid": {
+    "grid": "grid"
+  },
+  "user-address-card": {
+    "address": "Address",
+    "as4568384": "AS4568384",
+    "city-state": "City/State",
+    "close": "Close",
+    "country": "Country",
+    "edit": "Edit",
+    "edit-address": "Edit Address",
+    "ert-2489": "ERT 2489",
+    "phoenix-arizona-united-states": "Phoenix, Arizona, United States.",
+    "postal-code": "Postal Code",
+    "save-changes": "Save Changes",
+    "tax-id": "TAX ID",
+    "united-states": "United States",
+    "update-your-details-to": "Update your details to keep your profile up-to-date."
+  },
+  "user-dropdown": {
+    "account-settings": "Account settings",
+    "edit-profile": "Edit profile",
+    "musharof": "Musharof",
+    "musharof-chowdhury": "Musharof Chowdhury",
+    "randomuser-pimjo-com": "randomuser@pimjo.com",
+    "sign-out": "Sign out",
+    "support": "Support",
+    "user": "User"
+  },
+  "user-info-card": {
+    "bio": "Bio",
+    "chowdhury": "Chowdhury",
+    "close": "Close",
+    "edit": "Edit",
+    "edit-personal-information": "Edit Personal Information",
+    "email-address": "Email address",
+    "email-address-2": "Email Address",
+    "facebook": "Facebook",
+    "first-name": "First Name",
+    "instagram": "Instagram",
+    "last-name": "Last Name",
+    "linkedin": "Linkedin",
+    "musharof": "Musharof",
+    "personal-information": "Personal Information",
+    "phone": "Phone",
+    "randomuser-pimjo-com": "randomuser@pimjo.com",
+    "save-changes": "Save Changes",
+    "social-links": "Social Links",
+    "team-manager": "Team Manager",
+    "update-your-details-to": "Update your details to keep your profile up-to-date.",
+    "x-com": "X.com"
+  },
+  "user-meta-card": {
+    "arizona-united-states": "Arizona, United States",
+    "bio": "Bio",
+    "close": "Close",
+    "edit": "Edit",
+    "edit-personal-information": "Edit Personal Information",
+    "email-address": "Email Address",
+    "facebook": "Facebook",
+    "first-name": "First Name",
+    "instagram": "Instagram",
+    "last-name": "Last Name",
+    "linkedin": "Linkedin",
+    "musharof-chowdhury": "Musharof Chowdhury",
+    "personal-information": "Personal Information",
+    "phone": "Phone",
+    "save-changes": "Save Changes",
+    "social-links": "Social Links",
+    "team-manager": "Team Manager",
+    "update-your-details-to": "Update your details to keep your profile up-to-date.",
+    "user": "user",
+    "x-com": "X.com"
+  },
+  "vertically-centered-modal": {
+    "all-done-success-confirmed": "All Done! Success Confirmed",
+    "close": "Close",
+    "lorem-ipsum-dolor-sit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra.",
+    "open-modal": "Open Modal",
+    "save-changes": "Save Changes",
+    "vertically-centered-modal": "Vertically Centered Modal"
+  },
+  "videos-example": {
+    "video-ratio-1-1": "Video Ratio 1:1",
+    "video-ratio-16-9": "Video Ratio 16:9",
+    "video-ratio-21-9": "Video Ratio 21:9",
+    "video-ratio-4-3": "Video Ratio 4:3"
+  }
+}

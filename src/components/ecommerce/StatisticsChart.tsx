@@ -5,10 +5,12 @@ import { ApexOptions } from "apexcharts";
 import flatpickr from "flatpickr";
 import ChartTab from "../common/ChartTab";
 import { CalenderIcon } from "../../icons";
+import { useTranslations } from "next-intl";
 
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 export default function StatisticsChart() {
+  const t = useTranslations();
   const datePickerRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -151,10 +153,10 @@ export default function StatisticsChart() {
       <div className="flex flex-col gap-5 mb-6 sm:flex-row sm:justify-between">
         <div className="w-full">
           <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
-            Statistics
+            {t('statistics-chart.statistics')}
           </h3>
           <p className="mt-1 text-gray-500 text-theme-sm dark:text-gray-400">
-            Target you've set for each month
+            {t('statistics-chart.target-you-ve-set')}
           </p>
         </div>
         <div className="flex items-center gap-3 sm:justify-end">
@@ -163,8 +165,8 @@ export default function StatisticsChart() {
             <CalenderIcon className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 lg:left-3 lg:top-1/2 lg:translate-x-0 lg:-translate-y-1/2  text-gray-500 dark:text-gray-400 pointer-events-none z-10" />
             <input
               ref={datePickerRef}
-              className="h-10 w-10 lg:w-40 lg:h-auto  lg:pl-10 lg:pr-3 lg:py-2 rounded-lg border border-gray-200 bg-white text-sm font-medium text-transparent lg:text-gray-700 outline-none dark:border-gray-700 dark:bg-gray-800 dark:lg:text-gray-300 cursor-pointer"
-              placeholder="Select date range"
+              className="h-10 w-10 lg:w-40 lg:h-auto  lg:ps-10 lg:pe-3 lg:py-2 rounded-lg border border-gray-200 bg-white text-sm font-medium text-transparent lg:text-gray-700 outline-none dark:border-gray-700 dark:bg-gray-800 dark:lg:text-gray-300 cursor-pointer"
+              placeholder={t('statistics-chart.select-date-range')}
             />
           </div>
         </div>

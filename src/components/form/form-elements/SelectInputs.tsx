@@ -5,8 +5,10 @@ import Label from "../Label";
 import Select from "../Select";
 import MultiSelect from "../MultiSelect";
 import { ChevronDownIcon } from "@/icons";
+import { useTranslations } from "next-intl";
 
 export default function SelectInputs() {
+  const t = useTranslations();
   const options = [
     { value: "marketing", label: "Marketing" },
     { value: "template", label: "Template" },
@@ -28,14 +30,14 @@ export default function SelectInputs() {
   ];
 
   return (
-    <ComponentCard title="Select Inputs">
+    <ComponentCard title={t('select-inputs.select-inputs')}>
       <div className="space-y-6">
         <div>
-          <Label>Select Input</Label>
+          <Label>{t('select-inputs.select-input')}</Label>
          <div className="relative">
            <Select
             options={options}
-            placeholder="Select Option"
+            placeholder={t('select-inputs.select-option')}
             onChange={handleSelectChange}
             className="dark:bg-dark-900"
           />
@@ -46,7 +48,7 @@ export default function SelectInputs() {
         </div>
         <div className="relative">
           <MultiSelect
-            label="Multiple Select Options"
+            label={t('select-inputs.multiple-select-options')}
             options={multiOptions}
             defaultSelected={["1", "3"]}
             onChange={(values) => setSelectedValues(values)}

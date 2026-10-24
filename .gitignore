@@ -35,3 +35,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.dualkit/*
+!.dualkit/convert.json
+!.dualkit/summary.json

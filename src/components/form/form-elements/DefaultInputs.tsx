@@ -6,8 +6,10 @@ import Input from '../input/InputField';
 import Select from '../Select';
 import { ChevronDownIcon, EyeCloseIcon, EyeIcon, TimeIcon } from '../../../icons';
 import DatePicker from '@/components/form/date-picker';
+import { useTranslations } from 'next-intl';
 
 export default function DefaultInputs() {
+  const t = useTranslations();
   const [showPassword, setShowPassword] = useState(false);
   const options = [
     { value: "marketing", label: "Marketing" },
@@ -18,22 +20,22 @@ export default function DefaultInputs() {
     console.log("Selected value:", value);
   };
   return (
-    <ComponentCard title="Default Inputs">
+    <ComponentCard title={t('default-inputs.default-inputs')}>
       <div className="space-y-6">
         <div>
-          <Label>Input</Label>
+          <Label>{t('default-inputs.input')}</Label>
           <Input type="text" />
         </div>
         <div>
-          <Label>Input with Placeholder</Label>
-          <Input type="text" placeholder="info@gmail.com" />
+          <Label>{t('default-inputs.input-with-placeholder')}</Label>
+          <Input type="text" placeholder={t('default-inputs.info-gmail-com')} />
         </div>
         <div>
-          <Label>Select Input</Label>
+          <Label>{t('default-inputs.select-input')}</Label>
           <div className="relative">
             <Select
             options={options}
-            placeholder="Select an option"
+            placeholder={t('default-inputs.select-an-option')}
             onChange={handleSelectChange}
             className="dark:bg-dark-900"
           />
@@ -43,15 +45,15 @@ export default function DefaultInputs() {
           </div>
         </div>
         <div>
-          <Label>Password Input</Label>
+          <Label>{t('default-inputs.password-input')}</Label>
           <div className="relative">
             <Input
               type={showPassword ? "text" : "password"}
-              placeholder="Enter your password"
+              placeholder={t('default-inputs.enter-your-password')}
             />
             <button
               onClick={() => setShowPassword(!showPassword)}
-              className="absolute z-30 -translate-y-1/2 cursor-pointer right-4 top-1/2"
+              className="absolute z-30 -translate-y-1/2 cursor-pointer end-4 top-1/2"
             >
               {showPassword ? (
                 <EyeIcon className="fill-gray-500 dark:fill-gray-400" />
@@ -65,8 +67,8 @@ export default function DefaultInputs() {
         <div>
           <DatePicker
             id="date-picker"
-            label="Date Picker Input"
-            placeholder="Select a date"
+            label={t('default-inputs.date-picker-input')}
+            placeholder={t('default-inputs.select-a-date')}
             onChange={(dates, currentDateString) => {
               // Handle your logic
               console.log({ dates, currentDateString });
@@ -75,7 +77,7 @@ export default function DefaultInputs() {
         </div>
 
         <div>
-          <Label htmlFor="tm">Time Picker Input</Label>
+          <Label htmlFor="tm">{t('default-inputs.time-picker-input')}</Label>
           <div className="relative">
             <Input
               type="time"
@@ -89,14 +91,14 @@ export default function DefaultInputs() {
           </div>
         </div>
         <div>
-          <Label htmlFor="tm">Input with Payment</Label>
+          <Label htmlFor="tm">{t('default-inputs.input-with-payment')}</Label>
           <div className="relative">
             <Input
               type="text"
-              placeholder="Card number"
-              className="pl-[62px]"
+              placeholder={t('default-inputs.card-number')}
+              className="ps-[62px]"
             />
-            <span className="absolute left-0 top-1/2 flex h-11 w-[46px] -translate-y-1/2 items-center justify-center border-r border-gray-200 dark:border-gray-800">
+            <span className="absolute start-0 top-1/2 flex h-11 w-[46px] -translate-y-1/2 items-center justify-center border-e border-gray-200 dark:border-gray-800">
               <svg
                 width="20"
                 height="20"

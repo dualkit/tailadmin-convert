@@ -1,0 +1,6 @@
+{
+  "convert": {
+    "start": "npm run build && npx next start -p 4620",
+    "port": 4620
+  }
+}

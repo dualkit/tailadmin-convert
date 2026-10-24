@@ -4,8 +4,10 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { Dropdown } from "../ui/dropdown/Dropdown";
 import { DropdownItem } from "../ui/dropdown/DropdownItem";
+import { useTranslations } from "next-intl";
 
 export default function UserDropdown() {
+  const t = useTranslations();
   const [isOpen, setIsOpen] = useState(false);
 
 function toggleDropdown(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
@@ -22,16 +24,16 @@ function toggleDropdown(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
         onClick={toggleDropdown} 
         className="flex items-center text-gray-700 dark:text-gray-400 dropdown-toggle"
       >
-        <span className="mr-3 overflow-hidden rounded-full h-11 w-11">
+        <span className="me-3 overflow-hidden rounded-full h-11 w-11">
           <Image
             width={44}
             height={44}
             src="/images/user/owner.jpg"
-            alt="User"
+            alt={t('user-dropdown.user')}
           />
         </span>
 
-        <span className="block mr-1 font-medium text-theme-sm">Musharof</span>
+        <span className="block me-1 font-medium text-theme-sm">{t('user-dropdown.musharof')}</span>
 
         <svg
           className={`stroke-gray-500 dark:stroke-gray-400 transition-transform duration-200 ${
@@ -56,14 +58,14 @@ function toggleDropdown(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
       <Dropdown
         isOpen={isOpen}
         onClose={closeDropdown}
-        className="absolute right-0 mt-[17px] flex w-[260px] flex-col rounded-2xl border border-gray-200 bg-white p-3 shadow-theme-lg dark:border-gray-800 dark:bg-gray-dark"
+        className="absolute end-0 mt-[17px] flex w-[260px] flex-col rounded-2xl border border-gray-200 bg-white p-3 shadow-theme-lg dark:border-gray-800 dark:bg-gray-dark"
       >
         <div>
           <span className="block font-medium text-gray-700 text-theme-sm dark:text-gray-400">
-            Musharof Chowdhury
+            {t('user-dropdown.musharof-chowdhury')}
           </span>
           <span className="mt-0.5 block text-theme-xs text-gray-500 dark:text-gray-400">
-            randomuser@pimjo.com
+            {t('user-dropdown.randomuser-pimjo-com')}
           </span>
         </div>
 
@@ -90,7 +92,7 @@ function toggleDropdown(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
                   fill=""
                 />
               </svg>
-              Edit profile
+              {t('user-dropdown.edit-profile')}
             </DropdownItem>
           </li>
           <li>
@@ -115,7 +117,7 @@ function toggleDropdown(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
                   fill=""
                 />
               </svg>
-              Account settings
+              {t('user-dropdown.account-settings')}
             </DropdownItem>
           </li>
           <li>
@@ -140,7 +142,7 @@ function toggleDropdown(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
                   fill=""
                 />
               </svg>
-              Support
+              {t('user-dropdown.support')}
             </DropdownItem>
           </li>
         </ul>
@@ -163,7 +165,7 @@ function toggleDropdown(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
               fill=""
             />
           </svg>
-          Sign out
+          {t('user-dropdown.sign-out')}
         </Link>
       </Dropdown>
     </div>

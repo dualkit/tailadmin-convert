@@ -4,38 +4,40 @@ import ComponentCard from "../../common/ComponentCard";
 
 import { Modal } from "../../ui/modal";
 import { useModal } from "@/hooks/useModal";
+import { useTranslations } from "next-intl";
 
 export default function ModalBasedAlerts() {
+  const t = useTranslations();
   const successModal = useModal();
   const infoModal = useModal();
   const warningModal = useModal();
   const errorModal = useModal();
   return (
-    <ComponentCard title="Modal Based Alerts">
+    <ComponentCard title={t('modal-based-alerts.modal-based-alerts')}>
       <div className="flex flex-wrap items-center gap-3">
         <button
           onClick={successModal.openModal}
           className="px-4 py-3 text-sm font-medium text-white rounded-lg bg-success-500 shadow-theme-xs hover:bg-success-600"
         >
-          Success Alert
+          {t('modal-based-alerts.success-alert')}
         </button>
         <button
           onClick={infoModal.openModal}
           className="px-4 py-3 text-sm font-medium text-white rounded-lg bg-blue-light-500 shadow-theme-xs hover:bg-blue-light-600"
         >
-          Info Alert
+          {t('modal-based-alerts.info-alert')}
         </button>
         <button
           onClick={warningModal.openModal}
           className="px-4 py-3 text-sm font-medium text-white rounded-lg bg-warning-500 shadow-theme-xs hover:bg-warning-600"
         >
-          Warning Alert
+          {t('modal-based-alerts.warning-alert')}
         </button>
         <button
           onClick={errorModal.openModal}
           className="px-4 py-3 text-sm font-medium text-white rounded-lg bg-error-500 shadow-theme-xs hover:bg-error-600"
         >
-          Danger Alert
+          {t('modal-based-alerts.danger-alert')}
         </button>
       </div>
       {/* Success Modal */}
@@ -80,11 +82,10 @@ export default function ModalBasedAlerts() {
             </span>
           </div>
           <h4 className="mb-2 text-2xl font-semibold text-gray-800 dark:text-white/90 sm:text-title-sm">
-            Well Done!
+            {t('modal-based-alerts.well-done')}
           </h4>
           <p className="text-sm leading-6 text-gray-500 dark:text-gray-400">
-            Lorem ipsum dolor sit amet consectetur. Feugiat ipsum libero tempor
-            felis risus nisi non. Quisque eu ut tempor curabitur.
+            {t('modal-based-alerts.lorem-ipsum-dolor-sit')}
           </p>
 
           <div className="flex items-center justify-center w-full gap-3 mt-7">
@@ -92,7 +93,7 @@ export default function ModalBasedAlerts() {
               type="button"
               className="flex justify-center w-full px-4 py-3 text-sm font-medium text-white rounded-lg bg-success-500 shadow-theme-xs hover:bg-success-600 sm:w-auto"
             >
-              Okay, Got It
+              {t('modal-based-alerts.okay-got-it')}
             </button>
           </div>
         </div>
@@ -140,11 +141,10 @@ export default function ModalBasedAlerts() {
           </div>
 
           <h4 className="mb-2 text-2xl font-semibold text-gray-800 dark:text-white/90 sm:text-title-sm">
-            Information Alert!
+            {t('modal-based-alerts.information-alert')}
           </h4>
           <p className="text-sm leading-6 text-gray-500 dark:text-gray-400">
-            Lorem ipsum dolor sit amet consectetur. Feugiat ipsum libero tempor
-            felis risus nisi non. Quisque eu ut tempor curabitur.
+            {t('modal-based-alerts.lorem-ipsum-dolor-sit')}
           </p>
 
           <div className="flex items-center justify-center w-full gap-3 mt-7">
@@ -152,7 +152,7 @@ export default function ModalBasedAlerts() {
               type="button"
               className="flex justify-center w-full px-4 py-3 text-sm font-medium text-white rounded-lg bg-blue-light-500 shadow-theme-xs hover:bg-blue-light-600 sm:w-auto"
             >
-              Okay, Got It
+              {t('modal-based-alerts.okay-got-it')}
             </button>
           </div>
         </div>
@@ -200,11 +200,10 @@ export default function ModalBasedAlerts() {
           </div>
 
           <h4 className="mb-2 text-2xl font-semibold text-gray-800 dark:text-white/90 sm:text-title-sm">
-            Warning Alert!
+            {t('modal-based-alerts.warning-alert-2')}
           </h4>
           <p className="text-sm leading-6 text-gray-500 dark:text-gray-400">
-            Lorem ipsum dolor sit amet consectetur. Feugiat ipsum libero tempor
-            felis risus nisi non. Quisque eu ut tempor curabitur.
+            {t('modal-based-alerts.lorem-ipsum-dolor-sit')}
           </p>
 
           <div className="flex items-center justify-center w-full gap-3 mt-7">
@@ -212,7 +211,7 @@ export default function ModalBasedAlerts() {
               type="button"
               className="flex justify-center w-full px-4 py-3 text-sm font-medium text-white rounded-lg bg-warning-500 shadow-theme-xs hover:bg-warning-600 sm:w-auto"
             >
-              Okay, Got It
+              {t('modal-based-alerts.okay-got-it')}
             </button>
           </div>
         </div>
@@ -260,11 +259,10 @@ export default function ModalBasedAlerts() {
           </div>
 
           <h4 className="mb-2 text-2xl font-semibold text-gray-800 dark:text-white/90 sm:text-title-sm">
-            Danger Alert!
+            {t('modal-based-alerts.danger-alert-2')}
           </h4>
           <p className="text-sm leading-6 text-gray-500 dark:text-gray-400">
-            Lorem ipsum dolor sit amet consectetur. Feugiat ipsum libero tempor
-            felis risus nisi non. Quisque eu ut tempor curabitur.
+            {t('modal-based-alerts.lorem-ipsum-dolor-sit')}
           </p>
 
           <div className="flex items-center justify-center w-full gap-3 mt-7">
@@ -272,7 +270,7 @@ export default function ModalBasedAlerts() {
               type="button"
               className="flex justify-center w-full px-4 py-3 text-sm font-medium text-white rounded-lg bg-error-500 shadow-theme-xs hover:bg-error-600 sm:w-auto"
             >
-              Okay, Got It
+              {t('modal-based-alerts.okay-got-it')}
             </button>
           </div>
         </div>

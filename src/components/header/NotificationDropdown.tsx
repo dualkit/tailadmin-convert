@@ -4,8 +4,10 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { Dropdown } from "../ui/dropdown/Dropdown";
 import { DropdownItem } from "../ui/dropdown/DropdownItem";
+import { useTranslations } from "next-intl";
 
 export default function NotificationDropdown() {
+  const t = useTranslations();
   const [isOpen, setIsOpen] = useState(false);
   const [notifying, setNotifying] = useState(true);
 
@@ -28,7 +30,7 @@ export default function NotificationDropdown() {
         onClick={handleClick}
       >
         <span
-          className={`absolute right-0 top-0.5 z-10 h-2 w-2 rounded-full bg-orange-400 ${
+          className={`absolute end-0 top-0.5 z-10 h-2 w-2 rounded-full bg-orange-400 ${
             !notifying ? "hidden" : "flex"
           }`}
         >
@@ -52,11 +54,11 @@ export default function NotificationDropdown() {
       <Dropdown
         isOpen={isOpen}
         onClose={closeDropdown}
-        className="absolute -right-[240px] mt-[17px] flex h-[480px] w-[350px] flex-col rounded-2xl border border-gray-200 bg-white p-3 shadow-theme-lg dark:border-gray-800 dark:bg-gray-dark sm:w-[361px] lg:right-0"
+        className="absolute -end-[240px] mt-[17px] flex h-[480px] w-[350px] flex-col rounded-2xl border border-gray-200 bg-white p-3 shadow-theme-lg dark:border-gray-800 dark:bg-gray-dark sm:w-[361px] lg:end-0"
       >
         <div className="flex items-center justify-between pb-3 mb-3 border-b border-gray-100 dark:border-gray-700">
           <h5 className="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Notification
+            {t('notification-dropdown.notification')}
           </h5>
           <button
             onClick={toggleDropdown}
@@ -90,27 +92,27 @@ export default function NotificationDropdown() {
                   width={40}
                   height={40}
                   src="/images/user/user-02.jpg"
-                  alt="User"
+                  alt={t('notification-dropdown.user')}
                   className="w-full overflow-hidden rounded-full"
                 />
-                <span className="absolute bottom-0 right-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-success-500 dark:border-gray-900"></span>
+                <span className="absolute bottom-0 end-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-success-500 dark:border-gray-900"></span>
               </span>
 
               <span className="block">
                 <span className="mb-1.5 space-x-1 block text-theme-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Terry Franci
+                    {t('notification-dropdown.terry-franci')}
                   </span>
-                  <span>requests permission to change</span>
+                  <span>{t('notification-dropdown.requests-permission-to-change')}</span>
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Project - Nganter App
+                    {t('notification-dropdown.project-nganter-app')}
                   </span>
                 </span>
 
                 <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
-                  <span>Project</span>
+                  <span>{t('notification-dropdown.project')}</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
-                  <span>5 min ago</span>
+                  <span>{t('notification-dropdown.5-min-ago')}</span>
                 </span>
               </span>
             </DropdownItem>
@@ -126,27 +128,27 @@ export default function NotificationDropdown() {
                   width={40}
                   height={40}
                   src="/images/user/user-03.jpg"
-                  alt="User"
+                  alt={t('notification-dropdown.user')}
                   className="w-full overflow-hidden rounded-full"
                 />
-                <span className="absolute bottom-0 right-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-success-500 dark:border-gray-900"></span>
+                <span className="absolute bottom-0 end-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-success-500 dark:border-gray-900"></span>
               </span>
 
               <span className="block">
                 <span className="mb-1.5 block space-x-1  text-theme-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Alena Franci
+                    {t('notification-dropdown.alena-franci')}
                   </span>
-                  <span> requests permission to change</span>
+                  <span> {t('notification-dropdown.requests-permission-to-change')}</span>
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Project - Nganter App
+                    {t('notification-dropdown.project-nganter-app')}
                   </span>
                 </span>
 
                 <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
-                  <span>Project</span>
+                  <span>{t('notification-dropdown.project')}</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
-                  <span>8 min ago</span>
+                  <span>{t('notification-dropdown.8-min-ago')}</span>
                 </span>
               </span>
             </DropdownItem>
@@ -163,27 +165,27 @@ export default function NotificationDropdown() {
                   width={40}
                   height={40}
                   src="/images/user/user-04.jpg"
-                  alt="User"
+                  alt={t('notification-dropdown.user')}
                   className="w-full overflow-hidden rounded-full"
                 />
-                <span className="absolute bottom-0 right-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-success-500 dark:border-gray-900"></span>
+                <span className="absolute bottom-0 end-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-success-500 dark:border-gray-900"></span>
               </span>
 
               <span className="block">
                 <span className="mb-1.5 block space-x-1 text-theme-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Jocelyn Kenter
+                    {t('notification-dropdown.jocelyn-kenter')}
                   </span>
-                  <span>requests permission to change</span>
+                  <span>{t('notification-dropdown.requests-permission-to-change')}</span>
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Project - Nganter App
+                    {t('notification-dropdown.project-nganter-app')}
                   </span>
                 </span>
 
                 <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
-                  <span>Project</span>
+                  <span>{t('notification-dropdown.project')}</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
-                  <span>15 min ago</span>
+                  <span>{t('notification-dropdown.15-min-ago')}</span>
                 </span>
               </span>
             </DropdownItem>
@@ -200,27 +202,27 @@ export default function NotificationDropdown() {
                   width={40}
                   height={40}
                   src="/images/user/user-05.jpg"
-                  alt="User"
+                  alt={t('notification-dropdown.user')}
                   className="w-full overflow-hidden rounded-full"
                 />
-                <span className="absolute bottom-0 right-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-error-500 dark:border-gray-900"></span>
+                <span className="absolute bottom-0 end-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-error-500 dark:border-gray-900"></span>
               </span>
 
               <span className="block">
                 <span className="mb-1.5 space-x-1 block text-theme-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Brandon Philips
+                    {t('notification-dropdown.brandon-philips')}
                   </span>
-                  <span> requests permission to change</span>
+                  <span> {t('notification-dropdown.requests-permission-to-change')}</span>
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Project - Nganter App
+                    {t('notification-dropdown.project-nganter-app')}
                   </span>
                 </span>
 
                 <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
-                  <span>Project</span>
+                  <span>{t('notification-dropdown.project')}</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
-                  <span>1 hr ago</span>
+                  <span>{t('notification-dropdown.1-hr-ago')}</span>
                 </span>
               </span>
             </DropdownItem>
@@ -236,27 +238,27 @@ export default function NotificationDropdown() {
                   width={40}
                   height={40}
                   src="/images/user/user-02.jpg"
-                  alt="User"
+                  alt={t('notification-dropdown.user')}
                   className="w-full overflow-hidden rounded-full"
                 />
-                <span className="absolute bottom-0 right-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-success-500 dark:border-gray-900"></span>
+                <span className="absolute bottom-0 end-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-success-500 dark:border-gray-900"></span>
               </span>
 
               <span className="block">
                 <span className="mb-1.5 space-x-1 block text-theme-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Terry Franci
+                    {t('notification-dropdown.terry-franci')}
                   </span>
-                  <span>requests permission to change</span>
+                  <span>{t('notification-dropdown.requests-permission-to-change')}</span>
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Project - Nganter App
+                    {t('notification-dropdown.project-nganter-app')}
                   </span>
                 </span>
 
                 <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
-                  <span>Project</span>
+                  <span>{t('notification-dropdown.project')}</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
-                  <span>5 min ago</span>
+                  <span>{t('notification-dropdown.5-min-ago')}</span>
                 </span>
               </span>
             </DropdownItem>
@@ -272,27 +274,27 @@ export default function NotificationDropdown() {
                   width={40}
                   height={40}
                   src="/images/user/user-03.jpg"
-                  alt="User"
+                  alt={t('notification-dropdown.user')}
                   className="w-full overflow-hidden rounded-full"
                 />
-                <span className="absolute bottom-0 right-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-success-500 dark:border-gray-900"></span>
+                <span className="absolute bottom-0 end-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-success-500 dark:border-gray-900"></span>
               </span>
 
               <span className="block">
                 <span className="mb-1.5 space-x-1 block text-theme-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Alena Franci
+                    {t('notification-dropdown.alena-franci')}
                   </span>
-                  <span>requests permission to change</span>
+                  <span>{t('notification-dropdown.requests-permission-to-change')}</span>
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Project - Nganter App
+                    {t('notification-dropdown.project-nganter-app')}
                   </span>
                 </span>
 
                 <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
-                  <span>Project</span>
+                  <span>{t('notification-dropdown.project')}</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
-                  <span>8 min ago</span>
+                  <span>{t('notification-dropdown.8-min-ago')}</span>
                 </span>
               </span>
             </DropdownItem>
@@ -308,27 +310,27 @@ export default function NotificationDropdown() {
                   width={40}
                   height={40}
                   src="/images/user/user-04.jpg"
-                  alt="User"
+                  alt={t('notification-dropdown.user')}
                   className="w-full overflow-hidden rounded-full"
                 />
-                <span className="absolute bottom-0 right-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-success-500 dark:border-gray-900"></span>
+                <span className="absolute bottom-0 end-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-success-500 dark:border-gray-900"></span>
               </span>
 
               <span className="block">
                 <span className="mb-1.5 space-x-1 block text-theme-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Jocelyn Kenter
+                    {t('notification-dropdown.jocelyn-kenter')}
                   </span>
-                  <span>requests permission to change</span>
+                  <span>{t('notification-dropdown.requests-permission-to-change')}</span>
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Project - Nganter App
+                    {t('notification-dropdown.project-nganter-app')}
                   </span>
                 </span>
 
                 <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
-                  <span>Project</span>
+                  <span>{t('notification-dropdown.project')}</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
-                  <span>15 min ago</span>
+                  <span>{t('notification-dropdown.15-min-ago')}</span>
                 </span>
               </span>
             </DropdownItem>
@@ -345,27 +347,27 @@ export default function NotificationDropdown() {
                   width={40}
                   height={40}
                   src="/images/user/user-05.jpg"
-                  alt="User"
+                  alt={t('notification-dropdown.user')}
                   className="overflow-hidden rounded-full"
                 />
-                <span className="absolute bottom-0 right-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-error-500 dark:border-gray-900"></span>
+                <span className="absolute bottom-0 end-0 z-10 h-2.5 w-full max-w-2.5 rounded-full border-[1.5px] border-white bg-error-500 dark:border-gray-900"></span>
               </span>
 
               <span className="block">
                 <span className="mb-1.5 space-x-1 block text-theme-sm text-gray-500 dark:text-gray-400">
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Brandon Philips
+                    {t('notification-dropdown.brandon-philips')}
                   </span>
-                  <span>requests permission to change</span>
+                  <span>{t('notification-dropdown.requests-permission-to-change')}</span>
                   <span className="font-medium text-gray-800 dark:text-white/90">
-                    Project - Nganter App
+                    {t('notification-dropdown.project-nganter-app')}
                   </span>
                 </span>
 
                 <span className="flex items-center gap-2 text-gray-500 text-theme-xs dark:text-gray-400">
-                  <span>Project</span>
+                  <span>{t('notification-dropdown.project')}</span>
                   <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
-                  <span>1 hr ago</span>
+                  <span>{t('notification-dropdown.1-hr-ago')}</span>
                 </span>
               </span>
             </DropdownItem>
@@ -376,7 +378,7 @@ export default function NotificationDropdown() {
           href="/"
           className="block px-4 py-2 mt-3 text-sm font-medium text-center text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700"
         >
-          View All Notifications
+          {t('notification-dropdown.view-all-notifications')}
         </Link>
       </Dropdown>
     </div>

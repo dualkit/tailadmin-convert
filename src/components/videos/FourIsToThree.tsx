@@ -1,11 +1,13 @@
 import React from "react";
+import { useTranslations } from "next-intl";
 
 export default function FourIsToThree() {
+  const t = useTranslations();
   return (
     <div className="aspect-4/3 overflow-hidden rounded-lg">
       <iframe
         src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-        title="YouTube video"
+        title={t('four-is-to-three.youtube-video')}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen

@@ -1,0 +1,1017 @@
+{
+  "branch": "dualkit/bilingual",
+  "filesChanged": 96,
+  "edits": 679,
+  "byKind": {
+    "tailwind": 107,
+    "css": 5,
+    "markup": 3,
+    "strings": 549,
+    "formats": 0,
+    "wiring": 22
+  },
+  "changed": [
+    {
+      "file": "next.config.ts",
+      "edits": 3
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/bar-chart/page.tsx",
+      "edits": 3
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/line-chart/page.tsx",
+      "edits": 3
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(others-pages)/(tables)/basic-tables/page.tsx",
+      "edits": 3
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(others-pages)/blank/page.tsx",
+      "edits": 4
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(others-pages)/profile/page.tsx",
+      "edits": 3
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+      "edits": 14
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
+      "edits": 6
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+      "edits": 50
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
+      "edits": 20
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(ui-elements)/images/page.tsx",
+      "edits": 5
+    },
+    {
+      "file": "src/app/[locale]/(full-width-pages)/(auth)/layout.tsx",
+      "edits": 5
+    },
+    {
+      "file": "src/app/[locale]/(full-width-pages)/(error-pages)/error-404/page.tsx",
+      "edits": 5
+    },
+    {
+      "file": "src/app/[locale]/layout.tsx",
+      "edits": 11
+    },
+    {
+      "file": "src/app/[locale]/not-found.tsx",
+      "edits": 5
+    },
+    {
+      "file": "src/app/globals.css",
+      "edits": 20
+    },
+    {
+      "file": "src/components/auth/SignInForm.tsx",
+      "edits": 14
+    },
+    {
+      "file": "src/components/auth/SignUpForm.tsx",
+      "edits": 14
+    },
+    {
+      "file": "src/components/calendar/Calendar.tsx",
+      "edits": 13
+    },
+    {
+      "file": "src/components/common/ChartTab.tsx",
+      "edits": 5
+    },
+    {
+      "file": "src/components/common/GridShape.tsx",
+      "edits": 6
+    },
+    {
+      "file": "src/components/common/PageBreadCrumb.tsx",
+      "edits": 3
+    },
+    {
+      "file": "src/components/ecommerce/DemographicCard.tsx",
+      "edits": 16
+    },
+    {
+      "file": "src/components/ecommerce/EcommerceMetrics.tsx",
+      "edits": 4
+    },
+    {
+      "file": "src/components/ecommerce/MonthlySalesChart.tsx",
+      "edits": 9
+    },
+    {
+      "file": "src/components/ecommerce/MonthlyTarget.tsx",
+      "edits": 15
+    },
+    {
+      "file": "src/components/ecommerce/RecentOrders.tsx",
+      "edits": 11
+    },
+    {
+      "file": "src/components/ecommerce/StatisticsChart.tsx",
+      "edits": 7
+    },
+    {
+      "file": "src/components/example/ModalExample/DefaultModal.tsx",
+      "edits": 9
+    },
+    {
+      "file": "src/components/example/ModalExample/FormInModal.tsx",
+      "edits": 16
+    },
+    {
+      "file": "src/components/example/ModalExample/FullScreenModal.tsx",
+      "edits": 11
+    },
+    {
+      "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
+      "edits": 19
+    },
+    {
+      "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
+      "edits": 8
+    },
+    {
+      "file": "src/components/form/MultiSelect.tsx",
+      "edits": 9
+    },
+    {
+      "file": "src/components/form/Select.tsx",
+      "edits": 1
+    },
+    {
+      "file": "src/components/form/form-elements/CheckboxComponents.tsx",
+      "edits": 6
+    },
+    {
+      "file": "src/components/form/form-elements/DefaultInputs.tsx",
+      "edits": 19
+    },
+    {
+      "file": "src/components/form/form-elements/DropZone.tsx",
+      "edits": 5
+    },
+    {
+      "file": "src/components/form/form-elements/FileInputExample.tsx",
+      "edits": 4
+    },
+    {
+      "file": "src/components/form/form-elements/InputGroup.tsx",
+      "edits": 10
+    },
+    {
+      "file": "src/components/form/form-elements/InputStates.tsx",
+      "edits": 9
+    },
+    {
+      "file": "src/components/form/form-elements/RadioButtons.tsx",
+      "edits": 6
+    },
+    {
+      "file": "src/components/form/form-elements/SelectInputs.tsx",
+      "edits": 6
+    },
+    {
+      "file": "src/components/form/form-elements/TextAreaInput.tsx",
+      "edits": 6
+    },
+    {
+      "file": "src/components/form/form-elements/ToggleSwitch.tsx",
+      "edits": 9
+    },
+    {
+      "file": "src/components/form/group-input/PhoneInput.tsx",
+      "edits": 12
+    },
+    {
+      "file": "src/components/form/input/FileInput.tsx",
+      "edits": 5
+    },
+    {
+      "file": "src/components/form/input/RadioSm.tsx",
+      "edits": 1
+    },
+    {
+      "file": "src/components/form/switch/Switch.tsx",
+      "edits": 1
+    },
+    {
+      "file": "src/components/header/NotificationDropdown.tsx",
+      "edits": 63
+    },
+    {
+      "file": "src/components/header/UserDropdown.tsx",
+      "edits": 13
+    },
+    {
+      "file": "src/components/tables/BasicTableOne.tsx",
+      "edits": 7
+    },
+    {
+      "file": "src/components/tables/Pagination.tsx",
+      "edits": 6
+    },
+    {
+      "file": "src/components/ui/avatar/Avatar.tsx",
+      "edits": 1
+    },
+    {
+      "file": "src/components/ui/badge/Badge.tsx",
+      "edits": 2
+    },
+    {
+      "file": "src/components/ui/dropdown/Dropdown.tsx",
+      "edits": 1
+    },
+    {
+      "file": "src/components/ui/images/ResponsiveImage.tsx",
+      "edits": 3
+    },
+    {
+      "file": "src/components/ui/images/ThreeColumnImageGrid.tsx",
+      "edits": 5
+    },
+    {
+      "file": "src/components/ui/images/TwoColumnImageGrid.tsx",
+      "edits": 4
+    },
+    {
+      "file": "src/components/ui/modal/index.tsx",
+      "edits": 2
+    },
+    {
+      "file": "src/components/ui/video/VideosExample.tsx",
+      "edits": 6
+    },
+    {
+      "file": "src/components/user-profile/UserAddressCard.tsx",
+      "edits": 21
+    },
+    {
+      "file": "src/components/user-profile/UserInfoCard.tsx",
+      "edits": 29
+    },
+    {
+      "file": "src/components/user-profile/UserMetaCard.tsx",
+      "edits": 25
+    },
+    {
+      "file": "src/components/videos/FourIsToThree.tsx",
+      "edits": 3
+    },
+    {
+      "file": "src/components/videos/OneIsToOne.tsx",
+      "edits": 3
+    },
+    {
+      "file": "src/components/videos/SixteenIsToNine.tsx",
+      "edits": 3
+    },
+    {
+      "file": "src/components/videos/TwentyOneIsToNine.tsx",
+      "edits": 3
+    },
+    {
+      "file": "src/layout/AppHeader.tsx",
+      "edits": 10
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "edits": 14
+    },
+    {
+      "file": "src/layout/SidebarWidget.tsx",
+      "edits": 5
+    }
+  ],
+  "flags": [
+    {
+      "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/bar-chart/page.tsx",
+      "line": 10,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Bar Chart page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/line-chart/page.tsx",
+      "line": 10,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Line Chart page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(others-pages)/(forms)/form-elements/page.tsx",
+      "line": 18,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Form Elements page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(others-pages)/(tables)/basic-tables/page.tsx",
+      "line": 10,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Basic Table  page for TailAdmin  Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(others-pages)/blank/page.tsx",
+      "line": 7,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Blank Page TailAdmin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(others-pages)/calendar/page.tsx",
+      "line": 9,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Calender page for TailAdmin  Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(others-pages)/profile/page.tsx",
+      "line": 10,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Profile page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+      "line": 10,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Alerts page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
+      "line": 10,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Avatars page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+      "line": 10,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Badge page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
+      "line": 11,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Buttons page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(ui-elements)/images/page.tsx",
+      "line": 12,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Images page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(ui-elements)/modals/page.tsx",
+      "line": 13,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Modals page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/(ui-elements)/videos/page.tsx",
+      "line": 9,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Videos page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/layout.tsx",
+      "line": 30,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/app/[locale]/(admin)/page.tsx",
+      "line": 13,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Home for TailAdmin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(full-width-pages)/(auth)/signin/page.tsx",
+      "line": 6,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Signin Page TailAdmin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(full-width-pages)/(auth)/signup/page.tsx",
+      "line": 6,
+      "kind": "outside-component",
+      "message": "\"This is Next.js SignUp Page TailAdmin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/[locale]/(full-width-pages)/(error-pages)/error-404/page.tsx",
+      "line": 50,
+      "kind": "mixed-text",
+      "message": "This text shares its element with other elements or expressions, so it was left as it is.",
+      "suggestion": "Translate the whole sentence with rich text or a plural message, by hand."
+    },
+    {
+      "file": "src/app/[locale]/(full-width-pages)/(error-pages)/error-404/page.tsx",
+      "line": 10,
+      "kind": "outside-component",
+      "message": "\"This is Next.js Error 404 page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/app/globals.css",
+      "line": 224,
+      "kind": "no-logical-form",
+      "message": "`rotate-180` has no logical form in Tailwind and stays physical in Arabic.",
+      "suggestion": "A rotation turns the same way in Arabic. If it points an arrow or chevron, add an rtl: variant such as rtl:-rotate-45, or use rtl:scale-x-[-1] to mirror it."
+    },
+    {
+      "file": "src/app/globals.css",
+      "line": 429,
+      "kind": "no-logical-form",
+      "message": "`box-shadow: -5px 0 0 #f9fafb, 5px 0 0 #f9fafb` has no logical form in CSS and stays physical in Arabic.",
+      "suggestion": "A shadow with a horizontal offset falls on the same side in Arabic. Use `:dir(rtl)` with the offset negated."
+    },
+    {
+      "file": "src/app/globals.css",
+      "line": 476,
+      "kind": "no-logical-form",
+      "message": "`box-shadow: -10px 0 0 #465fff` has no logical form in CSS and stays physical in Arabic.",
+      "suggestion": "A shadow with a horizontal offset falls on the same side in Arabic. Use `:dir(rtl)` with the offset negated."
+    },
+    {
+      "file": "src/app/[locale]/not-found.tsx",
+      "line": 43,
+      "kind": "mixed-text",
+      "message": "This text shares its element with other elements or expressions, so it was left as it is.",
+      "suggestion": "Translate the whole sentence with rich text or a plural message, by hand."
+    },
+    {
+      "file": "src/components/auth/SignInForm.tsx",
+      "line": 91,
+      "kind": "mixed-text",
+      "message": "This text shares its element with other elements or expressions, so it was left as it is.",
+      "suggestion": "Translate the whole sentence with rich text or a plural message, by hand."
+    },
+    {
+      "file": "src/components/auth/SignInForm.tsx",
+      "line": 97,
+      "kind": "mixed-text",
+      "message": "This text shares its element with other elements or expressions, so it was left as it is.",
+      "suggestion": "Translate the whole sentence with rich text or a plural message, by hand."
+    },
+    {
+      "file": "src/components/auth/SignInForm.tsx",
+      "line": 140,
+      "kind": "mixed-text",
+      "message": "This text shares its element with other elements or expressions, so it was left as it is.",
+      "suggestion": "Translate the whole sentence with rich text or a plural message, by hand."
+    },
+    {
+      "file": "src/components/auth/SignUpForm.tsx",
+      "line": 92,
+      "kind": "mixed-text",
+      "message": "This text shares its element with other elements or expressions, so it was left as it is.",
+      "suggestion": "Translate the whole sentence with rich text or a plural message, by hand."
+    },
+    {
+      "file": "src/components/auth/SignUpForm.tsx",
+      "line": 104,
+      "kind": "mixed-text",
+      "message": "This text shares its element with other elements or expressions, so it was left as it is.",
+      "suggestion": "Translate the whole sentence with rich text or a plural message, by hand."
+    },
+    {
+      "file": "src/components/auth/SignUpForm.tsx",
+      "line": 117,
+      "kind": "mixed-text",
+      "message": "This text shares its element with other elements or expressions, so it was left as it is.",
+      "suggestion": "Translate the whole sentence with rich text or a plural message, by hand."
+    },
+    {
+      "file": "src/components/auth/SignUpForm.tsx",
+      "line": 129,
+      "kind": "mixed-text",
+      "message": "This text shares its element with other elements or expressions, so it was left as it is.",
+      "suggestion": "Translate the whole sentence with rich text or a plural message, by hand."
+    },
+    {
+      "file": "src/components/auth/SignUpForm.tsx",
+      "line": 156,
+      "kind": "mixed-text",
+      "message": "This text shares its element with other elements or expressions, so it was left as it is.",
+      "suggestion": "Translate the whole sentence with rich text or a plural message, by hand."
+    },
+    {
+      "file": "src/components/auth/SignUpForm.tsx",
+      "line": 177,
+      "kind": "mixed-text",
+      "message": "This text shares its element with other elements or expressions, so it was left as it is.",
+      "suggestion": "Translate the whole sentence with rich text or a plural message, by hand."
+    },
+    {
+      "file": "src/components/calendar/Calendar.tsx",
+      "line": 186,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/calendar/Calendar.tsx",
+      "line": 204,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/calendar/Calendar.tsx",
+      "line": 274,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/calendar/Calendar.tsx",
+      "line": 3,
+      "kind": "format",
+      "message": "FullCalendar from @fullcalendar/react is a date picker or calendar with its own week start and calendar system.",
+      "suggestion": "Start weeks on Saturday for Gulf users and offer Hijri dates beside Gregorian ones where dates matter."
+    },
+    {
+      "file": "src/components/common/ChartTab.tsx",
+      "line": 17,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/common/ChartTab.tsx",
+      "line": 26,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/common/ChartTab.tsx",
+      "line": 35,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/common/ComponentCard.tsx",
+      "line": 18,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/common/GridShape.tsx",
+      "line": 15,
+      "kind": "no-logical-form",
+      "message": "`rotate-180` has no logical form in Tailwind and stays physical in Arabic.",
+      "suggestion": "A rotation turns the same way in Arabic. If it points an arrow or chevron, add an rtl: variant such as rtl:-rotate-45, or use rtl:scale-x-[-1] to mirror it."
+    },
+    {
+      "file": "src/components/ecommerce/RecentOrders.tsx",
+      "line": 27,
+      "kind": "outside-component",
+      "message": "\"MacBook Pro 13”\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/components/ecommerce/StatisticsChart.tsx",
+      "line": 163,
+      "kind": "no-logical-form",
+      "message": "`lg:translate-x-0` has no logical form in Tailwind and stays physical in Arabic.",
+      "suggestion": "Tailwind has no logical translate. Keep it for centring, or flip it for Arabic with an rtl: variant such as rtl:-translate-x-0."
+    },
+    {
+      "file": "src/components/form/Form.tsx",
+      "line": 16,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/MultiSelect.tsx",
+      "line": 111,
+      "kind": "no-logical-form",
+      "message": "`rotate-180` has no logical form in Tailwind and stays physical in Arabic.",
+      "suggestion": "A rotation turns the same way in Arabic. If it points an arrow or chevron, add an rtl: variant such as rtl:-rotate-45, or use rtl:scale-x-[-1] to mirror it."
+    },
+    {
+      "file": "src/components/form/MultiSelect.tsx",
+      "line": 111,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/MultiSelect.tsx",
+      "line": 144,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/Select.tsx",
+      "line": 34,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/form-elements/DropZone.tsx",
+      "line": 26,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/form-elements/SelectInputs.tsx",
+      "line": 55,
+      "kind": "mixed-text",
+      "message": "This text shares its element with other elements or expressions, so it was left as it is.",
+      "suggestion": "Translate the whole sentence with rich text or a plural message, by hand."
+    },
+    {
+      "file": "src/components/form/group-input/PhoneInput.tsx",
+      "line": 94,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/input/Checkbox.tsx",
+      "line": 22,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/input/Checkbox.tsx",
+      "line": 30,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/input/FileInput.tsx",
+      "line": 12,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/input/InputField.tsx",
+      "line": 69,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/input/Radio.tsx",
+      "line": 27,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/input/Radio.tsx",
+      "line": 44,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/input/Radio.tsx",
+      "line": 55,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/input/RadioSm.tsx",
+      "line": 25,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/input/RadioSm.tsx",
+      "line": 40,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/input/RadioSm.tsx",
+      "line": 48,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/input/TextArea.tsx",
+      "line": 52,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/switch/Switch.tsx",
+      "line": 51,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/switch/Switch.tsx",
+      "line": 58,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/form/switch/Switch.tsx",
+      "line": 65,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/header/NotificationDropdown.tsx",
+      "line": 31,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/header/UserDropdown.tsx",
+      "line": 37,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/header/UserDropdown.tsx",
+      "line": 38,
+      "kind": "no-logical-form",
+      "message": "`rotate-180` has no logical form in Tailwind and stays physical in Arabic.",
+      "suggestion": "A rotation turns the same way in Arabic. If it points an arrow or chevron, add an rtl: variant such as rtl:-rotate-45, or use rtl:scale-x-[-1] to mirror it."
+    },
+    {
+      "file": "src/components/tables/BasicTableOne.tsx",
+      "line": 34,
+      "kind": "outside-component",
+      "message": "\"Lindsey Curtis\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/components/tables/Pagination.tsx",
+      "line": 32,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/ui/alert/Alert.tsx",
+      "line": 117,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/ui/alert/Alert.tsx",
+      "line": 120,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/ui/avatar/Avatar.tsx",
+      "line": 42,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/ui/avatar/Avatar.tsx",
+      "line": 56,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/ui/avatar/AvatarText.tsx",
+      "line": 38,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/ui/badge/Badge.tsx",
+      "line": 71,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/ui/button/Button.tsx",
+      "line": 40,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/ui/dropdown/Dropdown.tsx",
+      "line": 43,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/ui/modal/index.tsx",
+      "line": 67,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/ui/table/index.tsx",
+      "line": 36,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/ui/table/index.tsx",
+      "line": 61,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/components/ui/video/YouTubeEmbed.tsx",
+      "line": 27,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppHeader.tsx",
+      "line": 159,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 111,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 122,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 135,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 138,
+      "kind": "no-logical-form",
+      "message": "`rotate-180` has no logical form in Tailwind and stays physical in Arabic.",
+      "suggestion": "A rotation turns the same way in Arabic. If it points an arrow or chevron, add an rtl: variant such as rtl:-rotate-45, or use rtl:scale-x-[-1] to mirror it."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 148,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 153,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 185,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 195,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 206,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 293,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 301,
+      "kind": "no-logical-form",
+      "message": "`translate-x-0` has no logical form in Tailwind and stays physical in Arabic.",
+      "suggestion": "Tailwind has no logical translate. Keep it for centring, or flip it for Arabic with an rtl: variant such as rtl:-translate-x-0."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 301,
+      "kind": "no-logical-form",
+      "message": "`-translate-x-full` has no logical form in Tailwind and stays physical in Arabic.",
+      "suggestion": "Tailwind has no logical translate. Keep it for centring, or flip it for Arabic with an rtl: variant such as rtl:translate-x-full."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 302,
+      "kind": "no-logical-form",
+      "message": "`lg:translate-x-0` has no logical form in Tailwind and stays physical in Arabic.",
+      "suggestion": "Tailwind has no logical translate. Keep it for centring, or flip it for Arabic with an rtl: variant such as rtl:-translate-x-0."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 307,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 344,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 361,
+      "kind": "computed-class",
+      "message": "This className is built at run time, so convert cannot see every class in it.",
+      "suggestion": "Check it by hand for ml-, mr-, pl-, pr-, left-, right-, text-left and text-right, and use the logical classes."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 32,
+      "kind": "outside-component",
+      "message": "\"Dashboard\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    },
+    {
+      "file": "src/layout/AppSidebar.tsx",
+      "line": 69,
+      "kind": "outside-component",
+      "message": "\"Charts\" is set at module level, outside any component.",
+      "suggestion": "Translate it where a component shows it, or move it into the component."
+    }
+  ],
+  "strings": 310,
+  "skipped": []
+}

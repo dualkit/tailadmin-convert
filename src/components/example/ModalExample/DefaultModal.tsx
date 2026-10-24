@@ -5,8 +5,10 @@ import ComponentCard from "../../common/ComponentCard";
 import { Modal } from "../../ui/modal";
 import Button from "../../ui/button/Button";
 import { useModal } from "@/hooks/useModal";
+import { useTranslations } from "next-intl";
 
 export default function DefaultModal() {
+  const t = useTranslations();
   const { isOpen, openModal, closeModal } = useModal();
   const handleSave = () => {
     // Handle save logic here
@@ -15,9 +17,9 @@ export default function DefaultModal() {
   };
   return (
     <div>
-      <ComponentCard title="Default Modal">
+      <ComponentCard title={t('default-modal.default-modal')}>
         <Button size="sm" onClick={openModal}>
-          Open Modal
+          {t('default-modal.open-modal')}
         </Button>
         <Modal
           isOpen={isOpen}
@@ -25,25 +27,20 @@ export default function DefaultModal() {
           className="max-w-[600px] p-5 lg:p-10"
         >
           <h4 className="font-semibold text-gray-800 mb-7 text-title-sm dark:text-white/90">
-            Modal Heading
+            {t('default-modal.modal-heading')}
           </h4>
           <p className="text-sm leading-6 text-gray-500 dark:text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula
-            ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit
-            amet ipsum rutrum feugiat ultrices enim quam.
+            {t('default-modal.lorem-ipsum-dolor-sit')}
           </p>
           <p className="mt-5 text-sm leading-6 text-gray-500 dark:text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula
-            ac odio.
+            {t('default-modal.lorem-ipsum-dolor-sit-2')}
           </p>
           <div className="flex items-center justify-end w-full gap-3 mt-8">
             <Button size="sm" variant="outline" onClick={closeModal}>
-              Close
+              {t('default-modal.close')}
             </Button>
             <Button size="sm" onClick={handleSave}>
-              Save Changes
+              {t('default-modal.save-changes')}
             </Button>
           </div>
         </Modal>

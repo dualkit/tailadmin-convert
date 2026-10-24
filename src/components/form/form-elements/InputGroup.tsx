@@ -5,8 +5,10 @@ import Label from "../Label";
 import Input from "../input/InputField";
 import { EnvelopeIcon } from "../../../icons";
 import PhoneInput from "../group-input/PhoneInput";
+import { useTranslations } from "next-intl";
 
 export default function InputGroup() {
+  const t = useTranslations();
   const countries = [
     { code: "US", label: "+1" },
     { code: "GB", label: "+44" },
@@ -17,23 +19,23 @@ export default function InputGroup() {
     console.log("Updated phone number:", phoneNumber);
   };
   return (
-    <ComponentCard title="Input Group">
+    <ComponentCard title={t('input-group.input-group')}>
       <div className="space-y-6">
         <div>
-          <Label>Email</Label>
+          <Label>{t('input-group.email')}</Label>
           <div className="relative">
             <Input
-              placeholder="info@gmail.com"
+              placeholder={t('input-group.info-gmail-com')}
               type="text"
-              className="pl-[62px]"
+              className="ps-[62px]"
             />
-            <span className="absolute left-0 top-1/2 -translate-y-1/2 border-r border-gray-200 px-3.5 py-3 text-gray-500 dark:border-gray-800 dark:text-gray-400">
+            <span className="absolute start-0 top-1/2 -translate-y-1/2 border-e border-gray-200 px-3.5 py-3 text-gray-500 dark:border-gray-800 dark:text-gray-400">
               <EnvelopeIcon />
             </span>
           </div>
         </div>
         <div>
-          <Label>Phone</Label>
+          <Label>{t('input-group.phone')}</Label>
           <PhoneInput
             selectPosition="start"
             countries={countries}
@@ -42,7 +44,7 @@ export default function InputGroup() {
           />
         </div>{" "}
         <div>
-          <Label>Phone</Label>
+          <Label>{t('input-group.phone')}</Label>
           <PhoneInput
             selectPosition="end"
             countries={countries}

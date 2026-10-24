@@ -1,0 +1,2482 @@
+[
+  {
+    "key": "alerts.error-alert",
+    "en": "Error Alert",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+    "line": 51
+  },
+  {
+    "key": "alerts.error-message",
+    "en": "Error Message",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+    "line": 54
+  },
+  {
+    "key": "alerts.info-alert",
+    "en": "Info Alert",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+    "line": 67
+  },
+  {
+    "key": "alerts.info-message",
+    "en": "Info Message",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+    "line": 70
+  },
+  {
+    "key": "alerts.success-alert",
+    "en": "Success Alert",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+    "line": 19
+  },
+  {
+    "key": "alerts.success-message",
+    "en": "Success Message",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+    "line": 22
+  },
+  {
+    "key": "alerts.warning-alert",
+    "en": "Warning Alert",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+    "line": 35
+  },
+  {
+    "key": "alerts.warning-message",
+    "en": "Warning Message",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/alerts/page.tsx",
+    "line": 38
+  },
+  {
+    "key": "app-header.k",
+    "en": "K",
+    "ar": "",
+    "status": "pending",
+    "file": "src/layout/AppHeader.tsx",
+    "line": 152
+  },
+  {
+    "key": "app-header.logo",
+    "en": "Logo",
+    "ar": "",
+    "status": "pending",
+    "file": "src/layout/AppHeader.tsx",
+    "line": 92
+  },
+  {
+    "key": "app-header.search-or-type-command",
+    "en": "Search or type command...",
+    "ar": "",
+    "status": "pending",
+    "file": "src/layout/AppHeader.tsx",
+    "line": 146
+  },
+  {
+    "key": "app-header.toggle-sidebar",
+    "en": "Toggle Sidebar",
+    "ar": "",
+    "status": "pending",
+    "file": "src/layout/AppHeader.tsx",
+    "line": 50
+  },
+  {
+    "key": "app-sidebar.logo",
+    "en": "Logo",
+    "ar": "",
+    "status": "pending",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 317
+  },
+  {
+    "key": "app-sidebar.new",
+    "en": "new",
+    "ar": "",
+    "status": "pending",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 201
+  },
+  {
+    "key": "app-sidebar.pro",
+    "en": "pro",
+    "ar": "",
+    "status": "pending",
+    "file": "src/layout/AppSidebar.tsx",
+    "line": 212
+  },
+  {
+    "key": "avatars.avatar-with-busy-indicator",
+    "en": "Avatar with busy indicator",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
+    "line": 97
+  },
+  {
+    "key": "avatars.avatar-with-offline-indicator",
+    "en": "Avatar with Offline indicator",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
+    "line": 63
+  },
+  {
+    "key": "avatars.avatar-with-online-indicator",
+    "en": "Avatar with online indicator",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
+    "line": 29
+  },
+  {
+    "key": "avatars.default-avatar",
+    "en": "Default Avatar",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/avatars/page.tsx",
+    "line": 18
+  },
+  {
+    "key": "badge.dark",
+    "en": "Dark",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 47
+  },
+  {
+    "key": "badge.error",
+    "en": "Error",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 35
+  },
+  {
+    "key": "badge.info",
+    "en": "Info",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 41
+  },
+  {
+    "key": "badge.light",
+    "en": "Light",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 44
+  },
+  {
+    "key": "badge.light-background-with-left",
+    "en": "Light Background with Left Icon",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 90
+  },
+  {
+    "key": "badge.light-background-with-right",
+    "en": "Light Background with Right Icon",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 156
+  },
+  {
+    "key": "badge.primary",
+    "en": "Primary",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 29
+  },
+  {
+    "key": "badge.solid-background-with-left",
+    "en": "Solid Background with Left Icon",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 123
+  },
+  {
+    "key": "badge.solid-background-with-right",
+    "en": "Solid Background with Right Icon",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 189
+  },
+  {
+    "key": "badge.success",
+    "en": "Success",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 32
+  },
+  {
+    "key": "badge.warning",
+    "en": "Warning",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 38
+  },
+  {
+    "key": "badge.with-light-background",
+    "en": "With Light Background",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 22
+  },
+  {
+    "key": "badge.with-solid-background",
+    "en": "With Solid Background",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/badge/page.tsx",
+    "line": 56
+  },
+  {
+    "key": "bar-chart.bar-chart-1",
+    "en": "Bar Chart 1",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/bar-chart/page.tsx",
+    "line": 18
+  },
+  {
+    "key": "basic-table-one.budget",
+    "en": "Budget",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 151
+  },
+  {
+    "key": "basic-table-one.project-name",
+    "en": "Project Name",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 133
+  },
+  {
+    "key": "basic-table-one.status",
+    "en": "Status",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 145
+  },
+  {
+    "key": "basic-table-one.team",
+    "en": "Team",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 139
+  },
+  {
+    "key": "basic-table-one.user",
+    "en": "User",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/tables/BasicTableOne.tsx",
+    "line": 127
+  },
+  {
+    "key": "basic-tables.basic-table-1",
+    "en": "Basic Table 1",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(tables)/basic-tables/page.tsx",
+    "line": 19
+  },
+  {
+    "key": "blank.card-title-here",
+    "en": "Card Title Here",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(others-pages)/blank/page.tsx",
+    "line": 17
+  },
+  {
+    "key": "blank.start-putting-content-on",
+    "en": "Start putting content on grids or panels, you can also use different combinations of grids.Please check out the dashboard and other pages",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(others-pages)/blank/page.tsx",
+    "line": 20
+  },
+  {
+    "key": "buttons.button-text",
+    "en": "Button Text",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
+    "line": 23
+  },
+  {
+    "key": "buttons.outline-button-with-left",
+    "en": "Outline Button with Left Icon",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
+    "line": 65
+  },
+  {
+    "key": "buttons.outline-button-with-right",
+    "en": "Outline Button with Right Icon",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
+    "line": 76
+  },
+  {
+    "key": "buttons.primary-button",
+    "en": "Primary Button",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
+    "line": 20
+  },
+  {
+    "key": "buttons.primary-button-with-left",
+    "en": "Primary Button with Left Icon",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
+    "line": 31
+  },
+  {
+    "key": "buttons.primary-button-with-right",
+    "en": "Primary Button with Right Icon",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
+    "line": 42
+  },
+  {
+    "key": "buttons.secondary-button",
+    "en": "Secondary Button",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/buttons/page.tsx",
+    "line": 53
+  },
+  {
+    "key": "calendar.close",
+    "en": "Close",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 254
+  },
+  {
+    "key": "calendar.enter-end-date",
+    "en": "Enter End Date",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 235
+  },
+  {
+    "key": "calendar.enter-start-date",
+    "en": "Enter Start Date",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 220
+  },
+  {
+    "key": "calendar.event-color",
+    "en": "Event Color",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 180
+  },
+  {
+    "key": "calendar.event-title",
+    "en": "Event Title",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 167
+  },
+  {
+    "key": "calendar.plan-your-next-big",
+    "en": "Plan your next big moment: schedule or edit an event to stay on track",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/calendar/Calendar.tsx",
+    "line": 159
+  },
+  {
+    "key": "chart-tab.annually",
+    "en": "Annually",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/common/ChartTab.tsx",
+    "line": 39
+  },
+  {
+    "key": "chart-tab.monthly",
+    "en": "Monthly",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/common/ChartTab.tsx",
+    "line": 21
+  },
+  {
+    "key": "chart-tab.quarterly",
+    "en": "Quarterly",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/common/ChartTab.tsx",
+    "line": 30
+  },
+  {
+    "key": "checkbox-components.checkbox",
+    "en": "Checkbox",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/CheckboxComponents.tsx",
+    "line": 11
+  },
+  {
+    "key": "checkbox-components.checked",
+    "en": "Checked",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/CheckboxComponents.tsx",
+    "line": 23
+  },
+  {
+    "key": "checkbox-components.default",
+    "en": "Default",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/CheckboxComponents.tsx",
+    "line": 16
+  },
+  {
+    "key": "checkbox-components.disabled",
+    "en": "Disabled",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/CheckboxComponents.tsx",
+    "line": 31
+  },
+  {
+    "key": "default-inputs.card-number",
+    "en": "Card number",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 96
+  },
+  {
+    "key": "default-inputs.date-picker-input",
+    "en": "Date Picker Input",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 68
+  },
+  {
+    "key": "default-inputs.default-inputs",
+    "en": "Default Inputs",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 21
+  },
+  {
+    "key": "default-inputs.enter-your-password",
+    "en": "Enter your password",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 50
+  },
+  {
+    "key": "default-inputs.info-gmail-com",
+    "en": "info@gmail.com",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 29
+  },
+  {
+    "key": "default-inputs.input",
+    "en": "Input",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 24
+  },
+  {
+    "key": "default-inputs.input-with-payment",
+    "en": "Input with Payment",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 92
+  },
+  {
+    "key": "default-inputs.input-with-placeholder",
+    "en": "Input with Placeholder",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 28
+  },
+  {
+    "key": "default-inputs.password-input",
+    "en": "Password Input",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 46
+  },
+  {
+    "key": "default-inputs.select-a-date",
+    "en": "Select a date",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 69
+  },
+  {
+    "key": "default-inputs.select-an-option",
+    "en": "Select an option",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 36
+  },
+  {
+    "key": "default-inputs.select-input",
+    "en": "Select Input",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 32
+  },
+  {
+    "key": "default-inputs.time-picker-input",
+    "en": "Time Picker Input",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DefaultInputs.tsx",
+    "line": 78
+  },
+  {
+    "key": "default-modal.close",
+    "en": "Close",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/DefaultModal.tsx",
+    "line": 43
+  },
+  {
+    "key": "default-modal.default-modal",
+    "en": "Default Modal",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/DefaultModal.tsx",
+    "line": 18
+  },
+  {
+    "key": "default-modal.lorem-ipsum-dolor-sit",
+    "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit amet ipsum rutrum feugiat ultrices enim quam.",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/DefaultModal.tsx",
+    "line": 31
+  },
+  {
+    "key": "default-modal.lorem-ipsum-dolor-sit-2",
+    "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio.",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/DefaultModal.tsx",
+    "line": 37
+  },
+  {
+    "key": "default-modal.modal-heading",
+    "en": "Modal Heading",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/DefaultModal.tsx",
+    "line": 28
+  },
+  {
+    "key": "default-modal.open-modal",
+    "en": "Open Modal",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/DefaultModal.tsx",
+    "line": 20
+  },
+  {
+    "key": "default-modal.save-changes",
+    "en": "Save Changes",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/DefaultModal.tsx",
+    "line": 46
+  },
+  {
+    "key": "demographic-card.2-379-customers",
+    "en": "2,379 Customers",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/DemographicCard.tsx",
+    "line": 83
+  },
+  {
+    "key": "demographic-card.589-customers",
+    "en": "589 Customers",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/DemographicCard.tsx",
+    "line": 114
+  },
+  {
+    "key": "demographic-card.customers-demographic",
+    "en": "Customers Demographic",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/DemographicCard.tsx",
+    "line": 26
+  },
+  {
+    "key": "demographic-card.delete",
+    "en": "Delete",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/DemographicCard.tsx",
+    "line": 52
+  },
+  {
+    "key": "demographic-card.france",
+    "en": "france",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/DemographicCard.tsx",
+    "line": 106
+  },
+  {
+    "key": "demographic-card.france-2",
+    "en": "France",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/DemographicCard.tsx",
+    "line": 111
+  },
+  {
+    "key": "demographic-card.number-of-customer-based",
+    "en": "Number of customer based on country",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/DemographicCard.tsx",
+    "line": 29
+  },
+  {
+    "key": "demographic-card.usa",
+    "en": "usa",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/DemographicCard.tsx",
+    "line": 74
+  },
+  {
+    "key": "demographic-card.usa-2",
+    "en": "USA",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/DemographicCard.tsx",
+    "line": 80
+  },
+  {
+    "key": "demographic-card.view-more",
+    "en": "View More",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/DemographicCard.tsx",
+    "line": 46
+  },
+  {
+    "key": "drop-zone.browse-file",
+    "en": "Browse File",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DropZone.tsx",
+    "line": 68
+  },
+  {
+    "key": "drop-zone.drag-and-drop-your",
+    "en": "Drag and drop your PNG, JPG, WebP, SVG images here or browse",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DropZone.tsx",
+    "line": 64
+  },
+  {
+    "key": "drop-zone.dropzone",
+    "en": "Dropzone",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/DropZone.tsx",
+    "line": 22
+  },
+  {
+    "key": "ecommerce-metrics.customers",
+    "en": "Customers",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/EcommerceMetrics.tsx",
+    "line": 18
+  },
+  {
+    "key": "ecommerce-metrics.orders",
+    "en": "Orders",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/EcommerceMetrics.tsx",
+    "line": 40
+  },
+  {
+    "key": "error-404.back-to-home-page",
+    "en": "Back to Home Page",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(full-width-pages)/(error-pages)/error-404/page.tsx",
+    "line": 45
+  },
+  {
+    "key": "error-404.error",
+    "en": "ERROR",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(full-width-pages)/(error-pages)/error-404/page.tsx",
+    "line": 19
+  },
+  {
+    "key": "error-404.we-can-t-seem",
+    "en": "We can’t seem to find the page you are looking for!",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(full-width-pages)/(error-pages)/error-404/page.tsx",
+    "line": 38
+  },
+  {
+    "key": "file-input-example.file-input",
+    "en": "File Input",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/FileInputExample.tsx",
+    "line": 16
+  },
+  {
+    "key": "file-input-example.upload-file",
+    "en": "Upload file",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/FileInputExample.tsx",
+    "line": 18
+  },
+  {
+    "key": "form-in-modal.bio",
+    "en": "Bio",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 54
+  },
+  {
+    "key": "form-in-modal.boruch",
+    "en": "Boruch",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 40
+  },
+  {
+    "key": "form-in-modal.close",
+    "en": "Close",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 61
+  },
+  {
+    "key": "form-in-modal.emirhan",
+    "en": "Emirhan",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 35
+  },
+  {
+    "key": "form-in-modal.emirhanboruch55-gmail-com",
+    "en": "emirhanboruch55@gmail.com",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 45
+  },
+  {
+    "key": "form-in-modal.first-name",
+    "en": "First Name",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 34
+  },
+  {
+    "key": "form-in-modal.form-in-modal",
+    "en": "Form In Modal",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 18
+  },
+  {
+    "key": "form-in-modal.last-name",
+    "en": "Last Name",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 39
+  },
+  {
+    "key": "form-in-modal.open-modal",
+    "en": "Open Modal",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 20
+  },
+  {
+    "key": "form-in-modal.personal-information",
+    "en": "Personal Information",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 29
+  },
+  {
+    "key": "form-in-modal.phone",
+    "en": "Phone",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 49
+  },
+  {
+    "key": "form-in-modal.save-changes",
+    "en": "Save Changes",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 64
+  },
+  {
+    "key": "form-in-modal.team-manager",
+    "en": "Team Manager",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FormInModal.tsx",
+    "line": 55
+  },
+  {
+    "key": "four-is-to-three.youtube-video",
+    "en": "YouTube video",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/videos/FourIsToThree.tsx",
+    "line": 8
+  },
+  {
+    "key": "full-screen-modal.close",
+    "en": "Close",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FullScreenModal.tsx",
+    "line": 56
+  },
+  {
+    "key": "full-screen-modal.full-screen-modal",
+    "en": "Full Screen Modal",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FullScreenModal.tsx",
+    "line": 20
+  },
+  {
+    "key": "full-screen-modal.lorem-ipsum-dolor-sit",
+    "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit amet ipsum rutrum feugiat ultrices enim quam.",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FullScreenModal.tsx",
+    "line": 36
+  },
+  {
+    "key": "full-screen-modal.lorem-ipsum-dolor-sit-2",
+    "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra. Sed a ligula ac odio condimentum aliquet a nec nulla. Aliquam bibendum ex sit amet ipsum rutrum feugiat ultrices enim quam odio condimentum aliquet a nec nulla pellentesque euismod est quis mauris lacinia pharetra.",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FullScreenModal.tsx",
+    "line": 42
+  },
+  {
+    "key": "full-screen-modal.lorem-ipsum-dolor-sit-3",
+    "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra.",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FullScreenModal.tsx",
+    "line": 50
+  },
+  {
+    "key": "full-screen-modal.modal-heading",
+    "en": "Modal Heading",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FullScreenModal.tsx",
+    "line": 33
+  },
+  {
+    "key": "full-screen-modal.open-modal",
+    "en": "Open Modal",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FullScreenModal.tsx",
+    "line": 22
+  },
+  {
+    "key": "full-screen-modal.save-changes",
+    "en": "Save Changes",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/FullScreenModal.tsx",
+    "line": 59
+  },
+  {
+    "key": "grid-shape.grid",
+    "en": "grid",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/common/GridShape.tsx",
+    "line": 12
+  },
+  {
+    "key": "home.free-and-open-source",
+    "en": "Free and Open-Source Tailwind CSS Admin Dashboard Template",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(full-width-pages)/(auth)/layout.tsx",
+    "line": 33
+  },
+  {
+    "key": "home.logo",
+    "en": "Logo",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(full-width-pages)/(auth)/layout.tsx",
+    "line": 29
+  },
+  {
+    "key": "images.image-in-2-grid",
+    "en": "Image in 2 Grid",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/images/page.tsx",
+    "line": 24
+  },
+  {
+    "key": "images.image-in-3-grid",
+    "en": "Image in 3 Grid",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/images/page.tsx",
+    "line": 27
+  },
+  {
+    "key": "images.responsive-image",
+    "en": "Responsive image",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(ui-elements)/images/page.tsx",
+    "line": 21
+  },
+  {
+    "key": "input-group.email",
+    "en": "Email",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/InputGroup.tsx",
+    "line": 23
+  },
+  {
+    "key": "input-group.info-gmail-com",
+    "en": "info@gmail.com",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/InputGroup.tsx",
+    "line": 26
+  },
+  {
+    "key": "input-group.input-group",
+    "en": "Input Group",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/InputGroup.tsx",
+    "line": 20
+  },
+  {
+    "key": "input-group.phone",
+    "en": "Phone",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/InputGroup.tsx",
+    "line": 36
+  },
+  {
+    "key": "input-states.disabled-email",
+    "en": "Disabled email",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/InputStates.tsx",
+    "line": 63
+  },
+  {
+    "key": "input-states.email",
+    "en": "Email",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/InputStates.tsx",
+    "line": 32
+  },
+  {
+    "key": "input-states.enter-your-email",
+    "en": "Enter your email",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/InputStates.tsx",
+    "line": 38
+  },
+  {
+    "key": "input-states.input-states",
+    "en": "Input States",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/InputStates.tsx",
+    "line": 26
+  },
+  {
+    "key": "line-chart.line-chart-1",
+    "en": "Line Chart 1",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(others-pages)/(chart)/line-chart/page.tsx",
+    "line": 17
+  },
+  {
+    "key": "modal-based-alerts.danger-alert",
+    "en": "Danger Alert",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
+    "line": 38
+  },
+  {
+    "key": "modal-based-alerts.danger-alert-2",
+    "en": "Danger Alert!",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
+    "line": 263
+  },
+  {
+    "key": "modal-based-alerts.info-alert",
+    "en": "Info Alert",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
+    "line": 26
+  },
+  {
+    "key": "modal-based-alerts.information-alert",
+    "en": "Information Alert!",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
+    "line": 143
+  },
+  {
+    "key": "modal-based-alerts.lorem-ipsum-dolor-sit",
+    "en": "Lorem ipsum dolor sit amet consectetur. Feugiat ipsum libero tempor felis risus nisi non. Quisque eu ut tempor curabitur.",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
+    "line": 86
+  },
+  {
+    "key": "modal-based-alerts.modal-based-alerts",
+    "en": "Modal Based Alerts",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
+    "line": 14
+  },
+  {
+    "key": "modal-based-alerts.okay-got-it",
+    "en": "Okay, Got It",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
+    "line": 95
+  },
+  {
+    "key": "modal-based-alerts.success-alert",
+    "en": "Success Alert",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
+    "line": 20
+  },
+  {
+    "key": "modal-based-alerts.warning-alert",
+    "en": "Warning Alert",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
+    "line": 32
+  },
+  {
+    "key": "modal-based-alerts.warning-alert-2",
+    "en": "Warning Alert!",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
+    "line": 203
+  },
+  {
+    "key": "modal-based-alerts.well-done",
+    "en": "Well Done!",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/ModalBasedAlerts.tsx",
+    "line": 83
+  },
+  {
+    "key": "monthly-sales-chart.delete",
+    "en": "Delete",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/MonthlySalesChart.tsx",
+    "line": 136
+  },
+  {
+    "key": "monthly-sales-chart.monthly-sales",
+    "en": "Monthly Sales",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/MonthlySalesChart.tsx",
+    "line": 114
+  },
+  {
+    "key": "monthly-sales-chart.view-more",
+    "en": "View More",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/MonthlySalesChart.tsx",
+    "line": 130
+  },
+  {
+    "key": "monthly-target.20k",
+    "en": "$20K",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/MonthlyTarget.tsx",
+    "line": 139
+  },
+  {
+    "key": "monthly-target.delete",
+    "en": "Delete",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/MonthlyTarget.tsx",
+    "line": 108
+  },
+  {
+    "key": "monthly-target.monthly-target",
+    "en": "Monthly Target",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/MonthlyTarget.tsx",
+    "line": 81
+  },
+  {
+    "key": "monthly-target.revenue",
+    "en": "Revenue",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/MonthlyTarget.tsx",
+    "line": 161
+  },
+  {
+    "key": "monthly-target.target",
+    "en": "Target",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/MonthlyTarget.tsx",
+    "line": 136
+  },
+  {
+    "key": "monthly-target.target-you-ve-set",
+    "en": "Target you’ve set for each month",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/MonthlyTarget.tsx",
+    "line": 84
+  },
+  {
+    "key": "monthly-target.today",
+    "en": "Today",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/MonthlyTarget.tsx",
+    "line": 186
+  },
+  {
+    "key": "monthly-target.view-more",
+    "en": "View More",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/MonthlyTarget.tsx",
+    "line": 101
+  },
+  {
+    "key": "monthly-target.you-earn-3287-today",
+    "en": "You earn $3287 today, it's higher than last month. Keep up your good work!",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/MonthlyTarget.tsx",
+    "line": 128
+  },
+  {
+    "key": "multi-select.select-option",
+    "en": "Select option",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/MultiSelect.tsx",
+    "line": 97
+  },
+  {
+    "key": "not-found.back-to-home-page",
+    "en": "Back to Home Page",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/not-found.tsx",
+    "line": 38
+  },
+  {
+    "key": "not-found.error",
+    "en": "ERROR",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/not-found.tsx",
+    "line": 12
+  },
+  {
+    "key": "not-found.we-can-t-seem",
+    "en": "We can’t seem to find the page you are looking for!",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/not-found.tsx",
+    "line": 31
+  },
+  {
+    "key": "notification-dropdown.1-hr-ago",
+    "en": "1 hr ago",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 223
+  },
+  {
+    "key": "notification-dropdown.15-min-ago",
+    "en": "15 min ago",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 186
+  },
+  {
+    "key": "notification-dropdown.5-min-ago",
+    "en": "5 min ago",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 113
+  },
+  {
+    "key": "notification-dropdown.8-min-ago",
+    "en": "8 min ago",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 149
+  },
+  {
+    "key": "notification-dropdown.alena-franci",
+    "en": "Alena Franci",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 138
+  },
+  {
+    "key": "notification-dropdown.brandon-philips",
+    "en": "Brandon Philips",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 212
+  },
+  {
+    "key": "notification-dropdown.jocelyn-kenter",
+    "en": "Jocelyn Kenter",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 175
+  },
+  {
+    "key": "notification-dropdown.notification",
+    "en": "Notification",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 59
+  },
+  {
+    "key": "notification-dropdown.project",
+    "en": "Project",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 111
+  },
+  {
+    "key": "notification-dropdown.project-nganter-app",
+    "en": "Project - Nganter App",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 106
+  },
+  {
+    "key": "notification-dropdown.requests-permission-to-change",
+    "en": "requests permission to change",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 104
+  },
+  {
+    "key": "notification-dropdown.terry-franci",
+    "en": "Terry Franci",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 102
+  },
+  {
+    "key": "notification-dropdown.user",
+    "en": "User",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 93
+  },
+  {
+    "key": "notification-dropdown.view-all-notifications",
+    "en": "View All Notifications",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/NotificationDropdown.tsx",
+    "line": 379
+  },
+  {
+    "key": "one-is-to-one.youtube-video",
+    "en": "YouTube video",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/videos/OneIsToOne.tsx",
+    "line": 8
+  },
+  {
+    "key": "page-bread-crumb.home",
+    "en": "Home",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/common/PageBreadCrumb.tsx",
+    "line": 24
+  },
+  {
+    "key": "pagination.next",
+    "en": "Next",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/tables/Pagination.tsx",
+    "line": 48
+  },
+  {
+    "key": "pagination.previous",
+    "en": "Previous",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/tables/Pagination.tsx",
+    "line": 24
+  },
+  {
+    "key": "profile.profile",
+    "en": "Profile",
+    "ar": "",
+    "status": "pending",
+    "file": "src/app/[locale]/(admin)/(others-pages)/profile/page.tsx",
+    "line": 18
+  },
+  {
+    "key": "radio-buttons.default",
+    "en": "Default",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/RadioButtons.tsx",
+    "line": 21
+  },
+  {
+    "key": "radio-buttons.disabled",
+    "en": "Disabled",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/RadioButtons.tsx",
+    "line": 37
+  },
+  {
+    "key": "radio-buttons.radio-buttons",
+    "en": "Radio Buttons",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/RadioButtons.tsx",
+    "line": 13
+  },
+  {
+    "key": "radio-buttons.selected",
+    "en": "Selected",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/RadioButtons.tsx",
+    "line": 29
+  },
+  {
+    "key": "recent-orders.category",
+    "en": "Category",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 141
+  },
+  {
+    "key": "recent-orders.filter",
+    "en": "Filter",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 119
+  },
+  {
+    "key": "recent-orders.price",
+    "en": "Price",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 147
+  },
+  {
+    "key": "recent-orders.products",
+    "en": "Products",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 135
+  },
+  {
+    "key": "recent-orders.recent-orders",
+    "en": "Recent Orders",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 78
+  },
+  {
+    "key": "recent-orders.see-all",
+    "en": "See all",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 122
+  },
+  {
+    "key": "recent-orders.status",
+    "en": "Status",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/RecentOrders.tsx",
+    "line": 153
+  },
+  {
+    "key": "responsive-image.cover",
+    "en": "Cover",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ui/images/ResponsiveImage.tsx",
+    "line": 10
+  },
+  {
+    "key": "select-inputs.multiple-select-options",
+    "en": "Multiple Select Options",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/SelectInputs.tsx",
+    "line": 49
+  },
+  {
+    "key": "select-inputs.select-input",
+    "en": "Select Input",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/SelectInputs.tsx",
+    "line": 34
+  },
+  {
+    "key": "select-inputs.select-inputs",
+    "en": "Select Inputs",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/SelectInputs.tsx",
+    "line": 31
+  },
+  {
+    "key": "select-inputs.select-option",
+    "en": "Select Option",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/SelectInputs.tsx",
+    "line": 38
+  },
+  {
+    "key": "sidebar-widget.1-tailwind-css-dashboard",
+    "en": "#1 Tailwind CSS Dashboard",
+    "ar": "",
+    "status": "pending",
+    "file": "src/layout/SidebarWidget.tsx",
+    "line": 10
+  },
+  {
+    "key": "sidebar-widget.leading-tailwind-css-admin",
+    "en": "Leading Tailwind CSS Admin Template with 400+ UI Component and Pages.",
+    "ar": "",
+    "status": "pending",
+    "file": "src/layout/SidebarWidget.tsx",
+    "line": 13
+  },
+  {
+    "key": "sidebar-widget.upgrade-to-pro",
+    "en": "Upgrade To Pro",
+    "ar": "",
+    "status": "pending",
+    "file": "src/layout/SidebarWidget.tsx",
+    "line": 21
+  },
+  {
+    "key": "sign-in-form.back-to-dashboard",
+    "en": "Back to dashboard",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 21
+  },
+  {
+    "key": "sign-in-form.enter-your-email-and",
+    "en": "Enter your email and password to sign in!",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 31
+  },
+  {
+    "key": "sign-in-form.enter-your-password",
+    "en": "Enter your password",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 102
+  },
+  {
+    "key": "sign-in-form.forgot-password",
+    "en": "Forgot password?",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 127
+  },
+  {
+    "key": "sign-in-form.info-gmail-com",
+    "en": "info@gmail.com",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 93
+  },
+  {
+    "key": "sign-in-form.keep-me-logged-in",
+    "en": "Keep me logged in",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 120
+  },
+  {
+    "key": "sign-in-form.or",
+    "en": "Or",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 83
+  },
+  {
+    "key": "sign-in-form.sign-in",
+    "en": "Sign In",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 28
+  },
+  {
+    "key": "sign-in-form.sign-in-2",
+    "en": "Sign in",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 132
+  },
+  {
+    "key": "sign-in-form.sign-in-with-google",
+    "en": "Sign in with Google",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 61
+  },
+  {
+    "key": "sign-in-form.sign-in-with-x",
+    "en": "Sign in with X",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignInForm.tsx",
+    "line": 74
+  },
+  {
+    "key": "sign-up-form.back-to-dashboard",
+    "en": "Back to dashboard",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 20
+  },
+  {
+    "key": "sign-up-form.enter-your-email",
+    "en": "Enter your email",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 123
+  },
+  {
+    "key": "sign-up-form.enter-your-email-and",
+    "en": "Enter your email and password to sign up!",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 30
+  },
+  {
+    "key": "sign-up-form.enter-your-first-name",
+    "en": "Enter your first name",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 98
+  },
+  {
+    "key": "sign-up-form.enter-your-last-name",
+    "en": "Enter your last name",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 110
+  },
+  {
+    "key": "sign-up-form.enter-your-password",
+    "en": "Enter your password",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 133
+  },
+  {
+    "key": "sign-up-form.or",
+    "en": "Or",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 82
+  },
+  {
+    "key": "sign-up-form.sign-up",
+    "en": "Sign Up",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 27
+  },
+  {
+    "key": "sign-up-form.sign-up-with-google",
+    "en": "Sign up with Google",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 60
+  },
+  {
+    "key": "sign-up-form.sign-up-with-x",
+    "en": "Sign up with X",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/auth/SignUpForm.tsx",
+    "line": 73
+  },
+  {
+    "key": "sixteen-is-to-nine.youtube-video",
+    "en": "YouTube video",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/videos/SixteenIsToNine.tsx",
+    "line": 8
+  },
+  {
+    "key": "statistics-chart.select-date-range",
+    "en": "Select date range",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/StatisticsChart.tsx",
+    "line": 167
+  },
+  {
+    "key": "statistics-chart.statistics",
+    "en": "Statistics",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/StatisticsChart.tsx",
+    "line": 154
+  },
+  {
+    "key": "statistics-chart.target-you-ve-set",
+    "en": "Target you've set for each month",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ecommerce/StatisticsChart.tsx",
+    "line": 157
+  },
+  {
+    "key": "text-area-input.description",
+    "en": "Description",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/TextAreaInput.tsx",
+    "line": 15
+  },
+  {
+    "key": "text-area-input.textarea-input-field",
+    "en": "Textarea input field",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/TextAreaInput.tsx",
+    "line": 11
+  },
+  {
+    "key": "three-column-image-grid.grid",
+    "en": "grid",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ui/images/ThreeColumnImageGrid.tsx",
+    "line": 10
+  },
+  {
+    "key": "toggle-switch.checked",
+    "en": "Checked",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/ToggleSwitch.tsx",
+    "line": 19
+  },
+  {
+    "key": "toggle-switch.default",
+    "en": "Default",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/ToggleSwitch.tsx",
+    "line": 14
+  },
+  {
+    "key": "toggle-switch.disabled",
+    "en": "Disabled",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/ToggleSwitch.tsx",
+    "line": 23
+  },
+  {
+    "key": "toggle-switch.toggle-switch-input",
+    "en": "Toggle switch input",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/form/form-elements/ToggleSwitch.tsx",
+    "line": 11
+  },
+  {
+    "key": "twenty-one-is-to-nine.youtube-video",
+    "en": "YouTube video",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/videos/TwentyOneIsToNine.tsx",
+    "line": 8
+  },
+  {
+    "key": "two-column-image-grid.grid",
+    "en": "grid",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ui/images/TwoColumnImageGrid.tsx",
+    "line": 10
+  },
+  {
+    "key": "user-address-card.address",
+    "en": "Address",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 22
+  },
+  {
+    "key": "user-address-card.as4568384",
+    "en": "AS4568384",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 58
+  },
+  {
+    "key": "user-address-card.city-state",
+    "en": "City/State",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 37
+  },
+  {
+    "key": "user-address-card.close",
+    "en": "Close",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 123
+  },
+  {
+    "key": "user-address-card.country",
+    "en": "Country",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 28
+  },
+  {
+    "key": "user-address-card.edit",
+    "en": "Edit",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 83
+  },
+  {
+    "key": "user-address-card.edit-address",
+    "en": "Edit Address",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 91
+  },
+  {
+    "key": "user-address-card.ert-2489",
+    "en": "ERT 2489",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 49
+  },
+  {
+    "key": "user-address-card.phoenix-arizona-united-states",
+    "en": "Phoenix, Arizona, United States.",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 40
+  },
+  {
+    "key": "user-address-card.postal-code",
+    "en": "Postal Code",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 46
+  },
+  {
+    "key": "user-address-card.save-changes",
+    "en": "Save Changes",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 126
+  },
+  {
+    "key": "user-address-card.tax-id",
+    "en": "TAX ID",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 55
+  },
+  {
+    "key": "user-address-card.united-states",
+    "en": "United States",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 31
+  },
+  {
+    "key": "user-address-card.update-your-details-to",
+    "en": "Update your details to keep your profile up-to-date.",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserAddressCard.tsx",
+    "line": 94
+  },
+  {
+    "key": "user-dropdown.account-settings",
+    "en": "Account settings",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/UserDropdown.tsx",
+    "line": 118
+  },
+  {
+    "key": "user-dropdown.edit-profile",
+    "en": "Edit profile",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/UserDropdown.tsx",
+    "line": 93
+  },
+  {
+    "key": "user-dropdown.musharof",
+    "en": "Musharof",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/UserDropdown.tsx",
+    "line": 34
+  },
+  {
+    "key": "user-dropdown.musharof-chowdhury",
+    "en": "Musharof Chowdhury",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/UserDropdown.tsx",
+    "line": 63
+  },
+  {
+    "key": "user-dropdown.randomuser-pimjo-com",
+    "en": "randomuser@pimjo.com",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/UserDropdown.tsx",
+    "line": 66
+  },
+  {
+    "key": "user-dropdown.sign-out",
+    "en": "Sign out",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/UserDropdown.tsx",
+    "line": 166
+  },
+  {
+    "key": "user-dropdown.support",
+    "en": "Support",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/UserDropdown.tsx",
+    "line": 143
+  },
+  {
+    "key": "user-dropdown.user",
+    "en": "User",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/header/UserDropdown.tsx",
+    "line": 30
+  },
+  {
+    "key": "user-info-card.bio",
+    "en": "Bio",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 63
+  },
+  {
+    "key": "user-info-card.chowdhury",
+    "en": "Chowdhury",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 39
+  },
+  {
+    "key": "user-info-card.close",
+    "en": "Close",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 178
+  },
+  {
+    "key": "user-info-card.edit",
+    "en": "Edit",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 91
+  },
+  {
+    "key": "user-info-card.edit-personal-information",
+    "en": "Edit Personal Information",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 99
+  },
+  {
+    "key": "user-info-card.email-address",
+    "en": "Email address",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 45
+  },
+  {
+    "key": "user-info-card.email-address-2",
+    "en": "Email Address",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 160
+  },
+  {
+    "key": "user-info-card.facebook",
+    "en": "Facebook",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 114
+  },
+  {
+    "key": "user-info-card.first-name",
+    "en": "First Name",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 27
+  },
+  {
+    "key": "user-info-card.instagram",
+    "en": "Instagram",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 135
+  },
+  {
+    "key": "user-info-card.last-name",
+    "en": "Last Name",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 36
+  },
+  {
+    "key": "user-info-card.linkedin",
+    "en": "Linkedin",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 127
+  },
+  {
+    "key": "user-info-card.musharof",
+    "en": "Musharof",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 30
+  },
+  {
+    "key": "user-info-card.personal-information",
+    "en": "Personal Information",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 21
+  },
+  {
+    "key": "user-info-card.phone",
+    "en": "Phone",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 54
+  },
+  {
+    "key": "user-info-card.randomuser-pimjo-com",
+    "en": "randomuser@pimjo.com",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 48
+  },
+  {
+    "key": "user-info-card.save-changes",
+    "en": "Save Changes",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 181
+  },
+  {
+    "key": "user-info-card.social-links",
+    "en": "Social Links",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 109
+  },
+  {
+    "key": "user-info-card.team-manager",
+    "en": "Team Manager",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 66
+  },
+  {
+    "key": "user-info-card.update-your-details-to",
+    "en": "Update your details to keep your profile up-to-date.",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 102
+  },
+  {
+    "key": "user-info-card.x-com",
+    "en": "X.com",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserInfoCard.tsx",
+    "line": 122
+  },
+  {
+    "key": "user-meta-card.arizona-united-states",
+    "en": "Arizona, United States",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 41
+  },
+  {
+    "key": "user-meta-card.bio",
+    "en": "Bio",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 214
+  },
+  {
+    "key": "user-meta-card.close",
+    "en": "Close",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 222
+  },
+  {
+    "key": "user-meta-card.edit",
+    "en": "Edit",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 135
+  },
+  {
+    "key": "user-meta-card.edit-personal-information",
+    "en": "Edit Personal Information",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 143
+  },
+  {
+    "key": "user-meta-card.email-address",
+    "en": "Email Address",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 204
+  },
+  {
+    "key": "user-meta-card.facebook",
+    "en": "Facebook",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 158
+  },
+  {
+    "key": "user-meta-card.first-name",
+    "en": "First Name",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 194
+  },
+  {
+    "key": "user-meta-card.instagram",
+    "en": "Instagram",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 179
+  },
+  {
+    "key": "user-meta-card.last-name",
+    "en": "Last Name",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 199
+  },
+  {
+    "key": "user-meta-card.linkedin",
+    "en": "Linkedin",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 171
+  },
+  {
+    "key": "user-meta-card.musharof-chowdhury",
+    "en": "Musharof Chowdhury",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 33
+  },
+  {
+    "key": "user-meta-card.personal-information",
+    "en": "Personal Information",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 189
+  },
+  {
+    "key": "user-meta-card.phone",
+    "en": "Phone",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 209
+  },
+  {
+    "key": "user-meta-card.save-changes",
+    "en": "Save Changes",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 225
+  },
+  {
+    "key": "user-meta-card.social-links",
+    "en": "Social Links",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 153
+  },
+  {
+    "key": "user-meta-card.team-manager",
+    "en": "Team Manager",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 37
+  },
+  {
+    "key": "user-meta-card.update-your-details-to",
+    "en": "Update your details to keep your profile up-to-date.",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 146
+  },
+  {
+    "key": "user-meta-card.user",
+    "en": "user",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 28
+  },
+  {
+    "key": "user-meta-card.x-com",
+    "en": "X.com",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/user-profile/UserMetaCard.tsx",
+    "line": 166
+  },
+  {
+    "key": "vertically-centered-modal.all-done-success-confirmed",
+    "en": "All Done! Success Confirmed",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
+    "line": 28
+  },
+  {
+    "key": "vertically-centered-modal.close",
+    "en": "Close",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
+    "line": 37
+  },
+  {
+    "key": "vertically-centered-modal.lorem-ipsum-dolor-sit",
+    "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod est quis mauris lacinia pharetra.",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
+    "line": 31
+  },
+  {
+    "key": "vertically-centered-modal.open-modal",
+    "en": "Open Modal",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
+    "line": 18
+  },
+  {
+    "key": "vertically-centered-modal.save-changes",
+    "en": "Save Changes",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
+    "line": 40
+  },
+  {
+    "key": "vertically-centered-modal.vertically-centered-modal",
+    "en": "Vertically Centered Modal",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/example/ModalExample/VerticallyCenteredModal.tsx",
+    "line": 16
+  },
+  {
+    "key": "videos-example.video-ratio-1-1",
+    "en": "Video Ratio 1:1",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ui/video/VideosExample.tsx",
+    "line": 21
+  },
+  {
+    "key": "videos-example.video-ratio-16-9",
+    "en": "Video Ratio 16:9",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ui/video/VideosExample.tsx",
+    "line": 10
+  },
+  {
+    "key": "videos-example.video-ratio-21-9",
+    "en": "Video Ratio 21:9",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ui/video/VideosExample.tsx",
+    "line": 18
+  },
+  {
+    "key": "videos-example.video-ratio-4-3",
+    "en": "Video Ratio 4:3",
+    "ar": "",
+    "status": "pending",
+    "file": "src/components/ui/video/VideosExample.tsx",
+    "line": 13
+  }
+]

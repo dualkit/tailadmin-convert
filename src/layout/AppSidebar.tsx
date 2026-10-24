@@ -18,6 +18,7 @@ import {
   UserCircleIcon,
 } from "../icons/index";
 import SidebarWidget from "./SidebarWidget";
+import { useTranslations } from "next-intl";
 
 type NavItem = {
   name: string;
@@ -95,6 +96,7 @@ const othersItems: NavItem[] = [
 ];
 
 const AppSidebar: React.FC = () => {
+  const t = useTranslations();
   const { isExpanded, isMobileOpen, isHovered, setIsHovered } = useSidebar();
   const pathname = usePathname();
 
@@ -132,7 +134,7 @@ const AppSidebar: React.FC = () => {
               )}
               {(isExpanded || isHovered || isMobileOpen) && (
                 <ChevronDownIcon
-                  className={`ml-auto w-5 h-5 transition-transform duration-200  ${
+                  className={`ms-auto w-5 h-5 transition-transform duration-200  ${
                     openSubmenu?.type === menuType &&
                     openSubmenu?.index === index
                       ? "rotate-180 text-brand-500"
@@ -177,7 +179,7 @@ const AppSidebar: React.FC = () => {
                     : "0px",
               }}
             >
-              <ul className="mt-2 space-y-1 ml-9">
+              <ul className="mt-2 space-y-1 ms-9">
                 {nav.subItems.map((subItem) => (
                   <li key={subItem.name}>
                     <Link
@@ -189,27 +191,27 @@ const AppSidebar: React.FC = () => {
                       }`}
                     >
                       {subItem.name}
-                      <span className="flex items-center gap-1 ml-auto">
+                      <span className="flex items-center gap-1 ms-auto">
                         {subItem.new && (
                           <span
-                            className={`ml-auto ${
+                            className={`ms-auto ${
                               isActive(subItem.path)
                                 ? "menu-dropdown-badge-active"
                                 : "menu-dropdown-badge-inactive"
                             } menu-dropdown-badge `}
                           >
-                            new
+                            {t('app-sidebar.new')}
                           </span>
                         )}
                         {subItem.pro && (
                           <span
-                            className={`ml-auto ${
+                            className={`ms-auto ${
                               isActive(subItem.path)
                                 ? "menu-dropdown-badge-active"
                                 : "menu-dropdown-badge-inactive"
                             } menu-dropdown-badge `}
                           >
-                            pro
+                            {t('app-sidebar.pro')}
                           </span>
                         )}
                       </span>
@@ -290,7 +292,7 @@ const AppSidebar: React.FC = () => {
 
   return (
     <aside
-      className={`fixed mt-16 flex flex-col lg:mt-0 top-0 px-5 left-0 bg-white dark:bg-gray-900 dark:border-gray-800 text-gray-900 h-screen transition-all duration-300 ease-in-out z-50 border-r border-gray-200 
+      className={`fixed mt-16 flex flex-col lg:mt-0 top-0 px-5 start-0 bg-white dark:bg-gray-900 dark:border-gray-800 text-gray-900 h-screen transition-all duration-300 ease-in-out z-50 border-e border-gray-200 
         ${
           isExpanded || isMobileOpen
             ? "w-[290px]"
@@ -314,14 +316,14 @@ const AppSidebar: React.FC = () => {
               <Image
                 className="dark:hidden"
                 src="/images/logo/logo.svg"
-                alt="Logo"
+                alt={t('app-sidebar.logo')}
                 width={150}
                 height={40}
               />
               <Image
                 className="hidden dark:block"
                 src="/images/logo/logo-dark.svg"
-                alt="Logo"
+                alt={t('app-sidebar.logo')}
                 width={150}
                 height={40}
               />
@@ -329,7 +331,7 @@ const AppSidebar: React.FC = () => {
           ) : (
             <Image
               src="/images/logo/logo-icon.svg"
-              alt="Logo"
+              alt={t('app-sidebar.logo')}
               width={32}
               height={32}
             />

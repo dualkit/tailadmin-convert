@@ -3,8 +3,10 @@ import React, { useState } from "react";
 import ComponentCard from "../../common/ComponentCard";
 import Input from "../input/InputField";
 import Label from "../Label";
+import { useTranslations } from "next-intl";
 
 export default function InputStates() {
+  const t = useTranslations();
   const [email, setEmail] = useState("");
   const [error, setError] = useState(false);
 
@@ -23,44 +25,44 @@ export default function InputStates() {
   };
   return (
     <ComponentCard
-      title="Input States"
+      title={t('input-states.input-states')}
       desc="Validation styles for error, success and disabled states on form controls."
     >
       <div className="space-y-5 sm:space-y-6">
         {/* Error Input */}
         <div>
-          <Label>Email</Label>
+          <Label>{t('input-states.email')}</Label>
           <Input
             type="email"
             defaultValue={email}
             error={error}
             onChange={handleEmailChange}
-            placeholder="Enter your email"
+            placeholder={t('input-states.enter-your-email')}
             hint={error ? "This is an invalid email address." : ""}
           />
         </div>
 
         {/* Success Input */}
         <div>
-          <Label>Email</Label>
+          <Label>{t('input-states.email')}</Label>
           <Input
             type="email"
             defaultValue={email}
             success={!error}
             onChange={handleEmailChange}
-            placeholder="Enter your email"
+            placeholder={t('input-states.enter-your-email')}
             hint={!error ? "Valid email!" : ""}
           />
         </div>
 
         {/* Disabled Input */}
         <div>
-          <Label>Email</Label>
+          <Label>{t('input-states.email')}</Label>
           <Input
             type="text"
             defaultValue="disabled@example.com"
             disabled={true}
-            placeholder="Disabled email"
+            placeholder={t('input-states.disabled-email')}
             hint="This field is disabled."
           />
         </div>

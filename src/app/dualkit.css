@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap');
+
+:lang(ar) {
+  font-family: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+  line-height: 1.7;
+}
+
+:lang(ar) * {
+  letter-spacing: 0;
+}
+
+:lang(ar) .text-xs, :lang(ar) .text-\[10px\], :lang(ar) .text-\[11px\], :lang(ar) .text-\[12px\], :lang(ar) .text-\[13px\] {
+  font-size: 14px;
+}
+
+[dir="rtl"] [data-dk-mirror] {
+  scale: -1 1;
+}
+
+[dir="rtl"] input[dir="ltr"]:placeholder-shown, [dir="rtl"] textarea[dir="ltr"]:placeholder-shown {
+  direction: rtl;
+}

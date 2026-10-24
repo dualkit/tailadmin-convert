@@ -9,6 +9,7 @@ import {
 
 import Badge from "../ui/badge/Badge";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface Order {
   id: number;
@@ -112,6 +113,7 @@ const tableData: Order[] = [
 ];
 
 export default function BasicTableOne() {
+  const t = useTranslations();
   return (
     <div className="overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-white/[0.05] dark:bg-white/[0.03]">
       <div className="max-w-full overflow-x-auto">
@@ -124,31 +126,31 @@ export default function BasicTableOne() {
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  User
+                  {t('basic-table-one.user')}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  Project Name
+                  {t('basic-table-one.project-name')}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  Team
+                  {t('basic-table-one.team')}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  Status
+                  {t('basic-table-one.status')}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  Budget
+                  {t('basic-table-one.budget')}
                 </TableCell>
               </TableRow>
             </TableHeader>

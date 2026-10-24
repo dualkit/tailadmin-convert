@@ -1,0 +1,20 @@
+{
+  "mode": "bilingual",
+  "base": "main",
+  "branch": "dualkit/bilingual",
+  "framework": "next-app",
+  "phase": "converted",
+  "generated": [
+    "dualkit-strings.json",
+    "messages/ar.json",
+    "messages/en.json",
+    "src/app/[locale]/[...rest]/page.tsx",
+    "src/app/dualkit.css",
+    "src/components/dualkit-language-switch.tsx",
+    "src/i18n/navigation.ts",
+    "src/i18n/request.ts",
+    "src/i18n/routing.ts",
+    "src/lib/dualkit-locale.ts",
+    "src/proxy.ts"
+  ]
+}
